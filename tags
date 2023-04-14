@@ -1,0 +1,1528 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACQUIRE	dc/base/mutex.h	/^	explicit MutexLockGuard( MutexLock& mutex ) ACQUIRE( mutex ) : m_mutex( mutex )$/;"	f	class:dc::MutexLockGuard
+ACQUIRE	dc/base/mutex.h	43;"	d
+ACQUIRED_AFTER	dc/base/mutex.h	34;"	d
+ACQUIRED_BEFORE	dc/base/mutex.h	31;"	d
+ACQUIRE_SHARED	dc/base/mutex.h	46;"	d
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	551;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	554;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	557;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	560;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	563;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	567;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	569;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	571;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	575;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	578;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	581;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	586;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	589;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	592;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	597;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	600;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	603;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	606;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	609;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	612;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	615;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	618;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	621;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	624;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	627;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	632;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	635;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	638;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	641;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	644;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	647;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	652;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	655;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	658;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	661;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	664;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	668;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	536;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	539;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	542;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	545;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	548;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	552;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	554;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	556;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	560;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	563;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	566;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	571;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	574;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	577;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	582;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	585;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	588;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	591;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	594;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	597;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	600;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	603;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	606;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	609;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	612;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	617;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	620;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	623;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	626;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	629;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	632;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	637;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	640;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	643;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	646;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	649;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	653;"	d	file:
+ASSERT_CAPABILITY	dc/base/mutex.h	64;"	d
+ASSERT_SHARED_CAPABILITY	dc/base/mutex.h	67;"	d
+AppendFile	dc/base/fileUtil.cc	/^AppendFile::AppendFile(StringArg filename) : m_fp(::fopen(filename.c_str(), "ar")), m_writtenBytes(0) \/\/'e' for O_CLOEXEC$/;"	f	class:dc::AppendFile
+AppendFile	dc/base/fileUtil.h	/^class AppendFile: noncopyable$/;"	c	namespace:dc
+AsyncLogging	dc/base/asyncLogging.cc	/^AsyncLogging::AsyncLogging(const string& basename, $/;"	f	class:dc::AsyncLogging
+AsyncLogging	dc/base/asyncLogging.h	/^class AsyncLogging : noncopyable$/;"	c	namespace:dc
+AtomicIntegerT	dc/base/atomic.h	/^	AtomicIntegerT() : m_value( 0 ) {}$/;"	f	class:dc::AtomicIntegerT
+AtomicIntegerT	dc/base/atomic.h	/^class AtomicIntegerT$/;"	c	namespace:dc
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testFormatIEC)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testFormatSI)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamBooleans)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamFloats)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamFmts)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamIntegerLimits)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamIntegers)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamLong)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamStrings)$/;"	f
+BOOST_AUTO_TEST_CASE	test/test_logstream.cc	/^BOOST_AUTO_TEST_CASE(testLogStreamVoid)$/;"	f
+BOOST_TEST_DYN_LINK	test/test_logstream.cc	8;"	d	file:
+BOOST_TEST_MAIN	test/test_logstream.cc	7;"	d	file:
+BOOST_TEST_MODULE	test/test_logstream.cc	9;"	d	file:
+Bar	test/test_exception.cc	/^class Bar$/;"	c	file:
+Bench	test/test_blockingQueue_bench.cc	/^	Bench(int numThreads) : m_latch(numThreads)$/;"	f	class:Bench
+Bench	test/test_blockingQueue_bench.cc	/^class Bench$/;"	c	file:
+BlockingQueue	dc/base/blockingQueue.h	/^    BlockingQueue() : m_mutex(), m_notEmpty(m_mutex), m_queue()$/;"	f	class:dc::BlockingQueue
+BlockingQueue	dc/base/blockingQueue.h	/^class BlockingQueue : noncopyable$/;"	c	namespace:dc
+BoundedBlockingQueue	dc/base/boundedBlockingQueue.h	/^    explicit BoundedBlockingQueue(int maxSize) : m_mutex(), m_notEmpty(m_mutex), m_notFull(m_mutex), m_queue(maxSize)$/;"	f	class:dc::BoundedBlockingQueue
+BoundedBlockingQueue	dc/base/boundedBlockingQueue.h	/^class BoundedBlockingQueue : noncopyable$/;"	c	namespace:dc
+BreakTime	dc/base/timeZone.cc	/^DateTime BreakTime(int64_t t)$/;"	f	namespace:dc
+Buffer	dc/net/buffer.h	/^	explicit Buffer(size_t initialSize = kInitialSize)$/;"	f	class:dc::net::Buffer
+Buffer	dc/net/buffer.h	/^class Buffer$/;"	c	namespace:dc::net
+CAPABILITY	dc/base/mutex.h	19;"	d
+CHECK_NOTNULL	dc/base/logging.h	120;"	d
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/root\/m_muduo$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/usr\/local\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/root\/m_muduo$/;"	m
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	117;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	123;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	138;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	168;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	175;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	190;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	204;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	220;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	225;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	232;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	256;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	265;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	268;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	271;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	274;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	289;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	311;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	327;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	341;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	351;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	369;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	378;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	392;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	409;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	412;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	71;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	109;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	123;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	147;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	168;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	182;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	197;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	19;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	204;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	212;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	225;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	240;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	283;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	298;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	305;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	321;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	335;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	349;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	367;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	376;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	394;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	397;"	d	file:
+COMPILER_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+COMPILER_VERSION	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	249;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	308;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	383;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	388;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	249;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	251;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	302;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	381;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	386;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	236;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	118;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	150;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	163;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	183;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	192;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	199;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	205;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	213;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	244;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	259;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	277;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	293;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	305;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	321;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	331;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	342;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	353;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	372;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	380;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	385;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	394;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	399;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	83;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	87;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	118;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	150;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	163;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	177;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	183;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	192;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	199;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	213;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	221;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	227;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	233;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	276;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	287;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	299;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	315;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	325;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	339;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	351;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	35;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	370;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	378;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	383;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	83;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	87;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	132;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	141;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	151;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	171;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	178;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	184;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	214;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	222;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	228;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	234;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	283;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	294;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	306;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	322;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	332;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	344;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	354;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	373;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	381;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	386;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	395;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	400;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	84;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	132;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	141;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	151;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	171;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	206;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	222;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	228;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	234;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	245;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	260;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	272;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	288;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	316;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	326;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	342;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	352;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	36;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	371;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	379;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	384;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	88;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	113;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	120;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	134;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	157;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	179;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	201;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	208;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	216;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	229;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	235;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	261;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	279;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	295;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	323;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	333;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	347;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	358;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	361;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	374;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	382;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	387;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	396;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	401;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	143;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	165;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	172;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	185;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	201;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	216;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	246;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	261;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	273;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	278;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	289;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	301;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	327;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	345;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	356;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	359;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	372;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	380;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	385;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	47;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	89;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	365;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	51;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	186;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	295;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	363;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+CXX_STD	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	741;"	d	file:
+CXX_STD	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	743;"	d	file:
+CXX_STD	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	746;"	d	file:
+CXX_STD	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	749;"	d	file:
+CXX_STD	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	751;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	755;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	757;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	760;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	762;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	764;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	766;"	d	file:
+C_DIALECT	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	768;"	d	file:
+CheckNotNull	dc/base/logging.h	/^T* CheckNotNull(Logger::SourceFile file, int line, const char* names, T* ptr)$/;"	f	namespace:dc
+CompareLocalTime	dc/base/timeZone.cc	/^	struct CompareLocalTime$/;"	s	struct:dc::TimeZone::Data	file:
+CompareUtcTime	dc/base/timeZone.cc	/^	struct CompareUtcTime$/;"	s	struct:dc::TimeZone::Data	file:
+Condition	dc/base/condition.h	/^		explicit Condition( MutexLock& mutex ) : m_mutex( mutex )$/;"	f	class:dc::Condition
+Condition	dc/base/condition.h	/^	class Condition : noncopyable$/;"	c	namespace:dc
+CountDownLatch	dc/base/countDownLatch.cc	/^CountDownLatch::CountDownLatch( int count ) : m_mutex(), m_cond( m_mutex ), m_count( count ){}$/;"	f	class:dc::CountDownLatch
+CountDownLatch	dc/base/countDownLatch.h	/^class CountDownLatch : noncopyable$/;"	c	namespace:dc
+CpuTime	dc/base/processInfo.h	/^    CpuTime() : userSeconds(0.0), systemSeconds(0.0) {}$/;"	f	struct:dc::ProcessInfo::CpuTime
+CpuTime	dc/base/processInfo.h	/^struct CpuTime$/;"	s	namespace:dc::ProcessInfo
+CurrentThread	dc/base/currentThread.cc	/^namespace CurrentThread$/;"	n	namespace:dc	file:
+CurrentThread	dc/base/currentThread.h	/^namespace CurrentThread$/;"	n	namespace:dc
+DC_BASE_ASYNCLOGGING_H	dc/base/asyncLogging.h	2;"	d
+DC_BASE_ATOMIC_H	dc/base/atomic.h	2;"	d
+DC_BASE_BLOCKINGQUEUE_H	dc/base/blockingQueue.h	2;"	d
+DC_BASE_BOUNDEDBLOCKINGQUEUE_H	dc/base/boundedBlockingQueue.h	2;"	d
+DC_BASE_CONDITION_H	dc/base/condition.h	2;"	d
+DC_BASE_COUNTDOWNLATCH_H	dc/base/countDownLatch.h	2;"	d
+DC_BASE_CURRENTTHREAD_H	dc/base/currentThread.h	2;"	d
+DC_BASE_DATE_H	dc/base/date.h	7;"	d
+DC_BASE_EXCEPTION_H	dc/base/exception.h	2;"	d
+DC_BASE_FILEUTIL_H	dc/base/fileUtil.h	2;"	d
+DC_BASE_GZIPFILE_H	dc/base/gzipFile.h	2;"	d
+DC_BASE_LOGFILE_H	dc/base/logFile.h	2;"	d
+DC_BASE_LOGGING_H	dc/base/logging.h	2;"	d
+DC_BASE_LOGSTREAM_H	dc/base/logStream.h	2;"	d
+DC_BASE_MUTEX_H	dc/base/mutex.h	2;"	d
+DC_BASE_NONCOPYABLE_H	dc/base/noncopyable.h	3;"	d
+DC_BASE_PROCESSINFO_H	dc/base/processInfo.h	2;"	d
+DC_BASE_SINGLETON_H	dc/base/singleton.h	2;"	d
+DC_BASE_STRINGPIECE_H	dc/base/stringPieces.h	2;"	d
+DC_BASE_THREADLOCALSINGLETON	dc/base/threadLocalSingleton.h	2;"	d
+DC_BASE_THREADLOCAL_H	dc/base/threadLocal.h	2;"	d
+DC_BASE_THREADPOOL_H	dc/base/threadpool.h	2;"	d
+DC_BASE_THREAD_H	dc/base/thread.h	2;"	d
+DC_BASE_TIMESTAMP_H	dc/base/timeStamp.h	2;"	d
+DC_BASE_TYPES_H	dc/base/types.h	2;"	d
+DC_NET_BUFFER_H	dc/net/buffer.h	2;"	d
+DC_NET_CALLBACKS_H	dc/net/callbacks.h	2;"	d
+DC_NET_ENDIAN_H	dc/net/endian.h	2;"	d
+DC_NET_EVENTLOOP_H	dc/base/eventLoop.h	2;"	d
+DC_NET_EVENTLOOP_H	dc/net/eventLoop.h	2;"	d
+DC_NET_SOCKETOPS_H	dc/net/socketsOps.h	2;"	d
+DC_NET_TIMERID_H	dc/net/timerId.h	2;"	d
+DC_NET_TIMERQUEUE_H	dc/net/timerQueue.h	2;"	d
+DC_NET_TIMER_H	dc/net/timer.h	2;"	d
+DC_TIMEZONE_H	dc/base/timeZone.h	2;"	d
+DEBUG	dc/base/logging.h	/^        DEBUG,$/;"	e	enum:dc::Logger::LogLevel
+DEC	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	672;"	d	file:
+DEC	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	657;"	d	file:
+Data	dc/base/timeZone.cc	/^struct TimeZone::Data$/;"	s	class:dc::TimeZone	file:
+Date	dc/base/date.cc	/^Date::Date(const struct tm& t)$/;"	f	class:Date
+Date	dc/base/date.cc	/^Date::Date(int y, int m, int d)$/;"	f	class:Date
+Date	dc/base/date.h	/^  Date()$/;"	f	class:dc::Date
+Date	dc/base/date.h	/^  explicit Date(int julianDayNum)$/;"	f	class:dc::Date
+Date	dc/base/date.h	/^class Date $/;"	c	namespace:dc
+DateTime	dc/base/timeZone.cc	/^ DateTime::DateTime(const struct tm& t)$/;"	f	class:dc::DateTime
+DateTime	dc/base/timeZone.h	/^	DateTime( int year, int month, int day, int hour, int minute, int second )$/;"	f	struct:dc::DateTime
+DateTime	dc/base/timeZone.h	/^	DateTime() {}$/;"	f	struct:dc::DateTime
+DateTime	dc/base/timeZone.h	/^struct DateTime$/;"	s	namespace:dc
+Deletor	dc/base/threadLocalSingleton.h	/^		Deletor()$/;"	f	class:dc::ThreadLocalSingleton::Deletor
+Deletor	dc/base/threadLocalSingleton.h	/^	class Deletor$/;"	c	class:dc::ThreadLocalSingleton
+EQUALS	Makefile	/^EQUALS = =$/;"	m
+ERROR	dc/base/logging.h	/^        ERROR,$/;"	e	enum:dc::Logger::LogLevel
+EXCLUDES	dc/base/mutex.h	61;"	d
+EventLoop	dc/base/eventLoop.h	/^class EventLoop : noncopyable$/;"	c	namespace:dc::net
+EventLoop	dc/net/eventLoop.cc	/^EventLoop::EventLoop()$/;"	f	class:dc::net::EventLoop
+EventLoop	dc/net/eventLoop.h	/^class EventLoop : noncopable$/;"	c	namespace:dc::net
+Exception	dc/base/exception.cc	/^Exception::Exception(std::string what) : m_message(std::move(what)), m_stack(CurrentThread::stackTrace(false))$/;"	f	class:dc::Exception
+Exception	dc/base/exception.h	/^class Exception : public std::exception$/;"	c	namespace:dc
+FATAL	dc/base/logging.h	/^        FATAL,$/;"	e	enum:dc::Logger::LogLevel
+File	dc/base/timeZone.cc	/^	File(const char* file) : m_fp(fopen(file,"rb"))$/;"	f	class:dc::File
+File	dc/base/timeZone.cc	/^class File : noncopyable$/;"	c	namespace:dc	file:
+FixedBuffer	dc/base/logStream.h	/^	FixedBuffer() : m_cur( m_data )$/;"	f	class:dc::FixedBuffer
+FixedBuffer	dc/base/logStream.h	/^class FixedBuffer : noncopyable$/;"	c	namespace:dc
+Fmt	dc/base/logStream.cc	/^Fmt::Fmt(const char* fmt, T val )$/;"	f	class:dc::Fmt
+Fmt	dc/base/logStream.h	/^class Fmt$/;"	c	namespace:dc
+Foo	test/test_thread.cc	/^    Foo() : _x(123.1) {}$/;"	f	class:Foo
+Foo	test/test_thread.cc	/^    Foo(double x) : _x(x) {}$/;"	f	class:Foo
+Foo	test/test_thread.cc	/^class Foo$/;"	c	file:
+GUARDED_BY	dc/base/mutex.h	25;"	d
+GzipFile	dc/base/gzipFile.h	/^    explicit GzipFile(gzfile file) : m_file(file) {}$/;"	f	class:dc::GzipFile
+GzipFile	dc/base/gzipFile.h	/^class GzipFile : noncopyable$/;"	c	namespace:dc
+HEX	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	683;"	d	file:
+HEX	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	668;"	d	file:
+ID_VOID_MAIN	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+INFO	dc/base/logging.h	/^        INFO,$/;"	e	enum:dc::Logger::LogLevel
+IgnorSigPipe	dc/net/eventLoop.cc	/^	IgnorSigPipe()$/;"	f	class:__anon3::IgnorSigPipe
+IgnorSigPipe	dc/net/eventLoop.cc	/^class IgnorSigPipe$/;"	c	namespace:__anon3	file:
+Impl	dc/base/logging.cc	/^Logger::Impl::Impl(LogLevel level, int savedErrno, const SourceFile& file, int line)$/;"	f	class:dc::Logger::Impl
+Impl	dc/base/logging.h	/^    class Impl$/;"	c	class:dc::Logger
+LOG_DEBUG	dc/base/logging.h	104;"	d
+LOG_ERROR	dc/base/logging.h	109;"	d
+LOG_FATAL	dc/base/logging.h	110;"	d
+LOG_INFO	dc/base/logging.h	106;"	d
+LOG_SYSERR	dc/base/logging.h	111;"	d
+LOG_SYSFATAL	dc/base/logging.h	112;"	d
+LOG_TRACE	dc/base/logging.h	102;"	d
+LOG_WARN	dc/base/logging.h	108;"	d
+LocalTime	dc/base/timeZone.cc	/^		LocalTime( int32_t offset, bool dst, int idx ) : utcOffset( offset ), isDst( dst), desigIdx( idx ) {}$/;"	f	struct:dc::TimeZone::Data::LocalTime
+LocalTime	dc/base/timeZone.cc	/^	struct LocalTime$/;"	s	struct:dc::TimeZone::Data	file:
+LogFile	dc/base/logFile.cc	/^LogFile::LogFile(const string& basename, $/;"	f	class:dc::LogFile
+LogFile	dc/base/logFile.h	/^class LogFile : noncopyable$/;"	c	namespace:dc
+LogLevel	dc/base/logging.h	/^    enum LogLevel$/;"	g	class:dc::Logger
+LogLevelName	dc/base/logging.cc	/^const char* LogLevelName[Logger::NUM_LOG_LEVELS] = $/;"	m	namespace:dc	file:
+LogStream	dc/base/logStream.h	/^class LogStream : noncopyable$/;"	c	namespace:dc
+Logger	dc/base/logging.cc	/^Logger::Logger(SourceFile file, int line) : m_impl(INFO, 0, file, line)$/;"	f	class:dc::Logger
+Logger	dc/base/logging.cc	/^Logger::Logger(SourceFile file, int line, LogLevel level) : m_impl(level, 0, file, line)$/;"	f	class:dc::Logger
+Logger	dc/base/logging.cc	/^Logger::Logger(SourceFile file, int line, LogLevel level, const char* func) : m_impl(level, 0, file, line)$/;"	f	class:dc::Logger
+Logger	dc/base/logging.cc	/^Logger::Logger(SourceFile file, int line, bool toAbort) : m_impl(toAbort? FATAL: ERROR, errno, file, line)$/;"	f	class:dc::Logger
+Logger	dc/base/logging.h	/^class Logger$/;"	c	namespace:dc
+MCHECK	dc/base/mutex.h	90;"	d
+MutexLockGuard	dc/base/mutex.h	/^class SCOPED_CAPABILITY MutexLockGuard : noncopyable$/;"	c	namespace:dc
+MutexLockGuard	dc/base/mutex.h	192;"	d
+NO_THREAD_SAFETY_ANALYSIS	dc/base/mutex.h	73;"	d
+NUM_LOG_LEVELS	dc/base/logging.h	/^        NUM_LOG_LEVELS$/;"	e	enum:dc::Logger::LogLevel
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	437;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	440;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	443;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	446;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	449;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	452;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	455;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	458;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	461;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	464;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	467;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	470;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	473;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	476;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	479;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	482;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	485;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	488;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	491;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	494;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	497;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	500;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	503;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	506;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	509;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	513;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	516;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	519;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	522;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	525;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	528;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	533;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	536;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	540;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	422;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	425;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	428;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	431;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	437;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	440;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	443;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	446;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	449;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	452;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	455;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	458;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	461;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	464;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	467;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	470;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	473;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	476;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	479;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	482;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	485;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	488;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	491;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	494;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	498;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	501;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	504;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	507;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	510;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	513;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	518;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	521;"	d	file:
+PLATFORM_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	525;"	d	file:
+PT_GUARDED_BY	dc/base/mutex.h	28;"	d
+ProcessInfo	dc/base/processInfo.cc	/^namespace ProcessInfo$/;"	n	namespace:dc	file:
+ProcessInfo	dc/base/processInfo.h	/^namespace ProcessInfo$/;"	n	namespace:dc
+RELEASE	dc/base/mutex.h	/^	~MutexLockGuard() RELEASE()$/;"	f	class:dc::MutexLockGuard
+RELEASE	dc/base/mutex.h	49;"	d
+RELEASE_SHARED	dc/base/mutex.h	52;"	d
+REQUIRES	dc/base/mutex.h	37;"	d
+REQUIRES_SHARED	dc/base/mutex.h	40;"	d
+RETURN_CAPABILITY	dc/base/mutex.h	70;"	d
+RM	Makefile	/^RM = \/usr\/local\/bin\/cmake -E rm -f$/;"	m
+ReadSmallFile	dc/base/fileUtil.cc	/^ReadSmallFile::ReadSmallFile(StringArg filename) : m_fd(::open(filename.c_str(), O_RDONLY | O_CLOEXEC )), m_err(0)$/;"	f	class:dc::ReadSmallFile
+ReadSmallFile	dc/base/fileUtil.h	/^class ReadSmallFile : noncopyable$/;"	c	namespace:dc
+SCOPED_CAPABILITY	dc/base/mutex.h	22;"	d
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	291;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	30;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	315;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	317;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	329;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	76;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	285;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	307;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	311;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	323;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	file:
+SIMULATE_ID	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	336;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	97;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	292;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	330;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	97;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	102;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	299;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	337;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	102;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	293;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	56;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	94;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	105;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	67;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	file:
+STRINGIFY	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	433;"	d	file:
+STRINGIFY	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	418;"	d	file:
+STRINGIFY_HELPER	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	432;"	d	file:
+STRINGIFY_HELPER	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	417;"	d	file:
+STRINGPIECE_BINARY_PREDICATE	dc/base/stringPieces.h	100;"	d
+STRINGPIECE_BINARY_PREDICATE	dc/base/stringPieces.h	90;"	d
+Singleton	dc/base/singleton.h	/^class Singleton : noncopyable$/;"	c	namespace:dc::detail
+SourceFile	dc/base/logging.h	/^        SourceFile(const char (&arr)[N]) : m_data(arr), m_size(N - 1)$/;"	f	class:dc::Logger::SourceFile
+SourceFile	dc/base/logging.h	/^        explicit SourceFile(const char* filename) : m_data( filename )$/;"	f	class:dc::Logger::SourceFile
+SourceFile	dc/base/logging.h	/^    class SourceFile$/;"	c	class:dc::Logger
+StringArg	dc/base/stringPieces.h	/^	StringArg(const char* str) : m_str(str) {}$/;"	f	class:dc::StringArg
+StringArg	dc/base/stringPieces.h	/^	StringArg(const std::string& str) : m_str(str.c_str()) {}$/;"	f	class:dc::StringArg
+StringArg	dc/base/stringPieces.h	/^class StringArg$/;"	c	namespace:dc
+StringPiece	dc/base/stringPieces.h	/^	StringPiece( const char* offset, int len ) : m_ptr( offset ), m_length( len ) {}$/;"	f	class:dc::StringPiece
+StringPiece	dc/base/stringPieces.h	/^	StringPiece( const char* str ) : m_ptr( str ), m_length( static_cast<int>(strlen(m_ptr))) {}$/;"	f	class:dc::StringPiece
+StringPiece	dc/base/stringPieces.h	/^	StringPiece() : m_ptr( nullptr ), m_length( 0 ) {}$/;"	f	class:dc::StringPiece
+StringPiece	dc/base/stringPieces.h	/^	StringPiece(const std::string& str ) : m_ptr(str.data()), m_length( static_cast<int>(str.size())) {}$/;"	f	class:dc::StringPiece
+StringPiece	dc/base/stringPieces.h	/^	StringPiece(const unsigned char* str ) : m_ptr(reinterpret_cast<const char*>(str)), m_length(static_cast<int>(strlen(m_ptr))) {}$/;"	f	class:dc::StringPiece
+StringPiece	dc/base/stringPieces.h	/^class StringPiece$/;"	c	namespace:dc
+T	dc/base/logging.cc	/^    T(const char* str, unsigned len) : m_str(str), m_len(len)$/;"	f	class:dc::T
+T	dc/base/logging.cc	/^class T$/;"	c	namespace:dc	file:
+THREAD_ANNOTATION_ATTRIBUTE__	dc/base/mutex.h	14;"	d
+THREAD_ANNOTATION_ATTRIBUTE__	dc/base/mutex.h	16;"	d
+TRACE	dc/base/logging.h	/^        TRACE,$/;"	e	enum:dc::Logger::LogLevel
+TRY_ACQUIRE	dc/base/mutex.h	55;"	d
+TRY_ACQUIRE_SHARED	dc/base/mutex.h	58;"	d
+Test	test/test_blockingQueue.cc	/^		Test(int numThreads) : m_latch(numThreads)$/;"	f	class:Test
+Test	test/test_blockingQueue.cc	/^class Test$/;"	c	file:
+Test	test/test_boundQueue.cc	/^	Test(int numThreads) : m_queue(20),m_latch(numThreads)$/;"	f	class:Test
+Test	test/test_boundQueue.cc	/^class Test$/;"	c	file:
+Test	test/test_singleton.cc	/^class Test$/;"	c	file:
+Test	test/test_singletonThreadLocal.cc	/^	Test()$/;"	f	class:Test
+Test	test/test_singletonThreadLocal.cc	/^class Test$/;"	c	file:
+Test	test/test_threadLocal.cc	/^	Test()$/;"	f	class:Test
+Test	test/test_threadLocal.cc	/^class Test$/;"	c	file:
+Thread	dc/base/thread.cc	/^Thread::Thread( ThreadFunc func, const std::string& name ) : is_started(false), $/;"	f	class:dc::Thread
+Thread	dc/base/thread.h	/^class Thread : noncopyable$/;"	c	namespace:dc
+ThreadData	dc/base/thread.cc	/^    ThreadData(ThreadFunc func, $/;"	f	struct:dc::ThreadData
+ThreadData	dc/base/thread.cc	/^struct ThreadData$/;"	s	namespace:dc	file:
+ThreadLocal	dc/base/threadLocal.h	/^    ThreadLocal()$/;"	f	class:dc::ThreadLocal
+ThreadLocal	dc/base/threadLocal.h	/^class ThreadLocal : noncopyable$/;"	c	namespace:dc
+ThreadLocalSingleton	dc/base/threadLocalSingleton.h	/^class ThreadLocalSingleton : noncopyable \/\/every thread will havs this class $/;"	c	namespace:dc
+ThreadNameInitializer	dc/base/thread.cc	/^    ThreadNameInitializer()$/;"	f	class:dc::ThreadNameInitializer
+ThreadNameInitializer	dc/base/thread.cc	/^class ThreadNameInitializer$/;"	c	namespace:dc	file:
+ThreadPool	dc/base/threadpool.cc	/^ThreadPool::ThreadPool(const string& nameArg) : m_mutex(), _notEmpty(m_mutex), $/;"	f	class:dc::ThreadPool
+ThreadPool	dc/base/threadpool.h	/^class ThreadPool : noncopyable$/;"	c	namespace:dc
+TimeZone	dc/base/timeZone.cc	/^ TimeZone::TimeZone(int eastOfUtc, const char* name)$/;"	f	class:dc::TimeZone
+TimeZone	dc/base/timeZone.cc	/^ TimeZone::TimeZone(std::unique_ptr<Data> data)$/;"	f	class:dc::TimeZone
+TimeZone	dc/base/timeZone.h	/^class TimeZone$/;"	c	namespace:dc
+Timer	dc/net/timer.h	/^	Timer(TimerCallback cb, Timestamp when, double interval)$/;"	f	class:dc::net::Timer
+Timer	dc/net/timer.h	/^class Timer : noncopyable$/;"	c	namespace:dc::net
+TimerId	dc/net/timerId.h	/^	TimerId()$/;"	f	class:dc::net::TimerId
+TimerId	dc/net/timerId.h	/^	TimerId(Timer* timer, int64_t seq)$/;"	f	class:dc::net::TimerId
+TimerId	dc/net/timerId.h	/^class TimerId$/;"	c	namespace:dc::net
+TimerQueue	dc/net/timerQueue.h	/^class TimerQueue : noncopyable$/;"	c	namespace:dc::net
+Timestamp	dc/base/timeStamp.h	/^	Timestamp() : m_microSecondsSinceEpoch( 0 ) {}$/;"	f	class:dc::Timestamp
+Timestamp	dc/base/timeStamp.h	/^	explicit Timestamp( int64_t microSecondsSinceEpoch ) : m_microSecondsSinceEpoch( microSecondsSinceEpoch ){}$/;"	f	class:dc::Timestamp
+Timestamp	dc/base/timeStamp.h	/^class Timestamp : public boost::equality_comparable1< Timestamp >,$/;"	c	namespace:dc
+Transition	dc/base/timeZone.cc	/^		Transition(int64_t t, int64_t l, int localIdx )$/;"	f	struct:dc::TimeZone::Data::Transition
+Transition	dc/base/timeZone.cc	/^	struct Transition$/;"	s	struct:dc::TimeZone::Data	file:
+UTC	dc/base/timeZone.cc	/^ TimeZone TimeZone::UTC()$/;"	f	class:dc::TimeZone
+VERBOSE	Makefile	/^VERBOSE = 1$/;"	m
+WARN	dc/base/logging.h	/^        WARN,$/;"	e	enum:dc::Logger::LogLevel
+YearMonthDay	dc/base/date.h	/^  struct YearMonthDay$/;"	s	class:dc::Date
+__STDC_FORMAT_MACROS	dc/base/logStream.cc	10;"	d	file:
+__STDC_FORMAT_MACROS	dc/base/timeStamp.cc	7;"	d	file:
+__STDC_FORMAT_MACROS	test/test_process.cc	3;"	d	file:
+__has_include	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+__has_include	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	11;"	d	file:
+__type_traits	dc/base/stringPieces.h	/^template<> struct __type_traits<dc::StringPieces>$/;"	s	namespace:dc
+_kRollPerSeconds	dc/base/logFile.h	/^    const static int _kRollPerSeconds = 60 * 60 *24;$/;"	m	class:dc::LogFile
+_maxQueueSize	dc/base/threadpool.h	/^    size_t _maxQueueSize;$/;"	m	class:dc::ThreadPool
+_threadInitCallback	dc/base/threadpool.h	/^    Task _threadInitCallback;$/;"	m	class:dc::ThreadPool
+_x	test/test_thread.cc	/^    double _x;$/;"	m	class:Foo	file:
+abbrevition	dc/base/timeZone.cc	/^	std::string abbrevition;$/;"	m	struct:dc::TimeZone::Data	file:
+abortNotInLoopThread	dc/net/eventLoop.cc	/^void EventLoop::abortNotInLoopThread()$/;"	f	class:dc::net::EventLoop
+accept	dc/net/socketsOps.cc	/^int sockets::accept(int sockfd, struct sockaddr_in6* addr)$/;"	f	class:dc::net::sockets
+add	dc/base/atomic.h	/^	void add(T x )$/;"	f	class:dc::AtomicIntegerT
+add	dc/base/logStream.h	/^	void add(size_t len) { m_cur +=len; }$/;"	f	class:dc::FixedBuffer
+addAndGet	dc/base/atomic.h	/^	T addAndGet(T x )$/;"	f	class:dc::AtomicIntegerT
+addLocalTime	dc/base/timeZone.cc	/^	void addLocalTime( int32_t utcOffset, bool isDst, int desigIdx )$/;"	f	struct:dc::TimeZone::Data
+addTime	dc/base/timeStamp.h	/^inline Timestamp addTime( Timestamp timestamp, double seconds )$/;"	f	namespace:dc
+addTransition	dc/base/timeZone.cc	/^	void addTransition( int64_t utcTime, int localIdx )$/;"	f	struct:dc::TimeZone::Data
+afterFork	dc/base/thread.cc	/^void afterFork()$/;"	f	namespace:dc
+append	dc/base/asyncLogging.cc	/^void AsyncLogging::append(const char* logline, int len)$/;"	f	class:dc::AsyncLogging
+append	dc/base/fileUtil.cc	/^void AppendFile::append(const char* logline ,const size_t len)$/;"	f	class:dc::AppendFile
+append	dc/base/logFile.cc	/^void LogFile::append(const char* logline, int len)$/;"	f	class:dc::LogFile
+append	dc/base/logStream.h	/^	void append( const char* buf, size_t len )$/;"	f	class:dc::FixedBuffer
+append	dc/base/logStream.h	/^	void append(const char* data, int len) { m_buffer.append(data, len); }$/;"	f	class:dc::LogStream
+append	dc/net/buffer.h	/^	void append(const StringPiece& str)$/;"	f	class:dc::net::Buffer
+append	dc/net/buffer.h	/^	void append(const char* data, size_t len)$/;"	f	class:dc::net::Buffer
+append	dc/net/buffer.h	/^	void append(const void* data, size_t len)$/;"	f	class:dc::net::Buffer
+appendInt32	dc/net/buffer.h	/^	void appendInt32(int32_t x)$/;"	f	class:dc::net::Buffer
+appendInt64	dc/net/buffer.h	/^	void appendInt64(int64_t x)$/;"	f	class:dc::net::Buffer
+appendInt8	dc/net/buffer.h	/^	void appendInt8(int8_t x)$/;"	f	class:dc::net::Buffer
+append_unlocked	dc/base/logFile.cc	/^void LogFile::append_unlocked(const char* logline, int len)$/;"	f	class:dc::LogFile
+as_string	dc/base/stringPieces.h	/^	std::string as_string() const$/;"	f	class:dc::StringPiece
+assertInLoopThread	dc/base/eventLoop.h	/^	void assertInLoopThread()$/;"	f	class:dc::net::EventLoop
+asyncOutput	test/test_asyncLogging.cc	/^void asyncOutput(const char* msg, int len)$/;"	f
+avail	dc/base/logStream.h	/^	int avail() const { return static_cast<int> ( end() - m_cur ); }$/;"	f	class:dc::FixedBuffer
+begin	dc/base/stringPieces.h	/^	const char* begin() const { return m_ptr; }$/;"	f	class:dc::StringPiece
+begin	dc/net/buffer.h	/^	char* begin()$/;"	f	class:dc::net::Buffer
+begin	dc/net/buffer.h	/^	const char* begin() const$/;"	f	class:dc::net::Buffer
+beginWrite	dc/net/buffer.h	/^	char * beginWrite()$/;"	f	class:dc::net::Buffer
+beginWrite	dc/net/buffer.h	/^	const char* beginWrite() const$/;"	f	class:dc::net::Buffer
+bench	test/test_asyncLogging.cc	/^void bench(bool longLog)$/;"	f
+bench	test/test_logging.cc	/^void bench(const char* type, bool is_long = false)$/;"	f
+bench	test/test_timestamp.cc	/^void bench()$/;"	f
+bindOrDie	dc/net/socketsOps.cc	/^void sockets::bindOrDie(int sockfd, struct sockaddr* addr)$/;"	f	class:dc::net::sockets
+buffer	dc/base/fileUtil.h	/^    const char* buffer() const { return m_buf; }$/;"	f	class:dc::ReadSmallFile
+buffer	dc/base/logStream.h	/^	const Buffer& buffer() const { return m_buffer; }$/;"	f	class:dc::LogStream
+bzero	dc/base/logStream.h	/^	void bzero() { memZero(m_data, sizeof m_data ); }$/;"	f	class:dc::FixedBuffer
+c_str	dc/base/stringPieces.h	/^	const char* c_str() const { return m_str; }$/;"	f	class:dc::StringArg
+cachedTid	dc/base/thread.cc	/^void CurrentThread::cachedTid()$/;"	f	class:dc::CurrentThread
+callback	test/test_exception.cc	/^	void callback()$/;"	f	class:Bar	file:
+cancel	dc/net/eventLoop.cc	/^void cancel(TimerId timerId)$/;"	f	namespace:dc::net
+capacity	dc/base/boundedBlockingQueue.h	/^    size_t capacity() const$/;"	f	class:dc::BoundedBlockingQueue
+clear	dc/base/stringPieces.h	/^	void clear() { m_ptr = nullptr; m_length = 0; }$/;"	f	class:dc::StringPiece
+clockTicksPerSecond	dc/base/processInfo.cc	/^int clockTicksPerSecond()$/;"	f	namespace:dc::ProcessInfo
+close	dc/net/socketsOps.cc	/^void sockets::close(int sockfd)$/;"	f	class:dc::net::sockets
+compare	dc/base/stringPieces.h	/^	int compare(const StringPiece& x) const $/;"	f	class:dc::StringPiece
+connect	dc/net/socketsOps.cc	/^int sockets::connect(int sockfd, struct sockaddr* addr)$/;"	f	class:dc::net::sockets
+const	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+convert	dc/base/logStream.cc	/^size_t convert(char buf[], T value)$/;"	f	namespace:dc
+convertHex	dc/base/logStream.cc	/^size_t convertHex(char buf[], uintptr_t value )$/;"	f	namespace:dc
+cookieEnd	dc/base/logStream.cc	/^void FixedBuffer<SIZE>::cookieEnd()$/;"	f	class:dc::FixedBuffer
+cookieStart	dc/base/logStream.cc	/^void FixedBuffer<SIZE>::cookieStart()$/;"	f	class:dc::FixedBuffer
+copyToString	dc/base/stringPieces.h	/^	void copyToString(std::string* target) const$/;"	f	class:dc::StringPiece
+countDown	dc/base/countDownLatch.cc	/^void CountDownLatch::countDown()$/;"	f	class:dc::CountDownLatch
+cpuTime	dc/base/processInfo.cc	/^CpuTime cpuTime()$/;"	f	namespace:dc::ProcessInfo
+createEventfd	dc/net/eventLoop.cc	/^int createEventfd()$/;"	f	namespace:__anon3
+createNonblockingOrDie	dc/net/socketsOps.cc	/^int sockets::createNonblockingOrDie(sa_family_t family)$/;"	f	class:dc::net::sockets
+current	dc/base/logStream.h	/^	char* current() { return m_cur; }$/;"	f	class:dc::FixedBuffer
+currentActiveChannel	dc/net/eventLoop.h	/^	Channel* currentActiveChannel;$/;"	m	class:dc::net::EventLoop
+data	dc/base/logStream.h	/^	const char* data() const { return m_buf; }$/;"	f	class:dc::Fmt
+data	dc/base/logStream.h	/^	const char* data() const { return m_data; }$/;"	f	class:dc::FixedBuffer
+data	dc/base/stringPieces.h	/^	const char* data() const { return m_ptr; }$/;"	f	class:dc::StringPiece
+day	dc/base/date.h	/^    int day;  \/\/ [1..31]$/;"	m	struct:dc::Date::YearMonthDay
+day	dc/base/date.h	/^  int day() const$/;"	f	class:dc::Date
+dc	dc/base/asyncLogging.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/asyncLogging.h	/^namespace dc$/;"	n
+dc	dc/base/atomic.h	/^namespace dc$/;"	n
+dc	dc/base/blockingQueue.h	/^namespace dc$/;"	n
+dc	dc/base/boundedBlockingQueue.h	/^namespace dc$/;"	n
+dc	dc/base/condition.h	/^namespace dc$/;"	n
+dc	dc/base/countDownLatch.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/countDownLatch.h	/^namespace dc$/;"	n
+dc	dc/base/currentThread.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/currentThread.h	/^namespace dc$/;"	n
+dc	dc/base/date.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/date.h	/^namespace dc$/;"	n
+dc	dc/base/eventLoop.h	/^namespace dc$/;"	n
+dc	dc/base/exception.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/exception.h	/^namespace dc$/;"	n
+dc	dc/base/fileUtil.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/fileUtil.h	/^namespace dc$/;"	n
+dc	dc/base/gzipFile.h	/^namespace dc$/;"	n
+dc	dc/base/logFile.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/logFile.h	/^namespace dc$/;"	n
+dc	dc/base/logStream.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/logStream.h	/^namespace dc$/;"	n
+dc	dc/base/logging.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/logging.h	/^namespace dc$/;"	n
+dc	dc/base/mutex.h	/^namespace dc$/;"	n
+dc	dc/base/noncopyable.h	/^namespace dc$/;"	n
+dc	dc/base/processInfo.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/processInfo.h	/^namespace dc$/;"	n
+dc	dc/base/singleton.h	/^namespace dc$/;"	n
+dc	dc/base/stringPieces.h	/^namespace dc$/;"	n
+dc	dc/base/thread.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/thread.h	/^namespace dc$/;"	n
+dc	dc/base/threadLocal.h	/^namespace dc$/;"	n
+dc	dc/base/threadLocalSingleton.h	/^namespace dc$/;"	n
+dc	dc/base/threadpool.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/threadpool.h	/^namespace dc$/;"	n
+dc	dc/base/timeStamp.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/timeStamp.h	/^namespace dc$/;"	n
+dc	dc/base/timeZone.cc	/^namespace dc$/;"	n	file:
+dc	dc/base/timeZone.h	/^namespace dc$/;"	n
+dc	dc/base/types.h	/^namespace dc$/;"	n
+dc	dc/net/buffer.h	/^namespace dc$/;"	n
+dc	dc/net/callbacks.h	/^namespace dc$/;"	n
+dc	dc/net/endian.h	/^namespace dc$/;"	n
+dc	dc/net/eventLoop.cc	/^namespace dc$/;"	n	file:
+dc	dc/net/eventLoop.h	/^namespace dc$/;"	n
+dc	dc/net/socketsOps.cc	/^namespace dc$/;"	n	file:
+dc	dc/net/socketsOps.h	/^namespace dc$/;"	n
+dc	dc/net/timer.cc	/^namespace dc$/;"	n	file:
+dc	dc/net/timer.h	/^namespace dc$/;"	n
+dc	dc/net/timerId.h	/^namespace dc$/;"	n
+dc	dc/net/timerQueue.h	/^namespace dc$/;"	n
+debugString	dc/base/logStream.cc	/^const char* FixedBuffer<SIZE>::debugString()$/;"	f	class:dc::FixedBuffer
+decltype	dc/base/singleton.h	/^    template <typename C> static char test(decltype(&C::no_destroy));$/;"	m	struct:dc::detail::has_no_destroy
+decrement	dc/base/atomic.h	/^	void decrement()$/;"	f	class:dc::AtomicIntegerT
+decrementAndGet	dc/base/atomic.h	/^	T decrementAndGet()$/;"	f	class:dc::AtomicIntegerT
+defaultFlush	dc/base/logging.cc	/^void defaultFlush()$/;"	f	namespace:dc
+defaultOutput	dc/base/logging.cc	/^void defaultOutput(const char* msg, int len)$/;"	f	namespace:dc
+desigIdx	dc/base/timeZone.cc	/^		int desigIdx;	\/\/data.names对应的索引$/;"	m	struct:dc::TimeZone::Data::LocalTime	file:
+destroy	dc/base/singleton.h	/^    static void destroy()$/;"	f	class:dc::detail::Singleton
+destructor	dc/base/threadLocal.h	/^    static void destructor(void *x)$/;"	f	class:dc::ThreadLocal
+destructor	dc/base/threadLocalSingleton.h	/^	static void destructor(void* obj)$/;"	f	class:dc::ThreadLocalSingleton
+detail	dc/base/singleton.h	/^namespace detail$/;"	n	namespace:dc
+digits	dc/base/logStream.cc	/^const char digits[] = "9876543210123456789";$/;"	m	namespace:dc	file:
+digitsHex	dc/base/logStream.cc	/^const char digitsHex[] = "0123456789ABCDEF";$/;"	m	namespace:dc	file:
+doPendingFunctors	dc/net/eventLoop.cc	/^void EventLoop::doPendingFunctors()$/;"	f	class:dc::net::EventLoop
+down_cast	dc/base/types.h	/^inline To down_cast(From* f)$/;"	f	namespace:dc
+down_pointer_cast	dc/net/callbacks.h	/^inline std::shared_ptr<To> down_pointer_cast(const std::shared_ptr<From>& f)$/;"	f	namespace:dc
+drain	dc/base/blockingQueue.h	/^    queue_type drain()$/;"	f	class:dc::BlockingQueue
+dummyOutput	test/test_logging.cc	/^void dummyOutput(const char* msg, int len)$/;"	f
+empty	dc/base/boundedBlockingQueue.h	/^    bool empty() const$/;"	f	class:dc::BoundedBlockingQueue
+empty	dc/base/stringPieces.h	/^	bool empty() const { return m_length == 0; }$/;"	f	class:dc::StringPiece
+end	dc/base/logStream.h	/^	const char* end() const { return m_data + sizeof m_data; }$/;"	f	class:dc::FixedBuffer
+end	dc/base/stringPieces.h	/^	const char* end() const { return m_ptr + m_length; }$/;"	f	class:dc::StringPiece
+ensureWritableBytes	dc/net/buffer.h	/^	void ensureWritableBytes(size_t len)$/;"	f	class:dc::net::Buffer
+euid	dc/base/processInfo.cc	/^uid_t euid()$/;"	f	namespace:dc::ProcessInfo
+eventHandling	dc/base/eventLoop.h	/^	bool eventHandling() const { return is_eventHandling.load(); }$/;"	f	class:dc::net::EventLoop
+eventHandling	dc/net/eventLoop.h	/^	bool eventHandling() const$/;"	f	class:dc::net::EventLoop
+exePath	dc/base/processInfo.cc	/^std::string exePath()$/;"	f	namespace:dc::ProcessInfo
+expiration	dc/net/timer.h	/^	Timestamp expiration() const { return m_expiration; }$/;"	f	class:dc::net::Timer
+fdDirFilter	dc/base/processInfo.cc	/^int fdDirFilter(const struct dirent* d)$/;"	f	namespace:dc
+fillHMS	dc/base/timeZone.cc	/^inline void fillHMS(unsigned seconds, struct DateTime* dt)$/;"	f	namespace:dc
+findCRLF	dc/net/buffer.h	/^	const char* findCRLF() const$/;"	f	class:dc::net::Buffer
+findCRLF	dc/net/buffer.h	/^	const char* findCRLF(const char* start) const$/;"	f	class:dc::net::Buffer
+findEOL	dc/net/buffer.h	/^	const char* findEOL() const$/;"	f	class:dc::net::Buffer
+findEOL	dc/net/buffer.h	/^	const char* findEOL(const char* start) const$/;"	f	class:dc::net::Buffer
+findLocalTime	dc/base/timeZone.cc	/^const TimeZone::Data::LocalTime* TimeZone::Data::findLocalTime($/;"	f	class:dc::TimeZone::Data
+findLocalTime	dc/base/timeZone.cc	/^const TimeZone::Data::LocalTime* TimeZone::Data::findLocalTime(int64_t utcTime) const$/;"	f	class:dc::TimeZone::Data
+finish	dc/base/logging.cc	/^void Logger::Impl::finish()$/;"	f	class:dc::Logger::Impl
+flush	dc/base/fileUtil.cc	/^void AppendFile::flush()$/;"	f	class:dc::AppendFile
+flush	dc/base/logFile.cc	/^void LogFile::flush()$/;"	f	class:dc::LogFile
+flushFunc	test/test_logFile.cc	/^void flushFunc()$/;"	f
+foo	test/test_exception.cc	/^void foo()$/;"	f
+foo	test/test_mutex.cc	/^int foo()$/;"	f
+formatIEC	dc/base/logStream.cc	/^std::string formatIEC(int64_t s)$/;"	f	namespace:dc
+formatInteger	dc/base/logStream.cc	/^void LogStream::formatInteger(T v)$/;"	f	class:dc::LogStream
+formatSI	dc/base/logStream.cc	/^std::string formatSI(int64_t s)$/;"	f	namespace:dc
+formatTime	dc/base/logging.cc	/^void Logger::Impl::formatTime()$/;"	f	class:dc::Logger::Impl
+fromIpPort	dc/net/socketsOps.cc	/^void sockets::fromIpPort(const char* ip, uint16_t port,$/;"	f	class:dc::net::sockets
+fromLocalTime	dc/base/timeZone.cc	/^ int64_t TimeZone::fromLocalTime(const struct DateTime& localtime, bool postTransition) const$/;"	f	class:dc::TimeZone
+fromUnixTime	dc/base/timeStamp.h	/^	static Timestamp fromUnixTime( time_t t )$/;"	f	class:dc::Timestamp
+fromUnixTime	dc/base/timeStamp.h	/^	static Timestamp fromUnixTime( time_t t, int microseconds )$/;"	f	class:dc::Timestamp
+fromUtcTime	dc/base/timeZone.cc	/^ int64_t TimeZone::fromUtcTime(const DateTime& dt)$/;"	f	class:dc::TimeZone
+full	dc/base/boundedBlockingQueue.h	/^    bool full() const$/;"	f	class:dc::BoundedBlockingQueue
+func	test/test_singleton.cc	/^void func()$/;"	f
+g_clockTicks	dc/base/processInfo.cc	/^int g_clockTicks = static_cast<int>(::sysconf(_SC_CLK_TCK));$/;"	m	namespace:dc	file:
+g_count	test/test_mutex.cc	/^int g_count = 0;$/;"	v
+g_file	test/test_logging.cc	/^FILE * g_file;$/;"	v
+g_flush	dc/base/logging.cc	/^Logger::FlushFunc g_flush = defaultFlush;$/;"	m	namespace:dc	file:
+g_logFile	test/test_logFile.cc	/^std::unique_ptr<dc::LogFile> g_logFile;$/;"	v
+g_logFile	test/test_logging.cc	/^std::unique_ptr<dc::LogFile> g_logFile;$/;"	v
+g_logLevel	dc/base/logging.cc	/^Logger::LogLevel g_logLevel = initLogLevel();$/;"	m	namespace:dc	file:
+g_logTimeZone	dc/base/logging.cc	/^TimeZone g_logTimeZone;$/;"	m	namespace:dc	file:
+g_logger	test/test_asyncLogging.cc	/^dc::AsyncLogging* g_logger = nullptr;$/;"	v
+g_output	dc/base/logging.cc	/^Logger::OutputFunc g_output = defaultOutput;$/;"	m	namespace:dc	file:
+g_pageSize	dc/base/processInfo.cc	/^int g_pageSize = static_cast<int>(::sysconf(_SC_PHYS_PAGES));$/;"	m	namespace:dc	file:
+g_startTime	dc/base/processInfo.cc	/^Timestamp g_startTime = Timestamp::now();$/;"	m	namespace:dc	file:
+g_total	test/test_logging.cc	/^int g_total;$/;"	v
+g_vec	test/test_mutex.cc	/^vector<int> g_vec;$/;"	v
+g_verbose	test/test_blockingQueue_bench.cc	/^bool g_verbose = false;$/;"	v
+get	dc/base/atomic.h	/^	T get()$/;"	f	class:dc::AtomicIntegerT
+getAndAdd	dc/base/atomic.h	/^	T getAndAdd( T x )$/;"	f	class:dc::AtomicIntegerT
+getAndSet	dc/base/atomic.h	/^	T getAndSet( T newValue )$/;"	f	class:dc::AtomicIntegerT
+getContext	dc/net/eventLoop.h	/^	std::any& getContext() const$/;"	f	class:dc::net::EventLoop
+getCount	dc/base/countDownLatch.cc	/^int CountDownLatch::getCount() const$/;"	f	class:dc::CountDownLatch
+getEventLoopOfCurrentThread	dc/net/eventLoop.cc	/^EventLoop* EventLoop::getEventLoopOfCurrentThread()$/;"	f	class:dc::net::EventLoop
+getJulianDayNumber	dc/base/date.cc	/^int getJulianDayNumber(int year, int month, int day)$/;"	f	namespace:dc
+getLocalAddr	dc/net/socketsOps.cc	/^struct sockaddr_in6 sockets::getLocalAddr( int sockfd )$/;"	f	class:dc::net::sockets
+getLogFileName	dc/base/logFile.cc	/^string LogFile::getLogFileName(const string& basename, time_t* now)$/;"	f	class:dc::LogFile
+getMutableContext	dc/base/eventLoop.h	/^	std::any* getMutableContext()$/;"	f	class:dc::net::EventLoop
+getMutableContext	dc/net/eventLoop.h	/^	std::any* getMutableContext() 	{$/;"	f	class:dc::net::EventLoop
+getName	test/test_singleton.cc	/^	std::string getName()$/;"	f	class:Test
+getPeerAddr	dc/net/socketsOps.cc	/^struct sockaddr_in6 sockets::getPeerAddr( int sockfd )$/;"	f	class:dc::net::sockets
+getSocketError	dc/net/socketsOps.cc	/^int sockets::getSocketError(int sockfd)$/;"	f	class:dc::net::sockets
+getYearMonthDay	dc/base/date.cc	/^struct Date::YearMonthDay getYearMonthDay(int julianDayNumber)$/;"	f	namespace:dc
+get_pointer	dc/net/callbacks.h	/^inline T* get_pointer(const std::shared_ptr<T>& ptr)$/;"	f	namespace:dc
+get_pointer	dc/net/callbacks.h	/^inline T* get_pointer(const std::unique_ptr<T>& ptr)$/;"	f	namespace:dc
+gettid	dc/base/thread.cc	/^pid_t gettid()$/;"	f	namespace:dc
+handleRead	dc/net/eventLoop.cc	/^void EventLoop::handleRead()$/;"	f	class:dc::net::EventLoop
+hasChannel	dc/net/eventLoop.cc	/^bool EventLoop::hasChannel(Channel* channel)$/;"	f	class:dc::net::EventLoop
+hasWritten	dc/net/buffer.h	/^	void hasWritten(size_t len)$/;"	f	class:dc::net::Buffer
+has_no_destroy	dc/base/singleton.h	/^struct has_no_destroy$/;"	s	namespace:dc::detail
+hostToNetwork16	dc/net/endian.h	/^inline uint16_t hostToNetwork16(uint16_t host16)$/;"	f	namespace:dc::net::sockets
+hostToNetwork16	dc/net/endian.h	/^inline uint16_t hostToNetwork16(uint16_t net16)$/;"	f	namespace:dc::net::sockets
+hostToNetwork32	dc/net/endian.h	/^inline uint32_t hostToNetwork32(uint32_t host32)$/;"	f	namespace:dc::net::sockets
+hostToNetwork64	dc/net/endian.h	/^inline uint64_t hostToNetwork64(uint64_t host64)$/;"	f	namespace:dc::net::sockets
+hostname	dc/base/processInfo.cc	/^std::string hostname()$/;"	f	namespace:dc::ProcessInfo
+i	test/test_log.cc	/^int i = 0;$/;"	v
+implicit_cast	dc/base/types.h	/^inline To implicit_cast(From const& f)$/;"	f	namespace:dc
+increment	dc/base/atomic.h	/^	void increment()$/;"	f	class:dc::AtomicIntegerT
+incrementAndGet	dc/base/atomic.h	/^	T incrementAndGet()$/;"	f	class:dc::AtomicIntegerT
+info_arch	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_cray	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_cray	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_language_dialect_default	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v
+info_language_dialect_default	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v
+info_platform	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate_version	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_version	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v
+info_version	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v
+info_version_internal	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";$/;"	v
+info_version_internal	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";$/;"	v
+init	dc/base/singleton.h	/^    static void init()$/;"	f	class:dc::detail::Singleton
+init	dc/base/thread.cc	/^ThreadNameInitializer init;$/;"	m	namespace:dc	file:
+initLogLevel	dc/base/logging.cc	/^Logger::LogLevel initLogLevel()$/;"	f	namespace:dc
+initObj	dc/net/eventLoop.cc	/^IgnoreSigPipe initObj;$/;"	m	namespace:__anon3	file:
+instance	dc/base/singleton.h	/^    static T& instance()$/;"	f	class:dc::detail::Singleton
+instance	dc/base/threadLocalSingleton.h	/^	static T& instance()$/;"	f	class:dc::ThreadLocalSingleton
+internalCapacity	dc/net/buffer.h	/^	size_t internalCapacity() const $/;"	f	class:dc::net::Buffer
+invalid	dc/base/timeStamp.h	/^	static Timestamp invalid() { return Timestamp();}$/;"	f	class:dc::Timestamp
+isDebugBuild	dc/base/processInfo.cc	/^bool isDebugBuild()$/;"	f	namespace:dc::ProcessInfo
+isDst	dc/base/timeZone.cc	/^		bool isDst;		\/\/夏令时标记$/;"	m	struct:dc::TimeZone::Data::LocalTime	file:
+isFull	dc/base/threadpool.cc	/^bool ThreadPool::isFull() const$/;"	f	class:dc::ThreadPool
+isInLoopThread	dc/base/eventLoop.h	/^	bool isInLoopThread() const { return m_threadId == CurrentThread::tid(); }$/;"	f	class:dc::net::EventLoop
+isInLoopThread	dc/net/eventLoop.h	/^	bool isInLoopThread() const$/;"	f	class:dc::net::EventLoop
+isMainThread	dc/base/thread.cc	/^bool CurrentThread::isMainThread()$/;"	f	class:dc::CurrentThread
+is_callingExpiredTimers	dc/net/timerQueue.h	/^	atomic<bool> is_callingExpiredTimers;$/;"	m	class:dc::net::TimerQueue
+is_callingPendingFunctors	dc/base/eventLoop.h	/^	std::atomic<bool> is_callingPendingFunctors;$/;"	m	class:dc::net::EventLoop
+is_callingPendingFunctors	dc/net/eventLoop.h	/^	std::atomic<bool> is_callingPendingFunctors;$/;"	m	class:dc::net::EventLoop
+is_eventHandling	dc/base/eventLoop.h	/^	std::atomic<bool> is_eventHandling;$/;"	m	class:dc::net::EventLoop
+is_eventHandling	dc/net/eventLoop.h	/^	std::atomic<bool> is_eventHandling;$/;"	m	class:dc::net::EventLoop
+is_joined	dc/base/thread.h	/^	bool is_joined;$/;"	m	class:dc::Thread
+is_looping	dc/net/eventLoop.h	/^	std::atomic<bool> is_looping;$/;"	m	class:dc::net::EventLoop
+is_quit	dc/base/eventLoop.h	/^	std::atomic<bool> is_quit;$/;"	m	class:dc::net::EventLoop
+is_quit	dc/net/eventLoop.h	/^	std::atomic<bool> is_quit;$/;"	m	class:dc::net::EventLoop
+is_repeat	dc/net/timer.h	/^	const bool is_repeat;$/;"	m	class:dc::net::Timer
+is_running	dc/base/asyncLogging.h	/^    std::atomic<bool> is_running;$/;"	m	class:dc::AsyncLogging
+is_running	dc/base/threadpool.h	/^    bool is_running;$/;"	m	class:dc::ThreadPool
+is_started	dc/base/thread.h	/^	bool is_started;$/;"	m	class:dc::Thread
+iteration	dc/base/eventLoop.h	/^	int64_t iteration() const { return m_iteration; }$/;"	f	class:dc::net::EventLoop
+iteration	dc/net/eventLoop.h	/^	int64_t iteration() const { return iteration; } $/;"	f	class:dc::net::EventLoop
+iteration	dc/net/eventLoop.h	/^	int64_t iteration;$/;"	m	class:dc::net::EventLoop
+join	dc/base/thread.cc	/^int Thread::join()$/;"	f	class:dc::Thread
+joinAll	test/test_blockingQueue.cc	/^		void joinAll()$/;"	f	class:Test
+joinAll	test/test_blockingQueue_bench.cc	/^	void joinAll()$/;"	f	class:Bench
+joinAll	test/test_boundQueue.cc	/^	void joinAll()$/;"	f	class:Test
+julianDayNumber	dc/base/date.h	/^  int julianDayNumber() const { return julianDayNumber_; }$/;"	f	class:dc::Date
+julianDayNumber_	dc/base/date.h	/^  int julianDayNumber_;$/;"	m	class:dc::Date
+kBufferSize	dc/base/fileUtil.h	/^    static const int kBufferSize = 64 * 1024;$/;"	m	class:dc::ReadSmallFile
+kCRLF	dc/net/buffer.cc	/^const char net::Buffer::kCRLF[] = "\\r\\n";$/;"	m	class:net::Buffer	file:
+kCRLF	dc/net/buffer.h	/^	static const char kCRLF[];$/;"	m	class:dc::net::Buffer
+kCheapPrepend	dc/net/buffer.cc	/^const size_t net::Buffer::kCheapPrepend;$/;"	m	class:net::Buffer	file:
+kCheapPrepend	dc/net/buffer.h	/^	static const size_t kCheapPrepend = 8;$/;"	m	class:dc::net::Buffer
+kCount	test/test_mutex.cc	/^const int kCount = 10*1000*1000;$/;"	v
+kDaysPerWeek	dc/base/date.h	/^  static const int kDaysPerWeek = 7;$/;"	m	class:dc::Date
+kInitialSize	dc/net/buffer.cc	/^const size_t net::Buffer::kInitialSize;$/;"	m	class:net::Buffer	file:
+kInitialSize	dc/net/buffer.h	/^	static const size_t kInitialSize = 1024;$/;"	m	class:dc::net::Buffer
+kJulianDayOf1970_01_01	dc/base/date.cc	/^const int Date::kJulianDayOf1970_01_01 = getJulianDayNumber(1970, 1, 1);$/;"	m	class:dc::Date	file:
+kJulianDayOf1970_01_01	dc/base/date.h	/^  static const int kJulianDayOf1970_01_01;$/;"	m	class:dc::Date
+kLargeBuffer	dc/base/logStream.h	/^const int kLargeBuffer = 4000 * 1000;$/;"	m	namespace:dc
+kMaxNumbericSize	dc/base/logStream.h	/^	static const int kMaxNumbericSize = 48;$/;"	m	class:dc::LogStream
+kMicroSecondsPerSecond	dc/base/timeStamp.h	/^	static const int kMicroSecondsPerSecond = 1000 * 1000;$/;"	m	class:dc::Timestamp
+kPollTimeMs	dc/net/eventLoop.cc	/^const int kPollTimeMs = 10000;$/;"	m	namespace:__anon3	file:
+kRollSize	test/test_asyncLogging.cc	/^off_t kRollSize = 500 * 1000 * 1000;$/;"	v
+kSecondsPerDay	dc/base/timeZone.cc	/^const int kSecondsPerDay = 24 * 60 * 60;$/;"	m	namespace:dc	file:
+kSmallBuffer	dc/base/logStream.h	/^const int kSmallBuffer = 4000;$/;"	m	namespace:dc
+latch_	dc/base/thread.cc	/^    CountDownLatch* latch_;$/;"	m	struct:dc::ThreadData	file:
+length	dc/base/logStream.h	/^	int length() const { return m_length; }$/;"	f	class:dc::Fmt
+length	dc/base/logStream.h	/^	int length() const { return static_cast<int>(m_cur - m_data); }$/;"	f	class:dc::FixedBuffer
+listenOrDie	dc/net/socketsOps.cc	/^void sockets::listenOrDie(int sockfd)$/;"	f	class:dc::net::sockets
+loadZoneFile	dc/base/timeZone.cc	/^ TimeZone TimeZone::loadZoneFile(const char* zonefile)$/;"	f	class:dc::TimeZone
+localtime	dc/base/timeZone.cc	/^		int64_t localtime; \/\/本地时间$/;"	m	struct:dc::TimeZone::Data::Transition	file:
+localtimeIdx	dc/base/timeZone.cc	/^		int localtimeIdx; \/\/data.localtimes是对应的本地时间的索引$/;"	m	struct:dc::TimeZone::Data::Transition	file:
+localtimes	dc/base/timeZone.cc	/^	std::vector<LocalTime> localtimes;$/;"	m	struct:dc::TimeZone::Data	file:
+logInThread	test/test_logging.cc	/^void logInThread()$/;"	f
+logLevel	dc/base/logging.h	/^inline Logger::LogLevel Logger::logLevel()$/;"	f	class:dc::Logger
+longTask	test/test_threadpool.cc	/^void longTask(int num)$/;"	f
+loop	dc/net/eventLoop.cc	/^void EventLoop::loop()$/;"	f	class:dc::net::EventLoop
+m_activeChannels	dc/base/eventLoop.h	/^	ChannelList m_activeChannels;$/;"	m	class:dc::net::EventLoop
+m_activeChannels	dc/net/eventLoop.h	/^	ChannelList m_activeChannels;$/;"	m	class:dc::net::EventLoop
+m_activeTimers	dc/net/timerQueue.h	/^	ActiveTimerSet m_activeTimers;$/;"	m	class:dc::net::TimerQueue
+m_basename	dc/base/asyncLogging.h	/^    const string m_basename;$/;"	m	class:dc::AsyncLogging
+m_basename	dc/base/logFile.h	/^    const string m_basename;\/\/ log file name$/;"	m	class:dc::LogFile
+m_basename	dc/base/logging.h	/^        SourceFile m_basename;$/;"	m	class:dc::Logger::Impl
+m_buf	dc/base/fileUtil.h	/^    char m_buf[kBufferSize];$/;"	m	class:dc::ReadSmallFile
+m_buf	dc/base/logStream.h	/^	char m_buf[32];$/;"	m	class:dc::Fmt
+m_buffer	dc/base/fileUtil.h	/^    char m_buffer[64 * 1024];$/;"	m	class:dc::AppendFile
+m_buffer	dc/base/logStream.h	/^	Buffer m_buffer;$/;"	m	class:dc::LogStream
+m_buffer	dc/net/buffer.h	/^	std::vector<char> m_buffer;$/;"	m	class:dc::net::Buffer
+m_callback	dc/net/timer.h	/^	const TimerCallback m_callback;$/;"	m	class:dc::net::Timer
+m_cancelingTimers	dc/net/timerQueue.h	/^	ActiveTimerSet m_cancelingTimers;$/;"	m	class:dc::net::TimerQueue
+m_checkEveryN	dc/base/logFile.h	/^    const int m_checkEveryN;$/;"	m	class:dc::LogFile
+m_cond	dc/base/condition.h	/^		pthread_cond_t m_cond;$/;"	m	class:dc::Condition
+m_context	dc/base/eventLoop.h	/^	std::any m_context;$/;"	m	class:dc::net::EventLoop
+m_context	dc/net/eventLoop.h	/^	std::any m_context;$/;"	m	class:dc::net::EventLoop
+m_cookie	dc/base/logStream.h	/^	void (*m_cookie)(); $/;"	m	class:dc::FixedBuffer
+m_count	dc/base/logFile.h	/^    int m_count;$/;"	m	class:dc::LogFile
+m_cur	dc/base/logStream.h	/^	char* m_cur;$/;"	m	class:dc::FixedBuffer
+m_currentActiveChannel	dc/base/eventLoop.h	/^	Channel* m_currentActiveChannel;$/;"	m	class:dc::net::EventLoop
+m_data	dc/base/logStream.h	/^	char m_data[SIZE];$/;"	m	class:dc::FixedBuffer
+m_data	dc/base/logging.h	/^        const char* m_data;$/;"	m	class:dc::Logger::SourceFile
+m_data	dc/base/timeZone.h	/^	std::shared_ptr< Data > m_data;$/;"	m	class:dc::TimeZone
+m_day	dc/base/timeZone.h	/^	int m_day = 0;$/;"	m	struct:dc::DateTime
+m_delay_queue	test/test_blockingQueue_bench.cc	/^	dc::BlockingQueue<int> m_delay_queue;$/;"	m	class:Bench	file:
+m_err	dc/base/fileUtil.h	/^    int m_err;$/;"	m	class:dc::ReadSmallFile
+m_expiration	dc/net/timer.h	/^	Timestamp m_expiration;$/;"	m	class:dc::net::Timer
+m_fd	dc/base/fileUtil.h	/^    int m_fd;$/;"	m	class:dc::ReadSmallFile
+m_file	dc/base/gzipFile.h	/^        : m_file(rhs.m_file)$/;"	f	class:dc::GzipFile
+m_file	dc/base/gzipFile.h	/^    gzFile m_file;$/;"	m	class:dc::GzipFile
+m_file	dc/base/logFile.h	/^    std::unique_ptr<dc::AppendFile> m_file;$/;"	m	class:dc::LogFile
+m_flushInterval	dc/base/asyncLogging.h	/^    const int m_flushInterval;$/;"	m	class:dc::AsyncLogging
+m_flushInterval	dc/base/logFile.h	/^    const int m_flushInterval;\/\/the interval that write log time $/;"	m	class:dc::LogFile
+m_fp	dc/base/fileUtil.h	/^    FILE* m_fp;$/;"	m	class:dc::AppendFile
+m_fp	dc/base/timeZone.cc	/^	FILE * m_fp;$/;"	m	class:dc::File	file:
+m_func	dc/base/thread.h	/^	ThreadFunc m_func;$/;"	m	class:dc::Thread
+m_hour	dc/base/timeZone.h	/^	int m_hour = 0;$/;"	m	struct:dc::DateTime
+m_impl	dc/base/logging.h	/^    Impl m_impl;$/;"	m	class:dc::Logger
+m_interval	dc/net/timer.h	/^	const double m_interval;$/;"	m	class:dc::net::Timer
+m_iteration	dc/base/eventLoop.h	/^	int64_t m_iteration;$/;"	m	class:dc::net::EventLoop
+m_lastFlush	dc/base/logFile.h	/^    time_t m_lastFlush;\/\/last time that write log to file$/;"	m	class:dc::LogFile
+m_lastRoll	dc/base/logFile.h	/^    time_t m_lastRoll;\/\/last roll logfile time$/;"	m	class:dc::LogFile
+m_latch	dc/base/asyncLogging.h	/^    dc::CountDownLatch m_latch;$/;"	m	class:dc::AsyncLogging
+m_latch	dc/base/thread.h	/^	CountDownLatch m_latch;$/;"	m	class:dc::Thread
+m_latch	test/test_blockingQueue.cc	/^		dc::CountDownLatch m_latch;$/;"	m	class:Test	file:
+m_latch	test/test_blockingQueue_bench.cc	/^	dc::CountDownLatch m_latch;$/;"	m	class:Bench	file:
+m_latch	test/test_boundQueue.cc	/^	dc::CountDownLatch m_latch;$/;"	m	class:Test	file:
+m_len	dc/base/logging.cc	/^    const unsigned m_len;$/;"	m	class:dc::T	file:
+m_length	dc/base/logStream.h	/^	int m_length;$/;"	m	class:dc::Fmt
+m_length	dc/base/stringPieces.h	/^	int m_length;$/;"	m	class:dc::StringPiece
+m_level	dc/base/logging.h	/^        LogLevel m_level;$/;"	m	class:dc::Logger::Impl
+m_line	dc/base/logging.h	/^        int m_line;$/;"	m	class:dc::Logger::Impl
+m_loop	dc/net/timerQueue.h	/^	EventLoop* m_loop;$/;"	m	class:dc::net::TimerQueue
+m_message	dc/base/exception.h	/^	std::string m_message;$/;"	m	class:dc::Exception
+m_microSecondsSinceEpoch	dc/base/timeStamp.h	/^	int64_t m_microSecondsSinceEpoch;$/;"	m	class:dc::Timestamp
+m_minute	dc/base/timeZone.h	/^	int m_minute = 0;$/;"	m	struct:dc::DateTime
+m_month	dc/base/timeZone.h	/^	int m_month = 0;$/;"	m	struct:dc::DateTime
+m_mutex	dc/base/asyncLogging.h	/^    dc::MutexLock m_mutex;$/;"	m	class:dc::AsyncLogging
+m_mutex	dc/base/blockingQueue.h	/^    mutable MutexLock m_mutex;$/;"	m	class:dc::BlockingQueue
+m_mutex	dc/base/boundedBlockingQueue.h	/^    mutable MutexLock m_mutex;$/;"	m	class:dc::BoundedBlockingQueue
+m_mutex	dc/base/condition.h	/^		MutexLock& m_mutex;$/;"	m	class:dc::Condition
+m_mutex	dc/base/countDownLatch.h	/^	mutable MutexLock m_mutex;$/;"	m	class:dc::CountDownLatch
+m_mutex	dc/base/eventLoop.h	/^	mutable MutexLocal m_mutex;$/;"	m	class:dc::net::EventLoop
+m_mutex	dc/base/logFile.h	/^    std::unique_ptr<dc::MutexLock> m_mutex;$/;"	m	class:dc::LogFile
+m_mutex	dc/base/mutex.h	/^	MutexLock& m_mutex;$/;"	m	class:dc::MutexLockGuard
+m_mutex	dc/base/threadpool.h	/^    mutable MutexLock m_mutex;$/;"	m	class:dc::ThreadPool
+m_mutex	dc/net/eventLoop.h	/^	mutable MutexLock m_mutex;$/;"	m	class:dc::net::EventLoop
+m_name	dc/base/thread.h	/^	std::string m_name;$/;"	m	class:dc::Thread
+m_name	dc/base/threadpool.h	/^    string m_name;$/;"	m	class:dc::ThreadPool
+m_numCreated	dc/base/thread.cc	/^AtomicInt32 Thread::m_numCreated;$/;"	m	class:dc::Thread	file:
+m_numCreated	dc/base/thread.h	/^	static AtomicInt32 m_numCreated;$/;"	m	class:dc::Thread
+m_pid	dc/base/thread.h	/^	pid_t m_pid;$/;"	m	class:dc::Thread
+m_pkey	dc/base/threadLocal.h	/^    pthread_key_t m_pkey;$/;"	m	class:dc::ThreadLocal
+m_pkey	dc/base/threadLocalSingleton.h	/^		pthread_key_t m_pkey;$/;"	m	class:dc::ThreadLocalSingleton::Deletor
+m_pollReturnTIme	dc/net/eventLoop.h	/^	Timestamp m_pollReturnTIme;$/;"	m	class:dc::net::EventLoop
+m_pollReturnTime	dc/base/eventLoop.h	/^	Timestamp m_pollReturnTime;$/;"	m	class:dc::net::EventLoop
+m_poller	dc/base/eventLoop.h	/^	std::unique_ptr<Poller> m_poller;$/;"	m	class:dc::net::EventLoop
+m_poller	dc/net/eventLoop.h	/^	std::unique_ptr<Poller> m_poller;$/;"	m	class:dc::net::EventLoop
+m_ponce	dc/base/singleton.h	/^    static pthread_once_t m_ponce;$/;"	m	class:dc::detail::Singleton
+m_ponce	dc/base/singleton.h	/^pthread_once_t Singleton<T>::m_ponce = PTHREAD_ONCE_INIT;$/;"	m	class:dc::detail::Singleton
+m_ptr	dc/base/stringPieces.h	/^	const char* m_ptr;$/;"	m	class:dc::StringPiece
+m_queue	test/test_blockingQueue.cc	/^		dc::BlockingQueue<std::string> m_queue;$/;"	m	class:Test	file:
+m_queue	test/test_blockingQueue_bench.cc	/^	dc::BlockingQueue<dc::Timestamp> m_queue;$/;"	m	class:Bench	file:
+m_queue	test/test_boundQueue.cc	/^	dc::BoundedBlockingQueue<dc::string> m_queue;$/;"	m	class:Test	file:
+m_readerIndex	dc/net/buffer.h	/^	size_t m_readerIndex;$/;"	m	class:dc::net::Buffer
+m_rollSize	dc/base/asyncLogging.h	/^    const off_t m_rollSize;$/;"	m	class:dc::AsyncLogging
+m_rollSize	dc/base/logFile.h	/^    const off_t m_rollSize;\/\/ when logfile' size lager or eaqual to rollsize will change a new file.$/;"	m	class:dc::LogFile
+m_second	dc/base/timeZone.h	/^	int m_second = 0;$/;"	m	struct:dc::DateTime
+m_sequence	dc/net/timer.h	/^	const int64_t m_sequence;$/;"	m	class:dc::net::Timer
+m_sequence	dc/net/timerId.h	/^	int64_t m_sequence;$/;"	m	class:dc::net::TimerId
+m_size	dc/base/logging.h	/^        int m_size;$/;"	m	class:dc::Logger::SourceFile
+m_stack	dc/base/exception.h	/^	std::string m_stack;$/;"	m	class:dc::Exception
+m_startOfPeriod	dc/base/logFile.h	/^    time_t m_startOfPeriod;\/\/start record log time(call time)$/;"	m	class:dc::LogFile
+m_str	dc/base/logging.cc	/^    const char* m_str;$/;"	m	class:dc::T	file:
+m_str	dc/base/stringPieces.h	/^	const char* m_str;$/;"	m	class:dc::StringArg
+m_stream	dc/base/logging.h	/^        LogStream m_stream;$/;"	m	class:dc::Logger::Impl
+m_thread	dc/base/asyncLogging.h	/^    dc::Thread m_thread;$/;"	m	class:dc::AsyncLogging
+m_threadId	dc/base/eventLoop.h	/^	const pid_t m_threadId;$/;"	m	class:dc::net::EventLoop
+m_threadId	dc/base/thread.h	/^	pthread_t m_threadId;$/;"	m	class:dc::Thread
+m_threadId	dc/net/eventLoop.h	/^	const pid_t m_threadId;$/;"	m	class:dc::net::EventLoop
+m_threads	dc/base/threadpool.h	/^    std::vector<std::unique_ptr<dc::Thread>> m_threads;$/;"	m	class:dc::ThreadPool
+m_threads	test/test_blockingQueue.cc	/^		std::vector<std::unique_ptr<dc::Thread>>m_threads;$/;"	m	class:Test	file:
+m_threads	test/test_blockingQueue_bench.cc	/^	std::vector<std::unique_ptr<dc::Thread>> m_threads;$/;"	m	class:Bench	file:
+m_threads	test/test_boundQueue.cc	/^	std::vector<std::unique_ptr<dc::Thread>> m_threads;$/;"	m	class:Test	file:
+m_time	dc/base/logging.h	/^        Timestamp m_time;$/;"	m	class:dc::Logger::Impl
+m_timer	dc/net/timerId.h	/^	Timer* m_timer;$/;"	m	class:dc::net::TimerId
+m_timerQueue	dc/base/eventLoop.h	/^	std::unique_ptr<TimerQueue> m_timerQueue;$/;"	m	class:dc::net::EventLoop
+m_timerQueue	dc/net/eventLoop.h	/^	std::unique_ptr<TimerQueue> m_timerQueue;$/;"	m	class:dc::net::EventLoop
+m_timerfd	dc/net/timerQueue.h	/^	const int m_timerfd;$/;"	m	class:dc::net::TimerQueue
+m_timerfdChannel	dc/net/timerQueue.h	/^	Channel m_timerfdChannel;$/;"	m	class:dc::net::TimerQueue
+m_timers	dc/net/timerQueue.h	/^	TimerList m_timers;$/;"	m	class:dc::net::TimerQueue
+m_value	dc/base/atomic.h	/^	volatile T m_value;\/\/let complier get data from memory every times$/;"	m	class:dc::AtomicIntegerT
+m_value	dc/base/singleton.h	/^    static T* m_value;$/;"	m	class:dc::detail::Singleton
+m_value	dc/base/singleton.h	/^T* Singleton<T>::m_value = nullptr;$/;"	m	class:dc::detail::Singleton
+m_wakeupChannel	dc/base/eventLoop.h	/^	std::unique_ptr<Channel> m_wakeupChannel;$/;"	m	class:dc::net::EventLoop
+m_wakeupChannel	dc/net/eventLoop.h	/^	std::unique_ptr<Channel> m_wakeupChannel;$/;"	m	class:dc::net::EventLoop
+m_wakeupFd	dc/base/eventLoop.h	/^	int m_wakeupFd;$/;"	m	class:dc::net::EventLoop
+m_writerIndex	dc/net/buffer.h	/^	size_t m_writerIndex;$/;"	m	class:dc::net::Buffer
+m_writtenBytes	dc/base/fileUtil.h	/^    off_t m_writtenBytes;$/;"	m	class:dc::AppendFile
+m_year	dc/base/timeZone.h	/^	int m_year = 0;$/;"	m	struct:dc::DateTime
+main	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	test/test_asyncLogging.cc	/^int main(int argc, char**argv)$/;"	f
+main	test/test_atomic.cc	/^int main()$/;"	f
+main	test/test_blockingQueue.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_blockingQueue_bench.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_boundQueue.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_countdownlatch.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_exception.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_fileUtil.cc	/^int main()$/;"	f
+main	test/test_log.cc	/^int main()$/;"	f
+main	test/test_logFile.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_logging.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_mutex.cc	/^int main()$/;"	f
+main	test/test_process.cc	/^int main()$/;"	f
+main	test/test_singleton.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_singletonThreadLocal.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_thread.cc	/^int main()$/;"	f
+main	test/test_threadLocal.cc	/^main ( int argc, char *argv[] )$/;"	f
+main	test/test_threadpool.cc	/^int main()$/;"	f
+main	test/test_timestamp.cc	/^main ( int argc, char *argv[] )$/;"	f
+makeSpace	dc/net/buffer.h	/^	void makeSpace(size_t len)$/;"	f	class:dc::net::Buffer
+maxOpenFiles	dc/base/processInfo.cc	/^int maxOpenFiles()$/;"	f	namespace:dc::ProcessInfo
+memZero	dc/base/types.h	/^inline void memZero( void * p, size_t n )$/;"	f	namespace:dc
+memberfunc	test/test_thread.cc	/^    void memberfunc()$/;"	f	class:Foo
+memberfunc2	test/test_thread.cc	/^    void memberfunc2(std::string& str)$/;"	f	class:Foo
+microSecondsSinceEpoch	dc/base/timeStamp.h	/^	int64_t microSecondsSinceEpoch() const { return m_microSecondsSinceEpoch;}$/;"	f	class:dc::Timestamp
+month	dc/base/date.h	/^    int month;  \/\/ [1..12]$/;"	m	struct:dc::Date::YearMonthDay
+month	dc/base/date.h	/^  int month() const$/;"	f	class:dc::Date
+name	dc/base/currentThread.h	/^inline const char* name()$/;"	f	namespace:dc::CurrentThread
+name	dc/base/thread.h	/^	const std::string& name() const { return m_name; }$/;"	f	class:dc::Thread
+name	dc/base/threadpool.h	/^    const string& name() const$/;"	f	class:dc::ThreadPool
+name	test/test_singleton.cc	/^	std::string name;$/;"	m	class:Test	file:
+name	test/test_singletonThreadLocal.cc	/^	const dc::string& name() const$/;"	f	class:Test
+name	test/test_threadLocal.cc	/^	std::string name()$/;"	f	class:Test
+name_	dc/base/thread.cc	/^    std::string name_;$/;"	m	struct:dc::ThreadData	file:
+name_	test/test_singletonThreadLocal.cc	/^	dc::string name_;$/;"	m	class:Test	file:
+name_	test/test_threadLocal.cc	/^	std::string name_;$/;"	m	class:Test	file:
+net	dc/base/eventLoop.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/buffer.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/callbacks.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/endian.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/eventLoop.cc	/^namespace net$/;"	n	namespace:dc	file:
+net	dc/net/eventLoop.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/socketsOps.cc	/^namespace net$/;"	n	namespace:dc	file:
+net	dc/net/socketsOps.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/timer.cc	/^namespace net$/;"	n	namespace:dc	file:
+net	dc/net/timer.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/timerId.h	/^namespace net$/;"	n	namespace:dc
+net	dc/net/timerQueue.h	/^namespace net$/;"	n	namespace:dc
+networkToHost32	dc/net/endian.h	/^inline uint32_t networkToHost32(uint32_t net32)$/;"	f	namespace:dc::net::sockets
+networkToHost64	dc/net/endian.h	/^inline uint64_t networkToHost64(uint64_t net64)$/;"	f	namespace:dc::net::sockets
+noncopyable	dc/base/noncopyable.h	/^class noncopyable$/;"	c	namespace:dc
+notify	dc/base/condition.h	/^		void notify()$/;"	f	class:dc::Condition
+notifyAll	dc/base/condition.h	/^		void notifyAll()$/;"	f	class:dc::Condition
+now	dc/base/timeStamp.cc	/^Timestamp Timestamp::now()$/;"	f	class:dc::Timestamp
+numCreated	dc/base/thread.h	/^	static int numCreated() { return m_numCreated.get(); } $/;"	f	class:dc::Thread
+numCreated	dc/net/timer.h	/^	static int64_t numCreated() { return s_numCreated.get(); }$/;"	f	class:dc::net::Timer
+numThreads	dc/base/processInfo.cc	/^int numThreads()$/;"	f	namespace:dc::ProcessInfo
+offset	dc/base/gzipFile.h	/^    off_t offset() const { return ::gzoffset(m_file); }$/;"	f	class:dc::GzipFile
+openForAppend	dc/base/gzipFile.h	/^static GzipFile openForAppend(StringArg filename)$/;"	f	class:dc::GzipFile
+openForRead	dc/base/gzipFile.h	/^static GzipFile openForRead(StringArg filename)$/;"	f	class:dc::GzipFile
+openForWriteExclusive	dc/base/gzipFile.h	/^static GzipFile openForWriteExclusive(StringArg filename)$/;"	f	class:dc::GzipFile
+openForWriteTruncate	dc/base/gzipFile.h	/^static GzipFile openForWriteTruncate(StringArg filename)$/;"	f	class:dc::GzipFile
+openedFiles	dc/base/processInfo.cc	/^int openedFiles()$/;"	f	namespace:dc::ProcessInfo
+operator !=	dc/base/stringPieces.h	/^	bool operator!=(const StringPiece& x) const $/;"	f	class:dc::StringPiece
+operator ()	dc/base/timeZone.cc	/^		bool operator()( const Transition& lhs, const Transition& rhs ) const $/;"	f	struct:dc::TimeZone::Data::CompareLocalTime
+operator ()	dc/base/timeZone.cc	/^		bool operator()( const Transition& lhs, const Transition& rhs ) const$/;"	f	struct:dc::TimeZone::Data::CompareUtcTime
+operator <	dc/base/date.h	/^inline bool operator<(Date x, Date y)$/;"	f	namespace:dc
+operator <	dc/base/timeStamp.h	/^inline bool operator<(Timestamp lhs, Timestamp rhs )$/;"	f	namespace:dc
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(const void * p)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(double v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(int v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(long  long v )$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(long v )$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(short v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(unsigned int v )$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(unsigned long long v )$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(unsigned long v )$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.cc	/^LogStream& LogStream::operator<<(unsigned short v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(bool v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(char v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(const Buffer& v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(const StringPiece& v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(const char* str)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(const string& v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(const unsigned char* str)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^	self& operator<<(float v)$/;"	f	class:dc::LogStream
+operator <<	dc/base/logStream.h	/^inline LogStream& operator<<(LogStream&s, const Fmt& fmt)$/;"	f	namespace:dc
+operator <<	dc/base/logging.cc	/^inline LogStream& operator<<(LogStream& s, T v)$/;"	f	namespace:dc
+operator <<	dc/base/logging.cc	/^inline LogStream& operator<<(LogStream& s, const Logger::SourceFile& v)$/;"	f	namespace:dc
+operator ==	dc/base/date.h	/^inline bool operator==(Date x, Date y)$/;"	f	namespace:dc
+operator ==	dc/base/stringPieces.h	/^	bool operator==(const StringPiece& x) const $/;"	f	class:dc::StringPiece
+operator ==	dc/base/timeStamp.h	/^inline bool operator==(Timestamp lhs, Timestamp rhs)$/;"	f	namespace:dc
+operator []	dc/base/stringPieces.h	/^	char operator[](int i) const { return m_ptr[i]; }$/;"	f	class:dc::StringPiece
+outputFunc	test/test_logFile.cc	/^void outputFunc(const char* msg, int len)$/;"	f
+override	dc/base/exception.h	/^	~Exception() noexcept override = default;$/;"	m	class:dc::Exception
+pageSize	dc/base/processInfo.cc	/^int pageSize()$/;"	f	namespace:dc::ProcessInfo
+passbyreference	test/test_timestamp.cc	/^void passbyreference(dc::Timestamp& v)$/;"	f
+passbyvalue	test/test_timestamp.cc	/^void passbyvalue(dc::Timestamp v)$/;"	f
+peek	dc/net/buffer.h	/^	const char* peek() const$/;"	f	class:dc::net::Buffer
+peekInt16	dc/net/buffer.h	/^	int16_t peekInt16() const$/;"	f	class:dc::net::Buffer
+peekInt32	dc/net/buffer.h	/^	int32_t peekInt32() const$/;"	f	class:dc::net::Buffer
+peekInt64	dc/net/buffer.h	/^	int64_t peekInt64() const$/;"	f	class:dc::net::Buffer
+peekInt8	dc/net/buffer.h	/^	int8_t peekInt8() const$/;"	f	class:dc::net::Buffer
+pid	dc/base/processInfo.cc	/^pid_t pid()$/;"	f	namespace:dc::ProcessInfo
+pidString	dc/base/processInfo.cc	/^std::string pidString()$/;"	f	namespace:dc::ProcessInfo
+pointer	dc/base/threadLocalSingleton.h	/^	static T* pointer()$/;"	f	class:dc::ThreadLocalSingleton
+pollReturnTime	dc/base/eventLoop.h	/^	Timestamp pollReturnTime() const { return m_pollReturnTime; }$/;"	f	class:dc::net::EventLoop
+pollReturnTime	dc/net/eventLoop.h	/^	Timestamp pollReturnTime() const { return m_pollReturnTime; }$/;"	f	class:dc::net::EventLoop
+prepend	dc/net/buffer.h	/^	void prepend(const void* data, size_t len)$/;"	f	class:dc::net::Buffer
+prependInt16	dc/net/buffer.h	/^	void prependInt16(int16_t x)$/;"	f	class:dc::net::Buffer
+prependInt32	dc/net/buffer.h	/^	void prependInt32(int32_t x)$/;"	f	class:dc::net::Buffer
+prependInt64	dc/net/buffer.h	/^	void prependInt64(int64_t x)$/;"	f	class:dc::net::Buffer
+prependInt8	dc/net/buffer.h	/^	void prependInt8(int8_t x)$/;"	f	class:dc::net::Buffer
+prependableBytes	dc/net/buffer.h	/^	size_t prependableBytes() const$/;"	f	class:dc::net::Buffer
+print	test/test_threadLocal.cc	/^void print()$/;"	f
+print	test/test_threadpool.cc	/^void print()$/;"	f
+printActiveChannels	dc/net/eventLoop.cc	/^void EventLoop::printActiveChannels() const$/;"	f	class:dc::net::EventLoop
+printTm	test/test_log.cc	/^void printTm(dc::DateTime& t)$/;"	f
+printstr	test/test_threadpool.cc	/^void printstr(const std::string& str)$/;"	f
+procStat	dc/base/processInfo.cc	/^std::string procStat()$/;"	f	namespace:dc::ProcessInfo
+procStatus	dc/base/processInfo.cc	/^std::string procStatus()$/;"	f	namespace:dc::ProcessInfo
+procname	dc/base/processInfo.cc	/^StringPiece procname(const std::string& stat)$/;"	f	namespace:dc::ProcessInfo
+procname	dc/base/processInfo.cc	/^std::string procname()$/;"	f	namespace:dc::ProcessInfo
+put	dc/base/blockingQueue.h	/^	void put(T&& x)$/;"	f	class:dc::BlockingQueue
+put	dc/base/blockingQueue.h	/^    void put(const T& x)$/;"	f	class:dc::BlockingQueue
+put	dc/base/boundedBlockingQueue.h	/^    void put(T&& x)$/;"	f	class:dc::BoundedBlockingQueue
+put	dc/base/boundedBlockingQueue.h	/^    void put(const T& x)$/;"	f	class:dc::BoundedBlockingQueue
+qnxnto	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+qnxnto	CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+queueInLoop	dc/net/eventLoop.cc	/^void EventLoop::queueInLoop(Functor cb)$/;"	f	class:dc::net::EventLoop
+queueSize	dc/base/threadpool.cc	/^size_t ThreadPool::queueSize() const$/;"	f	class:dc::ThreadPool
+queueSize	dc/net/eventLoop.cc	/^size_t EventLoop::queueSize() const$/;"	f	class:dc::net::EventLoop
+quit	dc/net/eventLoop.cc	/^void EventLoop::quit()$/;"	f	class:dc::net::EventLoop
+read	dc/base/gzipFile.h	/^    int read(void* buf, len) { return ::gzwrite(m_file, buf, len);}$/;"	f	class:dc::GzipFile
+read	dc/net/socketsOps.cc	/^ssize_t sockets::read(int sockfd, void* buf, size_t count)$/;"	f	class:dc::net::sockets
+readBytes	dc/base/timeZone.cc	/^	std::string readBytes( int n)$/;"	f	class:dc::File
+readDataBlock	dc/base/timeZone.cc	/^bool readDataBlock(File& f, struct TimeZone::Data* data, bool v1)$/;"	f	namespace:dc
+readFd	dc/net/buffer.cc	/^ssize_t net::Buffer::readFd(int fd, int* savedErrno)$/;"	f	class:net::Buffer
+readFile	dc/base/fileUtil.h	/^int readFile(StringArg filename,$/;"	f	namespace:dc
+readInt32	dc/base/timeZone.cc	/^	int32_t readInt32()$/;"	f	class:dc::File
+readInt32	dc/net/buffer.h	/^	int32_t readInt32()$/;"	f	class:dc::net::Buffer
+readInt64	dc/base/timeZone.cc	/^	int64_t readInt64()$/;"	f	class:dc::File
+readInt64	dc/net/buffer.h	/^	int64_t readInt64()$/;"	f	class:dc::net::Buffer
+readInt8	dc/net/buffer.h	/^	int32_t readInt8()$/;"	f	class:dc::net::Buffer
+readTimeZoneFile	dc/base/timeZone.cc	/^bool readTimeZoneFile(const char* zoneFile, struct TimeZone::Data* data)$/;"	f	namespace:dc
+readToBuffer	dc/base/fileUtil.cc	/^int ReadSmallFile::readToBuffer(int* size)$/;"	f	class:dc::ReadSmallFile
+readToEnd	dc/base/timeZone.cc	/^	std::string readToEnd()$/;"	f	class:dc::File
+readToString	dc/base/fileUtil.cc	/^int ReadSmallFile::readToString(int maxSize,$/;"	f	class:dc::ReadSmallFile
+readUint8	dc/base/timeZone.cc	/^	int32_t readUint8()$/;"	f	class:dc::File
+readableBytes	dc/net/buffer.h	/^	size_t readableBytes() const$/;"	f	class:dc::net::Buffer
+readv	dc/net/socketsOps.cc	/^ssize_t sockets::readv(int sockfd, const struct iovec* iov, int iovcnt)$/;"	f	class:dc::net::sockets
+removeChannel	dc/net/eventLoop.cc	/^void EventLoop::removeChannel(Channel* channel)$/;"	f	class:dc::net::EventLoop
+remove_prefix	dc/base/stringPieces.h	/^	void remove_prefix(int n) $/;"	f	class:dc::StringPiece
+remove_suffix	dc/base/stringPieces.h	/^	void remove_suffix( int n )$/;"	f	class:dc::StringPiece
+repeat	dc/net/timer.h	/^	bool repeat() const { return is_repeat; }$/;"	f	class:dc::net::Timer
+require_32_bit_integer_at_least	dc/base/date.cc	/^char require_32_bit_integer_at_least[sizeof(int) >= sizeof(int32_t) ? 1 : -1];$/;"	m	namespace:dc	file:
+reset	dc/base/logStream.h	/^	void reset() { m_cur = m_data; }$/;"	f	class:dc::FixedBuffer
+resetBuffer	dc/base/logStream.h	/^	void resetBuffer() { m_buffer.reset(); }$/;"	f	class:dc::LogStream
+restart	dc/net/timer.cc	/^void Timer::restart(Timestamp now)$/;"	f	class:dc::net::Timer
+retrieve	dc/net/buffer.h	/^	void retrieve(size_t len)$/;"	f	class:dc::net::Buffer
+retrieveAll	dc/net/buffer.h	/^	void retrieveAll()$/;"	f	class:dc::net::Buffer
+retrieveAllAsString	dc/net/buffer.h	/^	string retrieveAllAsString()$/;"	f	class:dc::net::Buffer
+retrieveAsString	dc/net/buffer.h	/^	string retrieveAsString(size_t len)$/;"	f	class:dc::net::Buffer
+retrieveInt16	dc/net/buffer.h	/^	void retrieveInt16()$/;"	f	class:dc::net::Buffer
+retrieveInt32	dc/net/buffer.h	/^	void retrieveInt32()$/;"	f	class:dc::net::Buffer
+retrieveInt64	dc/net/buffer.h	/^	void retrieveInt64()$/;"	f	class:dc::net::Buffer
+retrieveInt8	dc/net/buffer.h	/^	void retrieveInt8()$/;"	f	class:dc::net::Buffer
+retrieveUntil	dc/net/buffer.h	/^	void retrieveUntil( const char* end )$/;"	f	class:dc::net::Buffer
+rollFile	dc/base/logFile.cc	/^bool LogFile::rollFile()$/;"	f	class:dc::LogFile
+run	dc/base/threadpool.cc	/^void ThreadPool::run(Task task)$/;"	f	class:dc::ThreadPool
+run	dc/net/timer.h	/^	void run()$/;"	f	class:dc::net::Timer
+run	test/test_blockingQueue.cc	/^		void run(int times)$/;"	f	class:Test
+run	test/test_blockingQueue_bench.cc	/^	void run(int times)$/;"	f	class:Bench
+run	test/test_boundQueue.cc	/^	void run(int times)$/;"	f	class:Test
+runAfter	dc/net/eventLoop.cc	/^TimerId EventLoop::runAfter(int delay, TimerCallback cb)$/;"	f	class:dc::net::EventLoop
+runAt	dc/net/eventLoop.cc	/^TimerId EventLoop::runAt(Timestamp time, TimerCallback cb)$/;"	f	class:dc::net::EventLoop
+runEvery	dc/net/eventLoop.cc	/^TimerId EventLoop::runEvery(int interval, TimeCallback cb)$/;"	f	class:dc::net::EventLoop
+runInLoop	dc/net/eventLoop.cc	/^void EventLoop::runInLoop(Functor cb)$/;"	f	class:dc::net::EventLoop
+runInThread	dc/base/thread.cc	/^    void runInThread()$/;"	f	struct:dc::ThreadData
+runInThread	dc/base/threadpool.cc	/^void ThreadPool::runInThread()$/;"	f	class:dc::ThreadPool
+s_numCreated	dc/net/timer.cc	/^AtomicInt64 Timer::s_numCreated;$/;"	m	class:dc::net::Timer	file:
+s_numCreated	dc/net/timer.h	/^	static AtomicInt64 s_numCreated;$/;"	m	class:dc::net::Timer
+scanDir	dc/base/processInfo.cc	/^int scanDir(const char* dirpath, int (*filter)(const struct dirent *))$/;"	f	namespace:dc
+secondsSinceEpoch	dc/base/timeStamp.h	/^	time_t secondsSinceEpoch() const $/;"	f	class:dc::Timestamp
+set	dc/base/stringPieces.h	/^	void set( const void * buffer, int len )$/;"	f	class:dc::StringPiece
+set	dc/base/stringPieces.h	/^	void set(const char* buffer, int len )$/;"	f	class:dc::StringPiece
+set	dc/base/stringPieces.h	/^	void set(const char* str)$/;"	f	class:dc::StringPiece
+set	dc/base/threadLocalSingleton.h	/^		void set(T* newObj)$/;"	f	class:dc::ThreadLocalSingleton::Deletor
+setBuffer	dc/base/gzipFile.h	/^    bool setBuffer(int size) { return ::gzbuffer(m_file, size) == 0; }$/;"	f	class:dc::GzipFile
+setContext	dc/base/eventLoop.h	/^	bool setContext(const std::any& context)$/;"	f	class:dc::net::EventLoop
+setContext	dc/net/eventLoop.h	/^	void setContext(const std::any& context)$/;"	f	class:dc::net::EventLoop
+setCookie	dc/base/logStream.h	/^	void setCookie( void (*cookie)() ) { m_cookie = cookie; }$/;"	f	class:dc::FixedBuffer
+setDefaultName	dc/base/thread.cc	/^void Thread::setDefaultName()$/;"	f	class:dc::Thread
+setFlush	dc/base/logging.cc	/^void Logger::setFlush(FlushFunc flush)$/;"	f	class:dc::Logger
+setLogLevel	dc/base/logging.cc	/^void Logger::setLogLevel(Logger::LogLevel level)$/;"	f	class:dc::Logger
+setMaxQueueSize	dc/base/threadpool.h	/^    void setMaxQueueSize(int maxSize) { _maxQueueSize = maxSize; }$/;"	f	class:dc::ThreadPool
+setName	test/test_singleton.cc	/^	void setName(const std::string& name_)$/;"	f	class:Test
+setName	test/test_singletonThreadLocal.cc	/^	void setName(const dc::string& name)$/;"	f	class:Test
+setName	test/test_threadLocal.cc	/^	void setName(const std::string& name)$/;"	f	class:Test
+setNonBlockAndClosedOnExec	dc/net/socketsOps.cc	/^void setNonBlockAndClosedOnExec(int sockfd)$/;"	f	namespace:__anon2
+setOutput	dc/base/logging.cc	/^void Logger::setOutput(OutputFunc out)$/;"	f	class:dc::Logger
+setThreadInitCallback	dc/base/threadpool.h	/^    void setThreadInitCallback(const Task& cb) { _threadInitCallback = cb; }$/;"	f	class:dc::ThreadPool
+setTimeZone	dc/base/logging.cc	/^void Logger::setTimeZone(const TimeZone& tz)$/;"	f	class:dc::Logger
+shrink	dc/net/buffer.h	/^	void shrink(size_t reserve)$/;"	f	class:dc::net::Buffer
+shutdownWrite	dc/net/socketsOps.cc	/^void sockets::shutdownWrite(int sockfd)$/;"	f	class:dc::net::sockets
+size	dc/base/blockingQueue.h	/^    size_t size() const$/;"	f	class:dc::BlockingQueue
+size	dc/base/boundedBlockingQueue.h	/^    size_t size() const$/;"	f	class:dc::BoundedBlockingQueue
+size	dc/base/stringPieces.h	/^	int size() const { return m_length; }$/;"	f	class:dc::StringPiece
+sizeof	dc/base/timeStamp.cc	/^static_assert( sizeof(Timestamp) == sizeof(int64_t ),$/;"	m	namespace:dc	file:
+skip	dc/base/timeZone.cc	/^	off_t skip(ssize_t bytes)$/;"	f	class:dc::File
+sleepUsec	dc/base/thread.cc	/^void CurrentThread::sleepUsec(int64_t usec)$/;"	f	class:dc::CurrentThread
+sockaddr_cast	dc/net/socketsOps.cc	/^const struct sockaddr* sockets::sockaddr_cast(const struct sockaddr_in* addr)$/;"	f	class:dc::net::sockets
+sockaddr_cast	dc/net/socketsOps.cc	/^const struct sockaddr* sockets::sockaddr_cast(const struct sockaddr_in6* addr)$/;"	f	class:dc::net::sockets
+sockaddr_cast	dc/net/socketsOps.cc	/^struct sockaddr* sockets::sockaddr_cast(struct sockaddr_in6* addr)$/;"	f	class:dc::net::sockets
+sockaddr_in6_cast	dc/net/socketsOps.cc	/^const struct sockaddr_in6* sockets::sockaddr_in6_cast(const struct sockaddr* addr)$/;"	f	class:dc::net::sockets
+sockaddr_in_cast	dc/net/socketsOps.cc	/^const struct sockaddr_in* sockets::sockaddr_in_cast(const struct sockaddr* addr)$/;"	f	class:dc::net::sockets
+sockets	dc/net/endian.h	/^namespace sockets$/;"	n	namespace:dc::net
+sockets	dc/net/socketsOps.h	/^namespace sockets$/;"	n	namespace:dc::net
+stackTrace	dc/base/currentThread.cc	/^std::string stackTrace(bool demangle)$/;"	f	namespace:dc::CurrentThread
+start	dc/base/asyncLogging.h	/^    void start()$/;"	f	class:dc::AsyncLogging
+start	dc/base/thread.cc	/^void Thread::start()$/;"	f	class:dc::Thread
+start	dc/base/threadpool.cc	/^void ThreadPool::start(int  numThreads)$/;"	f	class:dc::ThreadPool
+startThread	dc/base/thread.cc	/^void* startThread( void* obj )$/;"	f	namespace:dc
+startTime	dc/base/processInfo.cc	/^Timestamp startTime()$/;"	f	namespace:dc::ProcessInfo
+started	dc/base/thread.h	/^	bool started() const { return is_started;}$/;"	f	class:dc::Thread
+starts_with	dc/base/stringPieces.h	/^	bool starts_with( const StringPiece& x) const$/;"	f	class:dc::StringPiece
+staticCheck	dc/base/logStream.cc	/^void LogStream::staticCheck()$/;"	f	class:dc::LogStream
+stop	dc/base/asyncLogging.h	/^    void stop() \/\/NO_THREAD_SAFETY_ANALYSIS$/;"	f	class:dc::AsyncLogging
+stop	dc/base/threadpool.cc	/^void ThreadPool::stop()$/;"	f	class:dc::ThreadPool
+stream	dc/base/logging.h	/^    LogStream& stream() { return m_impl.m_stream; }$/;"	f	class:dc::Logger
+strerror_tl	dc/base/logging.cc	/^const char* strerror_tl(int savedErrno)$/;"	f	namespace:dc
+swap	dc/base/date.h	/^  void swap(Date& that)$/;"	f	class:dc::Date
+swap	dc/base/gzipFile.h	/^    void swap(GzipFile& rhs) { std::swap(m_file, rhs.m_file); }$/;"	f	class:dc::GzipFile
+swap	dc/base/timeStamp.h	/^	void swap(Timestamp& that )$/;"	f	class:dc::Timestamp
+swap	dc/net/buffer.h	/^	void swap(Buffer& rhs)$/;"	f	class:dc::net::Buffer
+systemSeconds	dc/base/processInfo.h	/^    double systemSeconds;$/;"	m	struct:dc::ProcessInfo::CpuTime
+t_cachedTid	dc/base/currentThread.cc	/^thread_local int t_cachedTid = 0;$/;"	m	namespace:dc::CurrentThread	file:
+t_deletor	dc/base/threadLocalSingleton.h	/^	static Deletor t_deletor;$/;"	m	class:dc::ThreadLocalSingleton
+t_deletor	dc/base/threadLocalSingleton.h	/^typename ThreadLocalSingleton<T>::Deletor ThreadLocalSingleton<T>::t_deletor;$/;"	m	class:dc::ThreadLocalSingleton
+t_errnobuf	dc/base/logging.cc	/^__thread char t_errnobuf[512];$/;"	m	namespace:dc	file:
+t_lastSecond	dc/base/logging.cc	/^__thread time_t t_lastSecond;$/;"	m	namespace:dc	file:
+t_loopInThisThread	dc/net/eventLoop.cc	/^thread_local EventLoop* t_loopInThisThread = nullptr;$/;"	m	namespace:__anon3	file:
+t_numOpenedFiles	dc/base/processInfo.cc	/^__thread int t_numOpenedFiles = 0;$/;"	m	namespace:dc	file:
+t_pids	dc/base/processInfo.cc	/^__thread std::vector<pid_t>* t_pids = nullptr;$/;"	m	namespace:dc	file:
+t_threadName	dc/base/currentThread.cc	/^__thread const char* t_threadName = "unknown";$/;"	m	namespace:dc::CurrentThread	file:
+t_tidString	dc/base/currentThread.cc	/^__thread char t_tidString[32];$/;"	m	namespace:dc::CurrentThread	file:
+t_tidStringLength	dc/base/currentThread.cc	/^__thread int t_tidStringLength = 0;$/;"	m	namespace:dc::CurrentThread	file:
+t_time	dc/base/logging.cc	/^__thread char t_time[64];$/;"	m	namespace:dc	file:
+t_value	dc/base/threadLocalSingleton.h	/^	static thread_local T* t_value;$/;"	m	class:dc::ThreadLocalSingleton
+t_value	dc/base/threadLocalSingleton.h	/^thread_local T* ThreadLocalSingleton<T>::t_value = nullptr;$/;"	m	class:dc::ThreadLocalSingleton
+take	dc/base/blockingQueue.h	/^    T take()$/;"	f	class:dc::BlockingQueue
+take	dc/base/boundedBlockingQueue.h	/^    T take()$/;"	f	class:dc::BoundedBlockingQueue
+take	dc/base/threadpool.cc	/^ThreadPool::Task ThreadPool::take()$/;"	f	class:dc::ThreadPool
+taskDirFilter	dc/base/processInfo.cc	/^int taskDirFilter(const struct dirent* d)$/;"	f	namespace:dc
+tell	dc/base/gzipFile.h	/^    off_t tell() const { return ::gztell(m_file); }$/;"	f	class:dc::GzipFile
+test	test/test_exception.cc	/^	void test(std::vector<std::string> names = {} )$/;"	f	class:Bar
+test	test/test_threadpool.cc	/^void test(int maxSize)$/;"	f
+test2	test/test_threadpool.cc	/^void test2()$/;"	f
+testMove	test/test_blockingQueue.cc	/^void testMove()$/;"	f
+testobj1	test/test_threadLocal.cc	/^dc::ThreadLocal<Test> testobj1;$/;"	v
+testobj2	test/test_threadLocal.cc	/^dc::ThreadLocal<Test> testobj2;$/;"	v
+threadFunc	dc/base/asyncLogging.cc	/^void AsyncLogging::threadFunc()$/;"	f	class:dc::AsyncLogging
+threadFunc	test/test_blockingQueue.cc	/^		void threadFunc()$/;"	f	class:Test	file:
+threadFunc	test/test_blockingQueue_bench.cc	/^	void threadFunc()$/;"	f	class:Bench	file:
+threadFunc	test/test_boundQueue.cc	/^	void threadFunc()$/;"	f	class:Test	file:
+threadFunc	test/test_mutex.cc	/^void threadFunc()$/;"	f
+threadFunc	test/test_singletonThreadLocal.cc	/^void threadFunc(const char* changeInfo)$/;"	f
+threadFunc	test/test_thread.cc	/^void threadFunc()$/;"	f
+threadFunc	test/test_threadLocal.cc	/^void threadFunc()$/;"	f
+threadStat	dc/base/processInfo.cc	/^std::string threadStat()$/;"	f	namespace:dc::ProcessInfo
+threads	dc/base/processInfo.cc	/^std::vector<pid_t> threads()$/;"	f	namespace:dc::ProcessInfo
+tid	dc/base/currentThread.h	/^inline int tid()$/;"	f	namespace:dc::CurrentThread
+tid	dc/base/thread.h	/^	pid_t tid() const { return m_pid; }$/;"	f	class:dc::Thread
+tidString	dc/base/currentThread.h	/^inline const char* tidString()$/;"	f	namespace:dc::CurrentThread
+tidStringLength	dc/base/currentThread.h	/^inline int tidStringLength()$/;"	f	namespace:dc::CurrentThread
+tid_	dc/base/thread.cc	/^    pid_t *tid_;$/;"	m	struct:dc::ThreadData	file:
+timeDifference	dc/base/timeStamp.h	/^inline double timeDifference( Timestamp high, Timestamp low )$/;"	f	namespace:dc
+toFormattedString	dc/base/timeStamp.cc	/^std::string Timestamp::toFormattedString(bool showMicroseconds ) const$/;"	f	class:dc::Timestamp
+toIp	dc/net/socketsOps.cc	/^void sockets::toIp(char* buf, size_t size,$/;"	f	class:dc::net::sockets
+toIpPort	dc/net/socketsOps.cc	/^void sockets::toIpPort(char* buf, size_t size,$/;"	f	class:dc::net::sockets
+toIsoString	dc/base/date.cc	/^string Date::toIsoString() const$/;"	f	class:Date
+toIsoString	dc/base/timeZone.cc	/^ string DateTime::toIsoString() const$/;"	f	class:dc::DateTime
+toLocalTime	dc/base/timeZone.cc	/^ struct DateTime TimeZone::toLocalTime(int64_t seconds, int* utcOffset) const$/;"	f	class:dc::TimeZone
+toString	dc/base/logStream.h	/^	std::string toString() const { return std::string(m_data, length()); }$/;"	f	class:dc::FixedBuffer
+toString	dc/base/timeStamp.cc	/^std::string Timestamp::toString() const$/;"	f	class:dc::Timestamp
+toStringPiece	dc/base/logStream.h	/^	StringPiece toStringPiece() const { return StringPiece(m_data, length()); }$/;"	f	class:dc::FixedBuffer
+toStringPiece	dc/net/buffer.h	/^	StringPiece toStringPiece() const$/;"	f	class:dc::net::Buffer
+toUtcTime	dc/base/timeZone.cc	/^ DateTime TimeZone::toUtcTime(int64_t secondsSinceEpoch)$/;"	f	class:dc::TimeZone
+total	dc/base/processInfo.h	/^    double total() const { return userSeconds + systemSeconds; }$/;"	f	struct:dc::ProcessInfo::CpuTime
+transitions	dc/base/timeZone.cc	/^	std::vector<Transition> transitions;$/;"	m	struct:dc::TimeZone::Data	file:
+tzstring	dc/base/timeZone.cc	/^	std::string tzstring;$/;"	m	struct:dc::TimeZone::Data	file:
+uid	dc/base/processInfo.cc	/^uid_t uid()$/;"	f	namespace:dc::ProcessInfo
+unwrite	dc/net/buffer.h	/^	void unwrite(size_t len)$/;"	f	class:dc::net::Buffer
+updateChannel	dc/net/eventLoop.cc	/^void EventLoop::updateChannel(Channel* channel)$/;"	f	class:dc::net::EventLoop
+userSeconds	dc/base/processInfo.h	/^    double userSeconds;$/;"	m	struct:dc::ProcessInfo::CpuTime
+username	dc/base/processInfo.cc	/^std::string username()$/;"	f	namespace:dc::ProcessInfo
+utcOffset	dc/base/timeZone.cc	/^		int32_t utcOffset; \/\/east of utc， utc转化为本地时间的差值$/;"	m	struct:dc::TimeZone::Data::LocalTime	file:
+utctime	dc/base/timeZone.cc	/^		int64_t utctime; \/\/utc时间$/;"	m	struct:dc::TimeZone::Data::Transition	file:
+valid	dc/base/date.h	/^  bool valid() const { return julianDayNumber_ > 0; }$/;"	f	class:dc::Date
+valid	dc/base/gzipFile.h	/^    bool valid() const {return m_file != NULL; }$/;"	f	class:dc::GzipFile
+valid	dc/base/timeStamp.h	/^	bool valid() const { return m_microSecondsSinceEpoch > 0;} $/;"	f	class:dc::Timestamp
+valid	dc/base/timeZone.cc	/^	bool valid() const { return m_fp; }$/;"	f	class:dc::File
+valid	dc/base/timeZone.h	/^	bool valid() const$/;"	f	class:dc::TimeZone
+value	dc/base/singleton.h	/^    const static bool value = sizeof(test<T>(0)) == 1;$/;"	m	struct:dc::detail::has_no_destroy
+value	dc/base/threadLocal.h	/^    T& value()$/;"	f	class:dc::ThreadLocal
+volatile	CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
+wait	dc/base/condition.h	/^		void wait()$/;"	f	class:dc::Condition
+wait	dc/base/countDownLatch.cc	/^void CountDownLatch::wait()$/;"	f	class:dc::CountDownLatch
+waitForSeconds	dc/base/condition.cc	/^bool dc::Condition::waitForSeconds( double seconds )$/;"	f	class:dc::Condition
+wakeup	dc/net/eventLoop.cc	/^void EventLoop::wakeup()$/;"	f	class:dc::net::EventLoop
+wakeupFd	dc/net/eventLoop.h	/^	int wakeupFd;$/;"	m	class:dc::net::EventLoop
+weekDay	dc/base/date.h	/^  int weekDay() const$/;"	f	class:dc::Date
+writableBytes	dc/net/buffer.h	/^	size_t writableBytes() const $/;"	f	class:dc::net::Buffer
+write	dc/base/fileUtil.cc	/^size_t AppendFile::write(const char* logline , size_t len)$/;"	f	class:dc::AppendFile
+write	dc/base/gzipFile.h	/^    int write(StringPiece buf) { return ::gzwrite(m_file, buf.data(), buf.size()); }$/;"	f	class:dc::GzipFile
+write	dc/net/socketsOps.cc	/^ssize_t sockets::write(int sockfd, void* buf, size_t count)$/;"	f	class:dc::net::sockets
+writtenBytes	dc/base/fileUtil.h	/^    off_t writtenBytes() const { return m_writtenBytes; }$/;"	f	class:dc::AppendFile
+year	dc/base/date.h	/^    int year; \/\/ [1900..2500]$/;"	m	struct:dc::Date::YearMonthDay
+year	dc/base/date.h	/^  int year() const$/;"	f	class:dc::Date
+yearMonthDay	dc/base/date.cc	/^Date::YearMonthDay Date::yearMonthDay() const$/;"	f	class:Date
+zero	dc/base/logStream.cc	/^const char* zero = digits + 9;$/;"	m	namespace:dc	file:
+~AppendFile	dc/base/fileUtil.cc	/^AppendFile::~AppendFile()$/;"	f	class:dc::AppendFile
+~AsyncLogging	dc/base/asyncLogging.h	/^    ~AsyncLogging()$/;"	f	class:dc::AsyncLogging
+~Condition	dc/base/condition.h	/^		~Condition( )$/;"	f	class:dc::Condition
+~Deletor	dc/base/threadLocalSingleton.h	/^		~Deletor()$/;"	f	class:dc::ThreadLocalSingleton::Deletor
+~EventLoop	dc/net/eventLoop.cc	/^EventLoop::~EventLoop()$/;"	f	class:dc::net::EventLoop
+~File	dc/base/timeZone.cc	/^	~File()$/;"	f	class:dc::File
+~FixedBuffer	dc/base/logStream.h	/^	~FixedBuffer()$/;"	f	class:dc::FixedBuffer
+~GzipFile	dc/base/gzipFile.h	/^    ~GzipFile()$/;"	f	class:dc::GzipFile
+~Logger	dc/base/logging.cc	/^Logger::~Logger()$/;"	f	class:dc::Logger
+~ReadSmallFile	dc/base/fileUtil.cc	/^ReadSmallFile::~ReadSmallFile()$/;"	f	class:dc::ReadSmallFile
+~Test	test/test_singletonThreadLocal.cc	/^	~Test()$/;"	f	class:Test
+~Thread	dc/base/thread.cc	/^Thread::~Thread()$/;"	f	class:dc::Thread
+~ThreadLocal	dc/base/threadLocal.h	/^    ~ThreadLocal()$/;"	f	class:dc::ThreadLocal
+~ThreadPool	dc/base/threadpool.cc	/^ThreadPool::~ThreadPool()$/;"	f	class:dc::ThreadPool
