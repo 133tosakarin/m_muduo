@@ -118,7 +118,6 @@ CMakeFiles/test_fileUtil.dir/test/test_fileUtil.cc.o: test/test_fileUtil.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -185,8 +184,6 @@ CMakeFiles/test_fileUtil.dir/test/test_fileUtil.cc.o: test/test_fileUtil.cc \
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm/errno.h:
-
-/usr/include/bits/stdio.h:
 
 /usr/include/bits/sys_errlist.h:
 

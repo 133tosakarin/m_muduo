@@ -116,7 +116,6 @@ CMakeFiles/test_exception.dir/test/test_exception.cc.o: test/test_exception.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -162,6 +161,8 @@ CMakeFiles/test_exception.dir/test/test_exception.cc.o: test/test_exception.cc \
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/stdlib.h:
 
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
+
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/algorithmfwd.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/vector.tcc:
@@ -203,10 +204,6 @@ dc/base/currentThread.h:
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm/errno.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/bits/stdio.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/erase_if.h:
 

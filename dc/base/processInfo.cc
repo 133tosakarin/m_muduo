@@ -16,7 +16,7 @@ namespace dc
 {
 
 
-__thread int t_numOpenedFiles = 0;
+thread_local int t_numOpenedFiles = 0;
 int fdDirFilter(const struct dirent* d)
 {
     if( ::isdigit(d->d_name[0]))

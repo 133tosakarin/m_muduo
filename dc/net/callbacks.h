@@ -2,6 +2,8 @@
 #define DC_NET_CALLBACKS_H
 
 #include "dc/base/timeStamp.h"
+#include "dc/base/types.h"
+#include <cassert>
 #include <functional>
 #include <memory>
 
@@ -37,10 +39,11 @@ inline std::shared_ptr<To> down_pointer_cast(const std::shared_ptr<From>& f)
 	}
 
 #ifndef NDEBUG
-	assert(f == nullptr || dynamic_cast<To*>(get_pointer(f) != nullptr);
+	assert(f == nullptr || dynamic_cast<To*>(get_pointer(f) != nullptr));
 #endif
 	return std::static_pointer_cast<To>(f);
 }
+
 
 namespace net
 {
@@ -51,14 +54,17 @@ using TcpConnectionPtr = std::shared_ptr<TcpConnection>;
 using TimerCallback = std::function<void()>;
 using ConnectionCallback = std::function<void (const TcpConnectionPtr&)>;
 using CloseCallback = std::function<void (const TcpConnectionPtr&)>;
-using WriteCallback = std::function<void (const TcpConnectionPtr&)>;
-using HignWaterMarkCallback = std::function<void (const TcpConnectionPtr&)>;
+using WriteCompleteCallback = std::function<void (const TcpConnectionPtr&)>;
+using HighWaterMarkCallback = std::function<void (const TcpConnectionPtr&, size_t )>;
 
 // the data has been read to (buf, len)
-using MessageCallback = std::function<void (const TcpConnectionPtr&,
+using MessageCallback = std::function<void(const TcpConnectionPtr&,
 											Buffer*,
-											Timestamp receiveTime);
-											
+											Timestamp receiveTime)>;
+
+void defaultConnectionCallback(const TcpConnectionPtr& conn);
+void defaultMessageCallback(const TcpConnectionPtr& conn,
+								Buffer* buffer, Timestamp receiveTime);
 
 }	//namespace net
 }	//namespace dc

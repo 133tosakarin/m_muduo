@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/root/m_muduo/. -I/root/m_muduo/dc/base
 
-CXX_FLAGS =  -rdynamic -O0 -O3 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system
+CXX_FLAGS =  -rdynamic   -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system 
 

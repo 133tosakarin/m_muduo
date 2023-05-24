@@ -36,7 +36,7 @@ ssize_t net::Buffer::readFd(int fd, int* savedErrno)
 	}
 	else
 	{
-		m_writerIndex = m_buffer.size();
+		m_writerIndex = m_buffers.size();
 		append(extrabuf, n - writable);
 	}
 	return n;

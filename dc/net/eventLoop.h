@@ -9,9 +9,9 @@
 #include "dc/base/noncopyable.h"
 #include "dc/base/mutex.h"
 #include "dc/base/timeStamp.h"
+#include "dc/base/currentThread.h"
 #include "dc/net/timerId.h"
 #include "dc/net/callbacks.h"
-#include "dc/base/currentThread.h"
 
 namespace dc
 {
@@ -22,13 +22,13 @@ namespace net
 class Channel;
 class Poller;
 class TimerQueue;
-
+class TimerId;
 
 //Reactor, at most one per thread
-class EventLoop : noncopable
+class EventLoop : noncopyable
 {
 public:
-	using std::function<void()> Functor;
+	using Functor = std::function<void()>;
 	EventLoop();
 	~EventLoop();
 
@@ -43,7 +43,7 @@ public:
 
 	Timestamp pollReturnTime() const { return m_pollReturnTime; }
 
-	int64_t iteration() const { return iteration; } 
+	int64_t iteration() const { return m_iteration; } 
 
 	// Runs callback immediately in the loop thread.
 	// It wakeup the loop , and run the cb.
@@ -61,11 +61,11 @@ public:
 	// timers
 	// Runs callback at 'time'
 
-	void runAt(Timestamp time, TimerCallback cb);
+	TimerId runAt(Timestamp time, TimerCallback cb);
 
-	void runAfter(double delay, TimerCallback cb);
+	TimerId runAfter(double delay, TimerCallback cb);
 
-	void runEvery(double interval, TimerCallback cb);
+	TimerId runEvery(double interval, TimerCallback cb);
 
 
 	void cancel(TimerId timerId);
@@ -76,7 +76,7 @@ public:
 	void removeChannel(Channel* channel);
 	bool hasChannel(Channel* channel);
 
-	void assertInLoopThread();
+	void assertInLoopThread()
 	{
 		if(!isInLoopThread())
 		{
@@ -99,10 +99,11 @@ public:
 		m_context = context;
 	}
 
-	std::any* getMutableContext() 	{
+	std::any* getMutableContext() 	
+	{
 		return &m_context;
 	}
-	std::any& getContext() const
+	const std::any& getContext() const
 	{
 		return m_context;
 	}
@@ -110,27 +111,28 @@ public:
 	static EventLoop* getEventLoopOfCurrentThread();
 private:
 	using ChannelList = std::vector<Channel*>;
-	void abortNotInThread();
+	void abortNotInLoopThread();
 	void handleRead();
 	void doPendingFunctors();
 	
 	void printActiveChannels() const;
+	//bool is atomic in linux 	
+	bool is_looping;
+	bool is_quit;
+	bool is_eventHandling;
+	bool is_callingPendingFunctors;
 	
-	std::atomic<bool> is_looping;
-	std::atomic<bool> is_quit;
-	std::atomic<bool> is_eventHandling;
-	std::atomic<bool> is_callingPendingFunctors;
-	int64_t iteration;
+	int64_t m_iteration;
 	const pid_t m_threadId;
-	Timestamp m_pollReturnTIme;
+	Timestamp m_pollReturnTime;
 	std::unique_ptr<Poller> m_poller;
 	std::unique_ptr<TimerQueue> m_timerQueue;
-	int wakeupFd;
+	int m_wakeupFd;
 	std::unique_ptr<Channel> m_wakeupChannel;
 	std::any m_context;
 
 	ChannelList m_activeChannels;
-	Channel* currentActiveChannel;
+	Channel* m_currentActiveChannel;
 
 	mutable MutexLock m_mutex;
 	std::vector<Functor> m_pendingFunctors GUARDED_BY(m_mutex);

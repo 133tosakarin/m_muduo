@@ -1,8 +1,9 @@
 #include "dc/net/eventLoop.h"
 #include "dc/base/logging.h"
 #include "dc/net/poller.h"
-#include "dc/net/socketOps.h"
-
+#include "dc/net/socketsOps.h"
+#include "dc/net/timerQueue.h"
+#include "dc/net/channel.h"
 
 #include <algorithm>
 #include <signal.h>
@@ -11,7 +12,7 @@
 
 namespace
 {
-thread_local EventLoop* t_loopInThisThread = nullptr;
+thread_local dc::net::EventLoop* t_loopInThisThread = nullptr;
 const int kPollTimeMs = 10000;
 
 int createEventfd()
@@ -26,10 +27,10 @@ int createEventfd()
 	return evtfd;
 }
 #pragma GCC diagnostic ignored "-Wold-style-cast"
-class IgnorSigPipe
+class IgnoreSigPipe
 {
 public:
-	IgnorSigPipe()
+	IgnoreSigPipe()
 	{
 		::signal(SIGPIPE, SIG_IGN);
 
@@ -93,15 +94,16 @@ EventLoop::~EventLoop()
 
 void EventLoop::loop()
 {
+	//LOG_INFO << "EventLoop " << this << "first into ";
 	assert(!is_looping);
 	assertInLoopThread();
 	is_looping = true;
 	is_quit = false;
 	LOG_TRACE << "EventLoop " << this << " start looping";
-	while(is_quit)
+	while(!is_quit)
 	{
 		m_activeChannels.clear();
-		m_pollReturnTime = m_poller->poll(kPollTimeMs, &activeChannels);
+		m_pollReturnTime = m_poller->poll(kPollTimeMs, &m_activeChannels);
 		++m_iteration;
 		if( Logger::logLevel() <= Logger::TRACE)
 		{
@@ -115,7 +117,7 @@ void EventLoop::loop()
 		}
 
 		m_currentActiveChannel = nullptr;
-		m_eventHandling = false;
+		is_eventHandling = false;
 		doPendingFunctors();
 	}
 	LOG_TRACE << "EventLoop " << this << " stop looping";
@@ -140,7 +142,7 @@ void EventLoop::runInLoop(Functor cb)
 	}
 	else
 	{
-		m_queueInLoop(std::move(cb));
+		queueInLoop(std::move(cb));
 	}
 
 }
@@ -167,26 +169,27 @@ TimerId EventLoop::runAt(Timestamp time, TimerCallback cb)
 	return m_timerQueue->addTimer(std::move(cb), time, 0.0);
 }
 
-TimerId EventLoop::runAfter(int delay, TimerCallback cb)
+TimerId EventLoop::runAfter(double delay, TimerCallback cb)
 {
+	//LOG_INFO << "add a timer delay = " << delay;
 	Timestamp time(addTime(Timestamp::now(), delay));
 	return runAt(time, std::move(cb));
 }
 
-TimerId EventLoop::runEvery(int interval, TimeCallback cb)
+TimerId EventLoop::runEvery(double interval, TimerCallback cb)
 {
 	Timestamp time(addTime(Timestamp::now(), interval));
 	return m_timerQueue->addTimer(std::move(cb), time, interval); 
 }
 
-void cancel(TimerId timerId)
+void EventLoop::cancel(TimerId timerId)
 {
 	return m_timerQueue->cancel(timerId);
 }
 
 void EventLoop::updateChannel(Channel* channel)
 {
-	assert(channel->onwerLoop() == this);
+	assert(channel->ownerLoop() == this);
 	assertInLoopThread();
 	m_poller->updateChannel(channel);
 }
@@ -194,11 +197,11 @@ void EventLoop::updateChannel(Channel* channel)
 
 void EventLoop::removeChannel(Channel* channel)
 {
-	assert(channel->onwerLoop() == this );
+	assert(channel->ownerLoop() == this );
 	assertInLoopThread();
 	if( is_eventHandling )
 	{
-		assert(m_currentActiveChannel == channel || std::find(m_activeChannels.begin(), m_activeChannels.end(), channel));
+		assert( (m_currentActiveChannel == channel ) || (std::find(m_activeChannels.begin(), m_activeChannels.end(), channel) == m_activeChannels.end() ));
 	}
 	m_poller->removeChannel(channel);
 }
@@ -243,7 +246,7 @@ void EventLoop::doPendingFunctors()
 		MutexLockGuard lock(m_mutex);
 		functors.swap(m_pendingFunctors);
 	}
-	for( const Functors& functor : functors)
+	for( const Functor& functor : functors)
 	{
 		functor();
 	}

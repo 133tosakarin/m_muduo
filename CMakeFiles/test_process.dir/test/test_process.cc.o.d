@@ -97,7 +97,7 @@ CMakeFiles/test_process.dir/test/test_process.cc.o: \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/std_abs.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/cstdio /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
- /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+ /usr/include/bits/sys_errlist.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno /usr/include/errno.h \
  /usr/include/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \

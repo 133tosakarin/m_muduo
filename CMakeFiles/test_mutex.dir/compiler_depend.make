@@ -119,7 +119,6 @@ CMakeFiles/test_mutex.dir/test/test_mutex.cc.o: test/test_mutex.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -549,14 +548,6 @@ test/test_mutex.cc:
 
 /usr/include/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
 /usr/include/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
@@ -614,6 +605,12 @@ dc/base/countDownLatch.h:
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/algorithmfwd.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/cstddef:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
 
 /usr/local/include/boost/config/detail/select_compiler_config.hpp:
 

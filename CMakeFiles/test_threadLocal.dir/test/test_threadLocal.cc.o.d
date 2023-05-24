@@ -25,7 +25,6 @@ CMakeFiles/test_threadLocal.dir/test/test_threadLocal.cc.o: \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
  /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/string \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stringfwd.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/memoryfwd.h \

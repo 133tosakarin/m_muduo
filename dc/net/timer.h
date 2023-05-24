@@ -4,6 +4,7 @@
 #include  "dc/base/atomic.h"
 #include "dc/base/timeStamp.h"
 #include "dc/net/callbacks.h"
+#include "dc/base/noncopyable.h"
 
 
 namespace dc
@@ -33,6 +34,7 @@ public:
 	bool repeat() const { return is_repeat; }
 	void restart(Timestamp now);
 	static int64_t numCreated() { return s_numCreated.get(); }
+	const int64_t sequence() const { return m_sequence; }
 private:
 	const TimerCallback m_callback;
 	Timestamp m_expiration;
@@ -45,13 +47,14 @@ private:
 
 
 }
-
-
-
-
-
-
-
-
 }
+#endif
+
+
+
+
+
+
+
+
 

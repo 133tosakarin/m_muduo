@@ -113,7 +113,6 @@ CMakeFiles/test_singleton.dir/test/test_singleton.cc.o: test/test_singleton.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -193,6 +192,8 @@ dc/base/singleton.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_raw_storage_iter.h:
 
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
+
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/algorithmfwd.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_lockfree_defines.h:
@@ -242,10 +243,6 @@ dc/base/countDownLatch.h:
 /opt/rh/devtoolset-9/root/usr/include/c++/9/cstring:
 
 /usr/include/linux/errno.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/bits/stdio.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/erase_if.h:
 

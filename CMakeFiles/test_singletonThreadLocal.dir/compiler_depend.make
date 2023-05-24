@@ -44,7 +44,6 @@ CMakeFiles/test_singletonThreadLocal.dir/test/test_singletonThreadLocal.cc.o: te
   /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   dc/base/thread.h \
   dc/base/atomic.h \
   /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdint.h \
@@ -198,6 +197,8 @@ dc/base/threadLocalSingleton.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_raw_storage_iter.h:
 
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
+
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/algorithmfwd.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_lockfree_defines.h:
@@ -272,8 +273,6 @@ dc/base/threadLocalSingleton.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/c++locale.h:
 
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/nested_exception.h:
-
 /usr/include/_G_config.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/exception_ptr.h:
@@ -328,6 +327,22 @@ dc/base/noncopyable.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/functexcept.h:
 
+/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdint.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/unique_ptr.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/bits/byteswap-16.h:
+
+dc/base/mutex.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/cwchar:
+
+/usr/include/bits/stdlib-float.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/cstdint:
+
 /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
 
 /usr/include/locale.h:
@@ -339,26 +354,6 @@ dc/base/noncopyable.h:
 /usr/include/bits/sched.h:
 
 /usr/include/gnu/stubs.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/bits/stdio.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/ostream_insert.h:
-
-/usr/include/stdlib.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_vector.h:
-
-/usr/include/stdio.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/backward/binders.h:
-
-/usr/include/bits/select.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/ext/numeric_traits.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/ptr_traits.h:
 
@@ -392,31 +387,33 @@ dc/base/condition.h:
 
 /usr/include/sys/select.h:
 
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/unique_ptr.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/bits/byteswap-16.h:
-
-/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdint.h:
-
-dc/base/mutex.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/cwchar:
-
-/usr/include/bits/stdlib-float.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/cstdint:
-
 /usr/include/time.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/stdlib.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/nested_exception.h:
 
 test/test_singletonThreadLocal.cc:
 
 /usr/include/bits/endian.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/ostream_insert.h:
+
+/usr/include/stdlib.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_vector.h:
+
+/usr/include/stdio.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/backward/binders.h:
+
+/usr/include/bits/select.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/ext/numeric_traits.h:
 
 /usr/include/libio.h:
 

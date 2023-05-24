@@ -120,238 +120,108 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_logging
+# Target rules for targets named test_httpRequest
 
 # Build rule for target.
-test_logging: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logging
-.PHONY : test_logging
+test_httpRequest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_httpRequest
+.PHONY : test_httpRequest
 
 # fast build rule for target.
-test_logging/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logging.dir/build.make CMakeFiles/test_logging.dir/build
-.PHONY : test_logging/fast
+test_httpRequest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_httpRequest.dir/build.make CMakeFiles/test_httpRequest.dir/build
+.PHONY : test_httpRequest/fast
 
 #=============================================================================
-# Target rules for targets named test_logFile
+# Target rules for targets named test_echoClient
 
 # Build rule for target.
-test_logFile: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logFile
-.PHONY : test_logFile
+test_echoClient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_echoClient
+.PHONY : test_echoClient
 
 # fast build rule for target.
-test_logFile/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logFile.dir/build.make CMakeFiles/test_logFile.dir/build
-.PHONY : test_logFile/fast
+test_echoClient/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoClient.dir/build.make CMakeFiles/test_echoClient.dir/build
+.PHONY : test_echoClient/fast
 
 #=============================================================================
-# Target rules for targets named test_blockingQueue_bench
+# Target rules for targets named test_echoServer
 
 # Build rule for target.
-test_blockingQueue_bench: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_blockingQueue_bench
-.PHONY : test_blockingQueue_bench
+test_echoServer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_echoServer
+.PHONY : test_echoServer
 
 # fast build rule for target.
-test_blockingQueue_bench/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_blockingQueue_bench.dir/build.make CMakeFiles/test_blockingQueue_bench.dir/build
-.PHONY : test_blockingQueue_bench/fast
+test_echoServer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoServer.dir/build.make CMakeFiles/test_echoServer.dir/build
+.PHONY : test_echoServer/fast
 
 #=============================================================================
-# Target rules for targets named test_blockingQueue
+# Target rules for targets named test_testHttp
 
 # Build rule for target.
-test_blockingQueue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_blockingQueue
-.PHONY : test_blockingQueue
+test_testHttp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_testHttp
+.PHONY : test_testHttp
 
 # fast build rule for target.
-test_blockingQueue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_blockingQueue.dir/build.make CMakeFiles/test_blockingQueue.dir/build
-.PHONY : test_blockingQueue/fast
+test_testHttp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_testHttp.dir/build.make CMakeFiles/test_testHttp.dir/build
+.PHONY : test_testHttp/fast
 
 #=============================================================================
-# Target rules for targets named test_exception
+# Target rules for targets named test_eventLoopThreadPool
 
 # Build rule for target.
-test_exception: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_exception
-.PHONY : test_exception
+test_eventLoopThreadPool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_eventLoopThreadPool
+.PHONY : test_eventLoopThreadPool
 
 # fast build rule for target.
-test_exception/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exception.dir/build.make CMakeFiles/test_exception.dir/build
-.PHONY : test_exception/fast
+test_eventLoopThreadPool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThreadPool.dir/build.make CMakeFiles/test_eventLoopThreadPool.dir/build
+.PHONY : test_eventLoopThreadPool/fast
 
 #=============================================================================
-# Target rules for targets named test_atomic
+# Target rules for targets named test_inetAddress
 
 # Build rule for target.
-test_atomic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_atomic
-.PHONY : test_atomic
+test_inetAddress: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_inetAddress
+.PHONY : test_inetAddress
 
 # fast build rule for target.
-test_atomic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_atomic.dir/build.make CMakeFiles/test_atomic.dir/build
-.PHONY : test_atomic/fast
+test_inetAddress/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_inetAddress.dir/build.make CMakeFiles/test_inetAddress.dir/build
+.PHONY : test_inetAddress/fast
 
 #=============================================================================
-# Target rules for targets named test_thread
+# Target rules for targets named test_eventLoop
 
 # Build rule for target.
-test_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread
-.PHONY : test_thread
+test_eventLoop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_eventLoop
+.PHONY : test_eventLoop
 
 # fast build rule for target.
-test_thread/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/build
-.PHONY : test_thread/fast
+test_eventLoop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoop.dir/build.make CMakeFiles/test_eventLoop.dir/build
+.PHONY : test_eventLoop/fast
 
 #=============================================================================
-# Target rules for targets named test_log
+# Target rules for targets named test_timestamp
 
 # Build rule for target.
-test_log: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_log
-.PHONY : test_log
+test_timestamp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_timestamp
+.PHONY : test_timestamp
 
 # fast build rule for target.
-test_log/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_log.dir/build.make CMakeFiles/test_log.dir/build
-.PHONY : test_log/fast
-
-#=============================================================================
-# Target rules for targets named test_threadpool
-
-# Build rule for target.
-test_threadpool: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_threadpool
-.PHONY : test_threadpool
-
-# fast build rule for target.
-test_threadpool/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_threadpool.dir/build.make CMakeFiles/test_threadpool.dir/build
-.PHONY : test_threadpool/fast
-
-#=============================================================================
-# Target rules for targets named test_logstream
-
-# Build rule for target.
-test_logstream: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logstream
-.PHONY : test_logstream
-
-# fast build rule for target.
-test_logstream/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logstream.dir/build.make CMakeFiles/test_logstream.dir/build
-.PHONY : test_logstream/fast
-
-#=============================================================================
-# Target rules for targets named test_boundQueue
-
-# Build rule for target.
-test_boundQueue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_boundQueue
-.PHONY : test_boundQueue
-
-# fast build rule for target.
-test_boundQueue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_boundQueue.dir/build.make CMakeFiles/test_boundQueue.dir/build
-.PHONY : test_boundQueue/fast
-
-#=============================================================================
-# Target rules for targets named dc
-
-# Build rule for target.
-dc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dc
-.PHONY : dc
-
-# fast build rule for target.
-dc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/build
-.PHONY : dc/fast
-
-#=============================================================================
-# Target rules for targets named test_mutex
-
-# Build rule for target.
-test_mutex: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mutex
-.PHONY : test_mutex
-
-# fast build rule for target.
-test_mutex/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mutex.dir/build.make CMakeFiles/test_mutex.dir/build
-.PHONY : test_mutex/fast
-
-#=============================================================================
-# Target rules for targets named test_fileUtil
-
-# Build rule for target.
-test_fileUtil: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_fileUtil
-.PHONY : test_fileUtil
-
-# fast build rule for target.
-test_fileUtil/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fileUtil.dir/build.make CMakeFiles/test_fileUtil.dir/build
-.PHONY : test_fileUtil/fast
-
-#=============================================================================
-# Target rules for targets named test_threadLocal
-
-# Build rule for target.
-test_threadLocal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_threadLocal
-.PHONY : test_threadLocal
-
-# fast build rule for target.
-test_threadLocal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_threadLocal.dir/build.make CMakeFiles/test_threadLocal.dir/build
-.PHONY : test_threadLocal/fast
-
-#=============================================================================
-# Target rules for targets named test_singleton
-
-# Build rule for target.
-test_singleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_singleton
-.PHONY : test_singleton
-
-# fast build rule for target.
-test_singleton/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_singleton.dir/build.make CMakeFiles/test_singleton.dir/build
-.PHONY : test_singleton/fast
-
-#=============================================================================
-# Target rules for targets named test_asyncLogging
-
-# Build rule for target.
-test_asyncLogging: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_asyncLogging
-.PHONY : test_asyncLogging
-
-# fast build rule for target.
-test_asyncLogging/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_asyncLogging.dir/build.make CMakeFiles/test_asyncLogging.dir/build
-.PHONY : test_asyncLogging/fast
-
-#=============================================================================
-# Target rules for targets named test_singletonThreadLocal
-
-# Build rule for target.
-test_singletonThreadLocal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_singletonThreadLocal
-.PHONY : test_singletonThreadLocal
-
-# fast build rule for target.
-test_singletonThreadLocal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_singletonThreadLocal.dir/build.make CMakeFiles/test_singletonThreadLocal.dir/build
-.PHONY : test_singletonThreadLocal/fast
+test_timestamp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/build
+.PHONY : test_timestamp/fast
 
 #=============================================================================
 # Target rules for targets named test_process
@@ -367,17 +237,290 @@ test_process/fast:
 .PHONY : test_process/fast
 
 #=============================================================================
-# Target rules for targets named test_timestamp
+# Target rules for targets named test_eventLoopThread
 
 # Build rule for target.
-test_timestamp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_timestamp
-.PHONY : test_timestamp
+test_eventLoopThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_eventLoopThread
+.PHONY : test_eventLoopThread
 
 # fast build rule for target.
-test_timestamp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timestamp.dir/build.make CMakeFiles/test_timestamp.dir/build
-.PHONY : test_timestamp/fast
+test_eventLoopThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThread.dir/build.make CMakeFiles/test_eventLoopThread.dir/build
+.PHONY : test_eventLoopThread/fast
+
+#=============================================================================
+# Target rules for targets named test_asyncLogging
+
+# Build rule for target.
+test_asyncLogging: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_asyncLogging
+.PHONY : test_asyncLogging
+
+# fast build rule for target.
+test_asyncLogging/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_asyncLogging.dir/build.make CMakeFiles/test_asyncLogging.dir/build
+.PHONY : test_asyncLogging/fast
+
+#=============================================================================
+# Target rules for targets named test_threadLocal
+
+# Build rule for target.
+test_threadLocal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_threadLocal
+.PHONY : test_threadLocal
+
+# fast build rule for target.
+test_threadLocal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_threadLocal.dir/build.make CMakeFiles/test_threadLocal.dir/build
+.PHONY : test_threadLocal/fast
+
+#=============================================================================
+# Target rules for targets named test_fileUtil
+
+# Build rule for target.
+test_fileUtil: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_fileUtil
+.PHONY : test_fileUtil
+
+# fast build rule for target.
+test_fileUtil/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fileUtil.dir/build.make CMakeFiles/test_fileUtil.dir/build
+.PHONY : test_fileUtil/fast
+
+#=============================================================================
+# Target rules for targets named test_singleton
+
+# Build rule for target.
+test_singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_singleton
+.PHONY : test_singleton
+
+# fast build rule for target.
+test_singleton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_singleton.dir/build.make CMakeFiles/test_singleton.dir/build
+.PHONY : test_singleton/fast
+
+#=============================================================================
+# Target rules for targets named dc
+
+# Build rule for target.
+dc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dc
+.PHONY : dc
+
+# fast build rule for target.
+dc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/build
+.PHONY : dc/fast
+
+#=============================================================================
+# Target rules for targets named test_logstream
+
+# Build rule for target.
+test_logstream: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logstream
+.PHONY : test_logstream
+
+# fast build rule for target.
+test_logstream/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logstream.dir/build.make CMakeFiles/test_logstream.dir/build
+.PHONY : test_logstream/fast
+
+#=============================================================================
+# Target rules for targets named test_singletonThreadLocal
+
+# Build rule for target.
+test_singletonThreadLocal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_singletonThreadLocal
+.PHONY : test_singletonThreadLocal
+
+# fast build rule for target.
+test_singletonThreadLocal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_singletonThreadLocal.dir/build.make CMakeFiles/test_singletonThreadLocal.dir/build
+.PHONY : test_singletonThreadLocal/fast
+
+#=============================================================================
+# Target rules for targets named test_threadpool
+
+# Build rule for target.
+test_threadpool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_threadpool
+.PHONY : test_threadpool
+
+# fast build rule for target.
+test_threadpool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_threadpool.dir/build.make CMakeFiles/test_threadpool.dir/build
+.PHONY : test_threadpool/fast
+
+#=============================================================================
+# Target rules for targets named test_mutex
+
+# Build rule for target.
+test_mutex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mutex
+.PHONY : test_mutex
+
+# fast build rule for target.
+test_mutex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mutex.dir/build.make CMakeFiles/test_mutex.dir/build
+.PHONY : test_mutex/fast
+
+#=============================================================================
+# Target rules for targets named test_log
+
+# Build rule for target.
+test_log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_log
+.PHONY : test_log
+
+# fast build rule for target.
+test_log/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_log.dir/build.make CMakeFiles/test_log.dir/build
+.PHONY : test_log/fast
+
+#=============================================================================
+# Target rules for targets named test_timerQueue
+
+# Build rule for target.
+test_timerQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_timerQueue
+.PHONY : test_timerQueue
+
+# fast build rule for target.
+test_timerQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timerQueue.dir/build.make CMakeFiles/test_timerQueue.dir/build
+.PHONY : test_timerQueue/fast
+
+#=============================================================================
+# Target rules for targets named test_thread
+
+# Build rule for target.
+test_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread
+.PHONY : test_thread
+
+# fast build rule for target.
+test_thread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/build
+.PHONY : test_thread/fast
+
+#=============================================================================
+# Target rules for targets named test_atomic
+
+# Build rule for target.
+test_atomic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_atomic
+.PHONY : test_atomic
+
+# fast build rule for target.
+test_atomic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_atomic.dir/build.make CMakeFiles/test_atomic.dir/build
+.PHONY : test_atomic/fast
+
+#=============================================================================
+# Target rules for targets named test_buffer
+
+# Build rule for target.
+test_buffer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_buffer
+.PHONY : test_buffer
+
+# fast build rule for target.
+test_buffer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_buffer.dir/build.make CMakeFiles/test_buffer.dir/build
+.PHONY : test_buffer/fast
+
+#=============================================================================
+# Target rules for targets named test_boundQueue
+
+# Build rule for target.
+test_boundQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_boundQueue
+.PHONY : test_boundQueue
+
+# fast build rule for target.
+test_boundQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_boundQueue.dir/build.make CMakeFiles/test_boundQueue.dir/build
+.PHONY : test_boundQueue/fast
+
+#=============================================================================
+# Target rules for targets named test_exception
+
+# Build rule for target.
+test_exception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_exception
+.PHONY : test_exception
+
+# fast build rule for target.
+test_exception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_exception.dir/build.make CMakeFiles/test_exception.dir/build
+.PHONY : test_exception/fast
+
+#=============================================================================
+# Target rules for targets named test_blockingQueue
+
+# Build rule for target.
+test_blockingQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_blockingQueue
+.PHONY : test_blockingQueue
+
+# fast build rule for target.
+test_blockingQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_blockingQueue.dir/build.make CMakeFiles/test_blockingQueue.dir/build
+.PHONY : test_blockingQueue/fast
+
+#=============================================================================
+# Target rules for targets named test_blockingQueue_bench
+
+# Build rule for target.
+test_blockingQueue_bench: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_blockingQueue_bench
+.PHONY : test_blockingQueue_bench
+
+# fast build rule for target.
+test_blockingQueue_bench/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_blockingQueue_bench.dir/build.make CMakeFiles/test_blockingQueue_bench.dir/build
+.PHONY : test_blockingQueue_bench/fast
+
+#=============================================================================
+# Target rules for targets named test_logFile
+
+# Build rule for target.
+test_logFile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logFile
+.PHONY : test_logFile
+
+# fast build rule for target.
+test_logFile/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logFile.dir/build.make CMakeFiles/test_logFile.dir/build
+.PHONY : test_logFile/fast
+
+#=============================================================================
+# Target rules for targets named test_logging
+
+# Build rule for target.
+test_logging: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_logging
+.PHONY : test_logging
+
+# fast build rule for target.
+test_logging/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_logging.dir/build.make CMakeFiles/test_logging.dir/build
+.PHONY : test_logging/fast
+
+#=============================================================================
+# Target rules for targets named test_channel
+
+# Build rule for target.
+test_channel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_channel
+.PHONY : test_channel
+
+# fast build rule for target.
+test_channel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_channel.dir/build.make CMakeFiles/test_channel.dir/build
+.PHONY : test_channel/fast
 
 dc/base/asyncLogging.o: dc/base/asyncLogging.cc.o
 .PHONY : dc/base/asyncLogging.o
@@ -739,6 +882,534 @@ dc/base/timeZone.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/base/timeZone.cc.s
 .PHONY : dc/base/timeZone.cc.s
 
+dc/net/acceptor.o: dc/net/acceptor.cc.o
+.PHONY : dc/net/acceptor.o
+
+# target to build an object file
+dc/net/acceptor.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/acceptor.cc.o
+.PHONY : dc/net/acceptor.cc.o
+
+dc/net/acceptor.i: dc/net/acceptor.cc.i
+.PHONY : dc/net/acceptor.i
+
+# target to preprocess a source file
+dc/net/acceptor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/acceptor.cc.i
+.PHONY : dc/net/acceptor.cc.i
+
+dc/net/acceptor.s: dc/net/acceptor.cc.s
+.PHONY : dc/net/acceptor.s
+
+# target to generate assembly for a file
+dc/net/acceptor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/acceptor.cc.s
+.PHONY : dc/net/acceptor.cc.s
+
+dc/net/buffer.o: dc/net/buffer.cc.o
+.PHONY : dc/net/buffer.o
+
+# target to build an object file
+dc/net/buffer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/buffer.cc.o
+.PHONY : dc/net/buffer.cc.o
+
+dc/net/buffer.i: dc/net/buffer.cc.i
+.PHONY : dc/net/buffer.i
+
+# target to preprocess a source file
+dc/net/buffer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/buffer.cc.i
+.PHONY : dc/net/buffer.cc.i
+
+dc/net/buffer.s: dc/net/buffer.cc.s
+.PHONY : dc/net/buffer.s
+
+# target to generate assembly for a file
+dc/net/buffer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/buffer.cc.s
+.PHONY : dc/net/buffer.cc.s
+
+dc/net/channel.o: dc/net/channel.cc.o
+.PHONY : dc/net/channel.o
+
+# target to build an object file
+dc/net/channel.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/channel.cc.o
+.PHONY : dc/net/channel.cc.o
+
+dc/net/channel.i: dc/net/channel.cc.i
+.PHONY : dc/net/channel.i
+
+# target to preprocess a source file
+dc/net/channel.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/channel.cc.i
+.PHONY : dc/net/channel.cc.i
+
+dc/net/channel.s: dc/net/channel.cc.s
+.PHONY : dc/net/channel.s
+
+# target to generate assembly for a file
+dc/net/channel.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/channel.cc.s
+.PHONY : dc/net/channel.cc.s
+
+dc/net/connector.o: dc/net/connector.cc.o
+.PHONY : dc/net/connector.o
+
+# target to build an object file
+dc/net/connector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/connector.cc.o
+.PHONY : dc/net/connector.cc.o
+
+dc/net/connector.i: dc/net/connector.cc.i
+.PHONY : dc/net/connector.i
+
+# target to preprocess a source file
+dc/net/connector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/connector.cc.i
+.PHONY : dc/net/connector.cc.i
+
+dc/net/connector.s: dc/net/connector.cc.s
+.PHONY : dc/net/connector.s
+
+# target to generate assembly for a file
+dc/net/connector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/connector.cc.s
+.PHONY : dc/net/connector.cc.s
+
+dc/net/eventLoop.o: dc/net/eventLoop.cc.o
+.PHONY : dc/net/eventLoop.o
+
+# target to build an object file
+dc/net/eventLoop.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoop.cc.o
+.PHONY : dc/net/eventLoop.cc.o
+
+dc/net/eventLoop.i: dc/net/eventLoop.cc.i
+.PHONY : dc/net/eventLoop.i
+
+# target to preprocess a source file
+dc/net/eventLoop.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoop.cc.i
+.PHONY : dc/net/eventLoop.cc.i
+
+dc/net/eventLoop.s: dc/net/eventLoop.cc.s
+.PHONY : dc/net/eventLoop.s
+
+# target to generate assembly for a file
+dc/net/eventLoop.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoop.cc.s
+.PHONY : dc/net/eventLoop.cc.s
+
+dc/net/eventLoopThread.o: dc/net/eventLoopThread.cc.o
+.PHONY : dc/net/eventLoopThread.o
+
+# target to build an object file
+dc/net/eventLoopThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o
+.PHONY : dc/net/eventLoopThread.cc.o
+
+dc/net/eventLoopThread.i: dc/net/eventLoopThread.cc.i
+.PHONY : dc/net/eventLoopThread.i
+
+# target to preprocess a source file
+dc/net/eventLoopThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.i
+.PHONY : dc/net/eventLoopThread.cc.i
+
+dc/net/eventLoopThread.s: dc/net/eventLoopThread.cc.s
+.PHONY : dc/net/eventLoopThread.s
+
+# target to generate assembly for a file
+dc/net/eventLoopThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.s
+.PHONY : dc/net/eventLoopThread.cc.s
+
+dc/net/eventLoopThreadPool.o: dc/net/eventLoopThreadPool.cc.o
+.PHONY : dc/net/eventLoopThreadPool.o
+
+# target to build an object file
+dc/net/eventLoopThreadPool.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o
+.PHONY : dc/net/eventLoopThreadPool.cc.o
+
+dc/net/eventLoopThreadPool.i: dc/net/eventLoopThreadPool.cc.i
+.PHONY : dc/net/eventLoopThreadPool.i
+
+# target to preprocess a source file
+dc/net/eventLoopThreadPool.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.i
+.PHONY : dc/net/eventLoopThreadPool.cc.i
+
+dc/net/eventLoopThreadPool.s: dc/net/eventLoopThreadPool.cc.s
+.PHONY : dc/net/eventLoopThreadPool.s
+
+# target to generate assembly for a file
+dc/net/eventLoopThreadPool.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.s
+.PHONY : dc/net/eventLoopThreadPool.cc.s
+
+dc/net/http/httpContext.o: dc/net/http/httpContext.cc.o
+.PHONY : dc/net/http/httpContext.o
+
+# target to build an object file
+dc/net/http/httpContext.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o
+.PHONY : dc/net/http/httpContext.cc.o
+
+dc/net/http/httpContext.i: dc/net/http/httpContext.cc.i
+.PHONY : dc/net/http/httpContext.i
+
+# target to preprocess a source file
+dc/net/http/httpContext.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpContext.cc.i
+.PHONY : dc/net/http/httpContext.cc.i
+
+dc/net/http/httpContext.s: dc/net/http/httpContext.cc.s
+.PHONY : dc/net/http/httpContext.s
+
+# target to generate assembly for a file
+dc/net/http/httpContext.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpContext.cc.s
+.PHONY : dc/net/http/httpContext.cc.s
+
+dc/net/http/httpResponse.o: dc/net/http/httpResponse.cc.o
+.PHONY : dc/net/http/httpResponse.o
+
+# target to build an object file
+dc/net/http/httpResponse.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o
+.PHONY : dc/net/http/httpResponse.cc.o
+
+dc/net/http/httpResponse.i: dc/net/http/httpResponse.cc.i
+.PHONY : dc/net/http/httpResponse.i
+
+# target to preprocess a source file
+dc/net/http/httpResponse.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.i
+.PHONY : dc/net/http/httpResponse.cc.i
+
+dc/net/http/httpResponse.s: dc/net/http/httpResponse.cc.s
+.PHONY : dc/net/http/httpResponse.s
+
+# target to generate assembly for a file
+dc/net/http/httpResponse.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.s
+.PHONY : dc/net/http/httpResponse.cc.s
+
+dc/net/http/httpServer.o: dc/net/http/httpServer.cc.o
+.PHONY : dc/net/http/httpServer.o
+
+# target to build an object file
+dc/net/http/httpServer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o
+.PHONY : dc/net/http/httpServer.cc.o
+
+dc/net/http/httpServer.i: dc/net/http/httpServer.cc.i
+.PHONY : dc/net/http/httpServer.i
+
+# target to preprocess a source file
+dc/net/http/httpServer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpServer.cc.i
+.PHONY : dc/net/http/httpServer.cc.i
+
+dc/net/http/httpServer.s: dc/net/http/httpServer.cc.s
+.PHONY : dc/net/http/httpServer.s
+
+# target to generate assembly for a file
+dc/net/http/httpServer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/http/httpServer.cc.s
+.PHONY : dc/net/http/httpServer.cc.s
+
+dc/net/inetAddress.o: dc/net/inetAddress.cc.o
+.PHONY : dc/net/inetAddress.o
+
+# target to build an object file
+dc/net/inetAddress.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/inetAddress.cc.o
+.PHONY : dc/net/inetAddress.cc.o
+
+dc/net/inetAddress.i: dc/net/inetAddress.cc.i
+.PHONY : dc/net/inetAddress.i
+
+# target to preprocess a source file
+dc/net/inetAddress.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/inetAddress.cc.i
+.PHONY : dc/net/inetAddress.cc.i
+
+dc/net/inetAddress.s: dc/net/inetAddress.cc.s
+.PHONY : dc/net/inetAddress.s
+
+# target to generate assembly for a file
+dc/net/inetAddress.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/inetAddress.cc.s
+.PHONY : dc/net/inetAddress.cc.s
+
+dc/net/poller.o: dc/net/poller.cc.o
+.PHONY : dc/net/poller.o
+
+# target to build an object file
+dc/net/poller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller.cc.o
+.PHONY : dc/net/poller.cc.o
+
+dc/net/poller.i: dc/net/poller.cc.i
+.PHONY : dc/net/poller.i
+
+# target to preprocess a source file
+dc/net/poller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller.cc.i
+.PHONY : dc/net/poller.cc.i
+
+dc/net/poller.s: dc/net/poller.cc.s
+.PHONY : dc/net/poller.s
+
+# target to generate assembly for a file
+dc/net/poller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller.cc.s
+.PHONY : dc/net/poller.cc.s
+
+dc/net/poller/defaultPoller.o: dc/net/poller/defaultPoller.cc.o
+.PHONY : dc/net/poller/defaultPoller.o
+
+# target to build an object file
+dc/net/poller/defaultPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o
+.PHONY : dc/net/poller/defaultPoller.cc.o
+
+dc/net/poller/defaultPoller.i: dc/net/poller/defaultPoller.cc.i
+.PHONY : dc/net/poller/defaultPoller.i
+
+# target to preprocess a source file
+dc/net/poller/defaultPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.i
+.PHONY : dc/net/poller/defaultPoller.cc.i
+
+dc/net/poller/defaultPoller.s: dc/net/poller/defaultPoller.cc.s
+.PHONY : dc/net/poller/defaultPoller.s
+
+# target to generate assembly for a file
+dc/net/poller/defaultPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.s
+.PHONY : dc/net/poller/defaultPoller.cc.s
+
+dc/net/poller/epollPoller.o: dc/net/poller/epollPoller.cc.o
+.PHONY : dc/net/poller/epollPoller.o
+
+# target to build an object file
+dc/net/poller/epollPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o
+.PHONY : dc/net/poller/epollPoller.cc.o
+
+dc/net/poller/epollPoller.i: dc/net/poller/epollPoller.cc.i
+.PHONY : dc/net/poller/epollPoller.i
+
+# target to preprocess a source file
+dc/net/poller/epollPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.i
+.PHONY : dc/net/poller/epollPoller.cc.i
+
+dc/net/poller/epollPoller.s: dc/net/poller/epollPoller.cc.s
+.PHONY : dc/net/poller/epollPoller.s
+
+# target to generate assembly for a file
+dc/net/poller/epollPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.s
+.PHONY : dc/net/poller/epollPoller.cc.s
+
+dc/net/poller/pollPoller.o: dc/net/poller/pollPoller.cc.o
+.PHONY : dc/net/poller/pollPoller.o
+
+# target to build an object file
+dc/net/poller/pollPoller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o
+.PHONY : dc/net/poller/pollPoller.cc.o
+
+dc/net/poller/pollPoller.i: dc/net/poller/pollPoller.cc.i
+.PHONY : dc/net/poller/pollPoller.i
+
+# target to preprocess a source file
+dc/net/poller/pollPoller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.i
+.PHONY : dc/net/poller/pollPoller.cc.i
+
+dc/net/poller/pollPoller.s: dc/net/poller/pollPoller.cc.s
+.PHONY : dc/net/poller/pollPoller.s
+
+# target to generate assembly for a file
+dc/net/poller/pollPoller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.s
+.PHONY : dc/net/poller/pollPoller.cc.s
+
+dc/net/socket.o: dc/net/socket.cc.o
+.PHONY : dc/net/socket.o
+
+# target to build an object file
+dc/net/socket.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socket.cc.o
+.PHONY : dc/net/socket.cc.o
+
+dc/net/socket.i: dc/net/socket.cc.i
+.PHONY : dc/net/socket.i
+
+# target to preprocess a source file
+dc/net/socket.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socket.cc.i
+.PHONY : dc/net/socket.cc.i
+
+dc/net/socket.s: dc/net/socket.cc.s
+.PHONY : dc/net/socket.s
+
+# target to generate assembly for a file
+dc/net/socket.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socket.cc.s
+.PHONY : dc/net/socket.cc.s
+
+dc/net/socketsOps.o: dc/net/socketsOps.cc.o
+.PHONY : dc/net/socketsOps.o
+
+# target to build an object file
+dc/net/socketsOps.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socketsOps.cc.o
+.PHONY : dc/net/socketsOps.cc.o
+
+dc/net/socketsOps.i: dc/net/socketsOps.cc.i
+.PHONY : dc/net/socketsOps.i
+
+# target to preprocess a source file
+dc/net/socketsOps.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socketsOps.cc.i
+.PHONY : dc/net/socketsOps.cc.i
+
+dc/net/socketsOps.s: dc/net/socketsOps.cc.s
+.PHONY : dc/net/socketsOps.s
+
+# target to generate assembly for a file
+dc/net/socketsOps.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/socketsOps.cc.s
+.PHONY : dc/net/socketsOps.cc.s
+
+dc/net/tcpClient.o: dc/net/tcpClient.cc.o
+.PHONY : dc/net/tcpClient.o
+
+# target to build an object file
+dc/net/tcpClient.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpClient.cc.o
+.PHONY : dc/net/tcpClient.cc.o
+
+dc/net/tcpClient.i: dc/net/tcpClient.cc.i
+.PHONY : dc/net/tcpClient.i
+
+# target to preprocess a source file
+dc/net/tcpClient.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpClient.cc.i
+.PHONY : dc/net/tcpClient.cc.i
+
+dc/net/tcpClient.s: dc/net/tcpClient.cc.s
+.PHONY : dc/net/tcpClient.s
+
+# target to generate assembly for a file
+dc/net/tcpClient.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpClient.cc.s
+.PHONY : dc/net/tcpClient.cc.s
+
+dc/net/tcpConnection.o: dc/net/tcpConnection.cc.o
+.PHONY : dc/net/tcpConnection.o
+
+# target to build an object file
+dc/net/tcpConnection.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o
+.PHONY : dc/net/tcpConnection.cc.o
+
+dc/net/tcpConnection.i: dc/net/tcpConnection.cc.i
+.PHONY : dc/net/tcpConnection.i
+
+# target to preprocess a source file
+dc/net/tcpConnection.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpConnection.cc.i
+.PHONY : dc/net/tcpConnection.cc.i
+
+dc/net/tcpConnection.s: dc/net/tcpConnection.cc.s
+.PHONY : dc/net/tcpConnection.s
+
+# target to generate assembly for a file
+dc/net/tcpConnection.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpConnection.cc.s
+.PHONY : dc/net/tcpConnection.cc.s
+
+dc/net/tcpServer.o: dc/net/tcpServer.cc.o
+.PHONY : dc/net/tcpServer.o
+
+# target to build an object file
+dc/net/tcpServer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpServer.cc.o
+.PHONY : dc/net/tcpServer.cc.o
+
+dc/net/tcpServer.i: dc/net/tcpServer.cc.i
+.PHONY : dc/net/tcpServer.i
+
+# target to preprocess a source file
+dc/net/tcpServer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpServer.cc.i
+.PHONY : dc/net/tcpServer.cc.i
+
+dc/net/tcpServer.s: dc/net/tcpServer.cc.s
+.PHONY : dc/net/tcpServer.s
+
+# target to generate assembly for a file
+dc/net/tcpServer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/tcpServer.cc.s
+.PHONY : dc/net/tcpServer.cc.s
+
+dc/net/timer.o: dc/net/timer.cc.o
+.PHONY : dc/net/timer.o
+
+# target to build an object file
+dc/net/timer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timer.cc.o
+.PHONY : dc/net/timer.cc.o
+
+dc/net/timer.i: dc/net/timer.cc.i
+.PHONY : dc/net/timer.i
+
+# target to preprocess a source file
+dc/net/timer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timer.cc.i
+.PHONY : dc/net/timer.cc.i
+
+dc/net/timer.s: dc/net/timer.cc.s
+.PHONY : dc/net/timer.s
+
+# target to generate assembly for a file
+dc/net/timer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timer.cc.s
+.PHONY : dc/net/timer.cc.s
+
+dc/net/timerQueue.o: dc/net/timerQueue.cc.o
+.PHONY : dc/net/timerQueue.o
+
+# target to build an object file
+dc/net/timerQueue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timerQueue.cc.o
+.PHONY : dc/net/timerQueue.cc.o
+
+dc/net/timerQueue.i: dc/net/timerQueue.cc.i
+.PHONY : dc/net/timerQueue.i
+
+# target to preprocess a source file
+dc/net/timerQueue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timerQueue.cc.i
+.PHONY : dc/net/timerQueue.cc.i
+
+dc/net/timerQueue.s: dc/net/timerQueue.cc.s
+.PHONY : dc/net/timerQueue.s
+
+# target to generate assembly for a file
+dc/net/timerQueue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dc.dir/build.make CMakeFiles/dc.dir/dc/net/timerQueue.cc.s
+.PHONY : dc/net/timerQueue.cc.s
+
 test/test_asyncLogging.o: test/test_asyncLogging.cc.o
 .PHONY : test/test_asyncLogging.o
 
@@ -859,6 +1530,174 @@ test/test_boundQueue.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_boundQueue.dir/build.make CMakeFiles/test_boundQueue.dir/test/test_boundQueue.cc.s
 .PHONY : test/test_boundQueue.cc.s
 
+test/test_buffer.o: test/test_buffer.cc.o
+.PHONY : test/test_buffer.o
+
+# target to build an object file
+test/test_buffer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_buffer.dir/build.make CMakeFiles/test_buffer.dir/test/test_buffer.cc.o
+.PHONY : test/test_buffer.cc.o
+
+test/test_buffer.i: test/test_buffer.cc.i
+.PHONY : test/test_buffer.i
+
+# target to preprocess a source file
+test/test_buffer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_buffer.dir/build.make CMakeFiles/test_buffer.dir/test/test_buffer.cc.i
+.PHONY : test/test_buffer.cc.i
+
+test/test_buffer.s: test/test_buffer.cc.s
+.PHONY : test/test_buffer.s
+
+# target to generate assembly for a file
+test/test_buffer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_buffer.dir/build.make CMakeFiles/test_buffer.dir/test/test_buffer.cc.s
+.PHONY : test/test_buffer.cc.s
+
+test/test_channel.o: test/test_channel.cc.o
+.PHONY : test/test_channel.o
+
+# target to build an object file
+test/test_channel.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_channel.dir/build.make CMakeFiles/test_channel.dir/test/test_channel.cc.o
+.PHONY : test/test_channel.cc.o
+
+test/test_channel.i: test/test_channel.cc.i
+.PHONY : test/test_channel.i
+
+# target to preprocess a source file
+test/test_channel.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_channel.dir/build.make CMakeFiles/test_channel.dir/test/test_channel.cc.i
+.PHONY : test/test_channel.cc.i
+
+test/test_channel.s: test/test_channel.cc.s
+.PHONY : test/test_channel.s
+
+# target to generate assembly for a file
+test/test_channel.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_channel.dir/build.make CMakeFiles/test_channel.dir/test/test_channel.cc.s
+.PHONY : test/test_channel.cc.s
+
+test/test_echoClient.o: test/test_echoClient.cc.o
+.PHONY : test/test_echoClient.o
+
+# target to build an object file
+test/test_echoClient.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoClient.dir/build.make CMakeFiles/test_echoClient.dir/test/test_echoClient.cc.o
+.PHONY : test/test_echoClient.cc.o
+
+test/test_echoClient.i: test/test_echoClient.cc.i
+.PHONY : test/test_echoClient.i
+
+# target to preprocess a source file
+test/test_echoClient.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoClient.dir/build.make CMakeFiles/test_echoClient.dir/test/test_echoClient.cc.i
+.PHONY : test/test_echoClient.cc.i
+
+test/test_echoClient.s: test/test_echoClient.cc.s
+.PHONY : test/test_echoClient.s
+
+# target to generate assembly for a file
+test/test_echoClient.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoClient.dir/build.make CMakeFiles/test_echoClient.dir/test/test_echoClient.cc.s
+.PHONY : test/test_echoClient.cc.s
+
+test/test_echoServer.o: test/test_echoServer.cc.o
+.PHONY : test/test_echoServer.o
+
+# target to build an object file
+test/test_echoServer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoServer.dir/build.make CMakeFiles/test_echoServer.dir/test/test_echoServer.cc.o
+.PHONY : test/test_echoServer.cc.o
+
+test/test_echoServer.i: test/test_echoServer.cc.i
+.PHONY : test/test_echoServer.i
+
+# target to preprocess a source file
+test/test_echoServer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoServer.dir/build.make CMakeFiles/test_echoServer.dir/test/test_echoServer.cc.i
+.PHONY : test/test_echoServer.cc.i
+
+test/test_echoServer.s: test/test_echoServer.cc.s
+.PHONY : test/test_echoServer.s
+
+# target to generate assembly for a file
+test/test_echoServer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_echoServer.dir/build.make CMakeFiles/test_echoServer.dir/test/test_echoServer.cc.s
+.PHONY : test/test_echoServer.cc.s
+
+test/test_eventLoop.o: test/test_eventLoop.cc.o
+.PHONY : test/test_eventLoop.o
+
+# target to build an object file
+test/test_eventLoop.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoop.dir/build.make CMakeFiles/test_eventLoop.dir/test/test_eventLoop.cc.o
+.PHONY : test/test_eventLoop.cc.o
+
+test/test_eventLoop.i: test/test_eventLoop.cc.i
+.PHONY : test/test_eventLoop.i
+
+# target to preprocess a source file
+test/test_eventLoop.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoop.dir/build.make CMakeFiles/test_eventLoop.dir/test/test_eventLoop.cc.i
+.PHONY : test/test_eventLoop.cc.i
+
+test/test_eventLoop.s: test/test_eventLoop.cc.s
+.PHONY : test/test_eventLoop.s
+
+# target to generate assembly for a file
+test/test_eventLoop.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoop.dir/build.make CMakeFiles/test_eventLoop.dir/test/test_eventLoop.cc.s
+.PHONY : test/test_eventLoop.cc.s
+
+test/test_eventLoopThread.o: test/test_eventLoopThread.cc.o
+.PHONY : test/test_eventLoopThread.o
+
+# target to build an object file
+test/test_eventLoopThread.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThread.dir/build.make CMakeFiles/test_eventLoopThread.dir/test/test_eventLoopThread.cc.o
+.PHONY : test/test_eventLoopThread.cc.o
+
+test/test_eventLoopThread.i: test/test_eventLoopThread.cc.i
+.PHONY : test/test_eventLoopThread.i
+
+# target to preprocess a source file
+test/test_eventLoopThread.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThread.dir/build.make CMakeFiles/test_eventLoopThread.dir/test/test_eventLoopThread.cc.i
+.PHONY : test/test_eventLoopThread.cc.i
+
+test/test_eventLoopThread.s: test/test_eventLoopThread.cc.s
+.PHONY : test/test_eventLoopThread.s
+
+# target to generate assembly for a file
+test/test_eventLoopThread.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThread.dir/build.make CMakeFiles/test_eventLoopThread.dir/test/test_eventLoopThread.cc.s
+.PHONY : test/test_eventLoopThread.cc.s
+
+test/test_eventLoopThreadPool.o: test/test_eventLoopThreadPool.cc.o
+.PHONY : test/test_eventLoopThreadPool.o
+
+# target to build an object file
+test/test_eventLoopThreadPool.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThreadPool.dir/build.make CMakeFiles/test_eventLoopThreadPool.dir/test/test_eventLoopThreadPool.cc.o
+.PHONY : test/test_eventLoopThreadPool.cc.o
+
+test/test_eventLoopThreadPool.i: test/test_eventLoopThreadPool.cc.i
+.PHONY : test/test_eventLoopThreadPool.i
+
+# target to preprocess a source file
+test/test_eventLoopThreadPool.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThreadPool.dir/build.make CMakeFiles/test_eventLoopThreadPool.dir/test/test_eventLoopThreadPool.cc.i
+.PHONY : test/test_eventLoopThreadPool.cc.i
+
+test/test_eventLoopThreadPool.s: test/test_eventLoopThreadPool.cc.s
+.PHONY : test/test_eventLoopThreadPool.s
+
+# target to generate assembly for a file
+test/test_eventLoopThreadPool.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_eventLoopThreadPool.dir/build.make CMakeFiles/test_eventLoopThreadPool.dir/test/test_eventLoopThreadPool.cc.s
+.PHONY : test/test_eventLoopThreadPool.cc.s
+
 test/test_exception.o: test/test_exception.cc.o
 .PHONY : test/test_exception.o
 
@@ -906,6 +1745,54 @@ test/test_fileUtil.s: test/test_fileUtil.cc.s
 test/test_fileUtil.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_fileUtil.dir/build.make CMakeFiles/test_fileUtil.dir/test/test_fileUtil.cc.s
 .PHONY : test/test_fileUtil.cc.s
+
+test/test_httpRequest.o: test/test_httpRequest.cc.o
+.PHONY : test/test_httpRequest.o
+
+# target to build an object file
+test/test_httpRequest.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_httpRequest.dir/build.make CMakeFiles/test_httpRequest.dir/test/test_httpRequest.cc.o
+.PHONY : test/test_httpRequest.cc.o
+
+test/test_httpRequest.i: test/test_httpRequest.cc.i
+.PHONY : test/test_httpRequest.i
+
+# target to preprocess a source file
+test/test_httpRequest.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_httpRequest.dir/build.make CMakeFiles/test_httpRequest.dir/test/test_httpRequest.cc.i
+.PHONY : test/test_httpRequest.cc.i
+
+test/test_httpRequest.s: test/test_httpRequest.cc.s
+.PHONY : test/test_httpRequest.s
+
+# target to generate assembly for a file
+test/test_httpRequest.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_httpRequest.dir/build.make CMakeFiles/test_httpRequest.dir/test/test_httpRequest.cc.s
+.PHONY : test/test_httpRequest.cc.s
+
+test/test_inetAddress.o: test/test_inetAddress.cc.o
+.PHONY : test/test_inetAddress.o
+
+# target to build an object file
+test/test_inetAddress.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_inetAddress.dir/build.make CMakeFiles/test_inetAddress.dir/test/test_inetAddress.cc.o
+.PHONY : test/test_inetAddress.cc.o
+
+test/test_inetAddress.i: test/test_inetAddress.cc.i
+.PHONY : test/test_inetAddress.i
+
+# target to preprocess a source file
+test/test_inetAddress.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_inetAddress.dir/build.make CMakeFiles/test_inetAddress.dir/test/test_inetAddress.cc.i
+.PHONY : test/test_inetAddress.cc.i
+
+test/test_inetAddress.s: test/test_inetAddress.cc.s
+.PHONY : test/test_inetAddress.s
+
+# target to generate assembly for a file
+test/test_inetAddress.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_inetAddress.dir/build.make CMakeFiles/test_inetAddress.dir/test/test_inetAddress.cc.s
+.PHONY : test/test_inetAddress.cc.s
 
 test/test_log.o: test/test_log.cc.o
 .PHONY : test/test_log.o
@@ -1099,6 +1986,30 @@ test/test_singletonThreadLocal.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_singletonThreadLocal.dir/build.make CMakeFiles/test_singletonThreadLocal.dir/test/test_singletonThreadLocal.cc.s
 .PHONY : test/test_singletonThreadLocal.cc.s
 
+test/test_testHttp.o: test/test_testHttp.cc.o
+.PHONY : test/test_testHttp.o
+
+# target to build an object file
+test/test_testHttp.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_testHttp.dir/build.make CMakeFiles/test_testHttp.dir/test/test_testHttp.cc.o
+.PHONY : test/test_testHttp.cc.o
+
+test/test_testHttp.i: test/test_testHttp.cc.i
+.PHONY : test/test_testHttp.i
+
+# target to preprocess a source file
+test/test_testHttp.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_testHttp.dir/build.make CMakeFiles/test_testHttp.dir/test/test_testHttp.cc.i
+.PHONY : test/test_testHttp.cc.i
+
+test/test_testHttp.s: test/test_testHttp.cc.s
+.PHONY : test/test_testHttp.s
+
+# target to generate assembly for a file
+test/test_testHttp.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_testHttp.dir/build.make CMakeFiles/test_testHttp.dir/test/test_testHttp.cc.s
+.PHONY : test/test_testHttp.cc.s
+
 test/test_thread.o: test/test_thread.cc.o
 .PHONY : test/test_thread.o
 
@@ -1171,6 +2082,30 @@ test/test_threadpool.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_threadpool.dir/build.make CMakeFiles/test_threadpool.dir/test/test_threadpool.cc.s
 .PHONY : test/test_threadpool.cc.s
 
+test/test_timerQueue.o: test/test_timerQueue.cc.o
+.PHONY : test/test_timerQueue.o
+
+# target to build an object file
+test/test_timerQueue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timerQueue.dir/build.make CMakeFiles/test_timerQueue.dir/test/test_timerQueue.cc.o
+.PHONY : test/test_timerQueue.cc.o
+
+test/test_timerQueue.i: test/test_timerQueue.cc.i
+.PHONY : test/test_timerQueue.i
+
+# target to preprocess a source file
+test/test_timerQueue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timerQueue.dir/build.make CMakeFiles/test_timerQueue.dir/test/test_timerQueue.cc.i
+.PHONY : test/test_timerQueue.cc.i
+
+test/test_timerQueue.s: test/test_timerQueue.cc.s
+.PHONY : test/test_timerQueue.s
+
+# target to generate assembly for a file
+test/test_timerQueue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_timerQueue.dir/build.make CMakeFiles/test_timerQueue.dir/test/test_timerQueue.cc.s
+.PHONY : test/test_timerQueue.cc.s
+
 test/test_timestamp.o: test/test_timestamp.cc.o
 .PHONY : test/test_timestamp.o
 
@@ -1209,8 +2144,17 @@ help:
 	@echo "... test_blockingQueue"
 	@echo "... test_blockingQueue_bench"
 	@echo "... test_boundQueue"
+	@echo "... test_buffer"
+	@echo "... test_channel"
+	@echo "... test_echoClient"
+	@echo "... test_echoServer"
+	@echo "... test_eventLoop"
+	@echo "... test_eventLoopThread"
+	@echo "... test_eventLoopThreadPool"
 	@echo "... test_exception"
 	@echo "... test_fileUtil"
+	@echo "... test_httpRequest"
+	@echo "... test_inetAddress"
 	@echo "... test_log"
 	@echo "... test_logFile"
 	@echo "... test_logging"
@@ -1219,9 +2163,11 @@ help:
 	@echo "... test_process"
 	@echo "... test_singleton"
 	@echo "... test_singletonThreadLocal"
+	@echo "... test_testHttp"
 	@echo "... test_thread"
 	@echo "... test_threadLocal"
 	@echo "... test_threadpool"
+	@echo "... test_timerQueue"
 	@echo "... test_timestamp"
 	@echo "... dc/base/asyncLogging.o"
 	@echo "... dc/base/asyncLogging.i"
@@ -1268,6 +2214,72 @@ help:
 	@echo "... dc/base/timeZone.o"
 	@echo "... dc/base/timeZone.i"
 	@echo "... dc/base/timeZone.s"
+	@echo "... dc/net/acceptor.o"
+	@echo "... dc/net/acceptor.i"
+	@echo "... dc/net/acceptor.s"
+	@echo "... dc/net/buffer.o"
+	@echo "... dc/net/buffer.i"
+	@echo "... dc/net/buffer.s"
+	@echo "... dc/net/channel.o"
+	@echo "... dc/net/channel.i"
+	@echo "... dc/net/channel.s"
+	@echo "... dc/net/connector.o"
+	@echo "... dc/net/connector.i"
+	@echo "... dc/net/connector.s"
+	@echo "... dc/net/eventLoop.o"
+	@echo "... dc/net/eventLoop.i"
+	@echo "... dc/net/eventLoop.s"
+	@echo "... dc/net/eventLoopThread.o"
+	@echo "... dc/net/eventLoopThread.i"
+	@echo "... dc/net/eventLoopThread.s"
+	@echo "... dc/net/eventLoopThreadPool.o"
+	@echo "... dc/net/eventLoopThreadPool.i"
+	@echo "... dc/net/eventLoopThreadPool.s"
+	@echo "... dc/net/http/httpContext.o"
+	@echo "... dc/net/http/httpContext.i"
+	@echo "... dc/net/http/httpContext.s"
+	@echo "... dc/net/http/httpResponse.o"
+	@echo "... dc/net/http/httpResponse.i"
+	@echo "... dc/net/http/httpResponse.s"
+	@echo "... dc/net/http/httpServer.o"
+	@echo "... dc/net/http/httpServer.i"
+	@echo "... dc/net/http/httpServer.s"
+	@echo "... dc/net/inetAddress.o"
+	@echo "... dc/net/inetAddress.i"
+	@echo "... dc/net/inetAddress.s"
+	@echo "... dc/net/poller.o"
+	@echo "... dc/net/poller.i"
+	@echo "... dc/net/poller.s"
+	@echo "... dc/net/poller/defaultPoller.o"
+	@echo "... dc/net/poller/defaultPoller.i"
+	@echo "... dc/net/poller/defaultPoller.s"
+	@echo "... dc/net/poller/epollPoller.o"
+	@echo "... dc/net/poller/epollPoller.i"
+	@echo "... dc/net/poller/epollPoller.s"
+	@echo "... dc/net/poller/pollPoller.o"
+	@echo "... dc/net/poller/pollPoller.i"
+	@echo "... dc/net/poller/pollPoller.s"
+	@echo "... dc/net/socket.o"
+	@echo "... dc/net/socket.i"
+	@echo "... dc/net/socket.s"
+	@echo "... dc/net/socketsOps.o"
+	@echo "... dc/net/socketsOps.i"
+	@echo "... dc/net/socketsOps.s"
+	@echo "... dc/net/tcpClient.o"
+	@echo "... dc/net/tcpClient.i"
+	@echo "... dc/net/tcpClient.s"
+	@echo "... dc/net/tcpConnection.o"
+	@echo "... dc/net/tcpConnection.i"
+	@echo "... dc/net/tcpConnection.s"
+	@echo "... dc/net/tcpServer.o"
+	@echo "... dc/net/tcpServer.i"
+	@echo "... dc/net/tcpServer.s"
+	@echo "... dc/net/timer.o"
+	@echo "... dc/net/timer.i"
+	@echo "... dc/net/timer.s"
+	@echo "... dc/net/timerQueue.o"
+	@echo "... dc/net/timerQueue.i"
+	@echo "... dc/net/timerQueue.s"
 	@echo "... test/test_asyncLogging.o"
 	@echo "... test/test_asyncLogging.i"
 	@echo "... test/test_asyncLogging.s"
@@ -1283,12 +2295,39 @@ help:
 	@echo "... test/test_boundQueue.o"
 	@echo "... test/test_boundQueue.i"
 	@echo "... test/test_boundQueue.s"
+	@echo "... test/test_buffer.o"
+	@echo "... test/test_buffer.i"
+	@echo "... test/test_buffer.s"
+	@echo "... test/test_channel.o"
+	@echo "... test/test_channel.i"
+	@echo "... test/test_channel.s"
+	@echo "... test/test_echoClient.o"
+	@echo "... test/test_echoClient.i"
+	@echo "... test/test_echoClient.s"
+	@echo "... test/test_echoServer.o"
+	@echo "... test/test_echoServer.i"
+	@echo "... test/test_echoServer.s"
+	@echo "... test/test_eventLoop.o"
+	@echo "... test/test_eventLoop.i"
+	@echo "... test/test_eventLoop.s"
+	@echo "... test/test_eventLoopThread.o"
+	@echo "... test/test_eventLoopThread.i"
+	@echo "... test/test_eventLoopThread.s"
+	@echo "... test/test_eventLoopThreadPool.o"
+	@echo "... test/test_eventLoopThreadPool.i"
+	@echo "... test/test_eventLoopThreadPool.s"
 	@echo "... test/test_exception.o"
 	@echo "... test/test_exception.i"
 	@echo "... test/test_exception.s"
 	@echo "... test/test_fileUtil.o"
 	@echo "... test/test_fileUtil.i"
 	@echo "... test/test_fileUtil.s"
+	@echo "... test/test_httpRequest.o"
+	@echo "... test/test_httpRequest.i"
+	@echo "... test/test_httpRequest.s"
+	@echo "... test/test_inetAddress.o"
+	@echo "... test/test_inetAddress.i"
+	@echo "... test/test_inetAddress.s"
 	@echo "... test/test_log.o"
 	@echo "... test/test_log.i"
 	@echo "... test/test_log.s"
@@ -1313,6 +2352,9 @@ help:
 	@echo "... test/test_singletonThreadLocal.o"
 	@echo "... test/test_singletonThreadLocal.i"
 	@echo "... test/test_singletonThreadLocal.s"
+	@echo "... test/test_testHttp.o"
+	@echo "... test/test_testHttp.i"
+	@echo "... test/test_testHttp.s"
 	@echo "... test/test_thread.o"
 	@echo "... test/test_thread.i"
 	@echo "... test/test_thread.s"
@@ -1322,6 +2364,9 @@ help:
 	@echo "... test/test_threadpool.o"
 	@echo "... test/test_threadpool.i"
 	@echo "... test/test_threadpool.s"
+	@echo "... test/test_timerQueue.o"
+	@echo "... test/test_timerQueue.i"
+	@echo "... test/test_timerQueue.s"
 	@echo "... test/test_timestamp.o"
 	@echo "... test/test_timestamp.i"
 	@echo "... test/test_timestamp.s"

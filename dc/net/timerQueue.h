@@ -3,7 +3,6 @@
 
 
 
-#include "dc/net/eventLoop.h"
 #include "dc/base/mutex.h"
 #include "dc/base/timeStamp.h"
 #include "dc/net/callbacks.h"
@@ -32,11 +31,12 @@ public:
 private:
 
 
-	using TimerPtr = std::unique_ptr<Timer>;
-	using Entry = std::pair<Timestamp, std::unique_ptr<Timer>>;
+	using TimerPtr = Timer*;
+	using Entry = std::pair<Timestamp, Timer*>;
 	using TimerList = std::set<Entry>;
-	using ActiveTimer = std::pair<std::unique_ptr<Timer>, int64_t>;
-	using ActiveTimerSete = std::set<ActiveTimer>;
+	using ActiveTimer = std::pair<Timer*, int64_t>;
+	using ActiveTimerSet = std::set<ActiveTimer>;
+	//these memfunc only were called in their I/O thread.
 	void addTimerInLoop(TimerPtr timer);
 	void cancelInLoop(TimerId timerId);
 
@@ -46,14 +46,14 @@ private:
 
 	void reset(const std::vector<Entry>& expired, Timestamp now);
 
-	bool reset(TimerPtr timer);
+	bool insert(TimerPtr timer);
 
 	EventLoop* m_loop;
 	const int m_timerfd;
 	Channel m_timerfdChannel;
 	TimerList m_timers;
 	ActiveTimerSet m_activeTimers;
-	atomic<bool> is_callingExpiredTimers;
+	bool  is_callingExpiredTimers;
 	ActiveTimerSet m_cancelingTimers;
 
 };

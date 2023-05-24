@@ -119,7 +119,6 @@ CMakeFiles/test_log.dir/test/test_log.cc.o: test/test_log.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -273,8 +272,6 @@ dc/base/thread.h:
 dc/base/date.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/backward/auto_ptr.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_lockfree_defines.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/alloc_traits.h:
 
@@ -570,14 +567,6 @@ dc/base/stringPieces.h:
 
 /usr/include/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
 /usr/include/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
@@ -664,6 +653,12 @@ dc/base/timeZone.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_uninitialized.h:
 
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
+
 /usr/include/sched.h:
 
 /usr/include/bits/locale.h:
@@ -687,3 +682,5 @@ dc/base/timeZone.h:
 /opt/rh/devtoolset-9/root/usr/include/c++/9/ext/aligned_buffer.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_base.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_lockfree_defines.h:

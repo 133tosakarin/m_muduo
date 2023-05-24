@@ -26,8 +26,7 @@ CMakeFiles/test_singletonThreadLocal.dir/test/test_singletonThreadLocal.cc.o: \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
  /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h /root/m_muduo/dc/base/thread.h \
- /root/m_muduo/dc/base/atomic.h \
+ /root/m_muduo/dc/base/thread.h /root/m_muduo/dc/base/atomic.h \
  /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /root/m_muduo/dc/base/countDownLatch.h /root/m_muduo/dc/base/mutex.h \

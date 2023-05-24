@@ -122,7 +122,6 @@ CMakeFiles/test_process.dir/test/test_process.cc.o: test/test_process.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -243,8 +242,6 @@ dc/base/stringPieces.h:
 /opt/rh/devtoolset-9/root/usr/include/c++/9/cstring:
 
 /usr/include/linux/errno.h:
-
-/usr/include/bits/stdio.h:
 
 /usr/include/bits/sys_errlist.h:
 

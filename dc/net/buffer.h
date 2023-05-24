@@ -1,7 +1,7 @@
 #ifndef DC_NET_BUFFER_H
 #define DC_NET_BUFFER_H
 
-#include "dc/base/stringPiece.h"
+#include "dc/base/stringPieces.h"
 #include "dc/base/types.h"
 #include "dc/net/endian.h"
 #include <algorithm>
@@ -31,7 +31,7 @@ public:
 	static const size_t kInitialSize = 1024;
 
 	explicit Buffer(size_t initialSize = kInitialSize)
-		: m_buffer(kCheapPrepend + initialSize),
+		: m_buffers(kCheapPrepend + initialSize),
 		  m_readerIndex(kCheapPrepend),
 		  m_writerIndex(kCheapPrepend)
 	{
@@ -42,9 +42,9 @@ public:
 
 	void swap(Buffer& rhs)
 	{
-		m_buffer.swap(rhs.m_buffers);
+		m_buffers.swap(rhs.m_buffers);
 		std::swap(m_readerIndex, rhs.m_readerIndex);
-		std::swap(m_writerIndex, rhs.m_writeIndex);
+		std::swap(m_writerIndex, rhs.m_writerIndex);
 	}
 
 	size_t readableBytes() const
@@ -54,7 +54,7 @@ public:
 	
 	size_t writableBytes() const 
 	{
-		return m_buffer.size() - writerIndex;
+		return m_buffers.size() - m_writerIndex;
 	}
 
 	const char* peek() const
@@ -92,7 +92,7 @@ public:
 	{
 		assert(peek() <= start);
 		assert(start <= beginWrite());
-		const void* eol = memchr(start, '\n', beiginWrite() - start);
+		const void* eol = memchr(start, '\n', beginWrite() - start);
 		return static_cast<const char*>(eol);
 	}
 	//retrieve returns void, to prevent
@@ -141,7 +141,7 @@ public:
 	void retrieveAll()
 	{
 		m_readerIndex = kCheapPrepend;
-		m_writeIndex = kCheapPrepend;
+		m_writerIndex = kCheapPrepend;
 	}
 
 	string retrieveAllAsString()
@@ -185,7 +185,7 @@ public:
 		{
 			makeSpace(len);
 		}
-		assert(wrtableBytes() >= len);
+		assert(writableBytes() >= len);
 	}
 
 	char * beginWrite()
@@ -221,6 +221,12 @@ public:
 		int32_t be32 = sockets::hostToNetwork32(x);
 		append(&be32, sizeof be32);
 	}
+
+	void appendInt16(int16_t x)
+	{
+		int16_t be16 = sockets::hostToNetwork16(x);
+		append(&be16, sizeof be16);
+	}
 	
 	void appendInt8(int8_t x)
 	{
@@ -240,7 +246,12 @@ public:
 		retrieveInt32();
 		return result;
 	}
-
+	int16_t readInt16()
+	{
+		int16_t result = peekInt16();
+		retrieveInt16();
+		return result;
+	}
 	int32_t readInt8()
 	{
 		int8_t result = peekInt8();
@@ -274,9 +285,8 @@ public:
 	int8_t peekInt8() const
 	{
 		assert(readableBytes() >= sizeof(int8_t));
-		int8_t be8 = 0;
-		::memcpy(&be8, peek(), sizeof be8);
-		return sockets::networkToHost8(be8);
+		int8_t be8 = *peek();
+		return be8;
 	}
 
 	void prependInt64(int64_t x)
@@ -296,12 +306,6 @@ public:
 		int16_t be16 = sockets::hostToNetwork16(x);
 		prepend(&be16, sizeof be16);
 	}
-	void prependInt8(int8_t x)
-	{
-		int8_t be8 = sockets::hostToNetwork8(x);
-		prepend(&be8, sizeof be8);
-	}
-
 	void prepend(const void* data, size_t len)
 	{
 		assert(len <= prependableBytes());
@@ -312,16 +316,16 @@ public:
 
 	void shrink(size_t reserve)
 	{
-		/*Buffer other;
+		Buffer other;
 		other.ensureWritableBytes(readableBytes() + reserve);
 		other.append(toStringPiece());
-		swap(other);*/
-		m_buffer.shrink_to_fit();// don't cause the data loss
+		swap(other);
+		//m_buffers.shrink_to_fit();// don't cause the data loss
 	}
 
 	size_t internalCapacity() const 
 	{
-		return m_buffer.capacity();
+		return m_buffers.capacity();
 	}
 
 	// read data directly into buffer
@@ -331,19 +335,19 @@ public:
 private:
 	char* begin()
 	{
-		return &*m_buffer.begin();
+		return &*m_buffers.begin();
 	}
 
 	const char* begin() const
 	{
-		return &*m_buffer.begin();
+		return &*m_buffers.begin();
 	}
 
 	void makeSpace(size_t len)
 	{
 		if( writableBytes() + prependableBytes() < len + kCheapPrepend )
 		{
-			m_buffer.resize(m_writerIndex + len);
+			m_buffers.resize(m_writerIndex + len);
 		}
 		else
 		{
@@ -353,12 +357,12 @@ private:
 			std::copy(begin() + m_readerIndex, begin() + m_writerIndex, begin() + kCheapPrepend);
 			m_readerIndex = kCheapPrepend;
 			m_writerIndex = m_readerIndex + readable;
-			assert(readable == readAbleBytes());
+			assert(readable == readableBytes());
 		}
 	}
 
 private:
-	std::vector<char> m_buffer;
+	std::vector<char> m_buffers;
 	size_t m_readerIndex;
 	size_t m_writerIndex;
 

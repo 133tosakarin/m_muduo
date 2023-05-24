@@ -282,6 +282,314 @@ CMakeFiles/dc.dir/dc/base/asyncLogging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/base/asyncLogging.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/base/asyncLogging.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/base/asyncLogging.cc -o CMakeFiles/dc.dir/dc/base/asyncLogging.cc.s
 
+CMakeFiles/dc.dir/dc/net/eventLoop.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/eventLoop.cc.o: dc/net/eventLoop.cc
+CMakeFiles/dc.dir/dc/net/eventLoop.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/dc.dir/dc/net/eventLoop.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoop.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/eventLoop.cc.o -MF CMakeFiles/dc.dir/dc/net/eventLoop.cc.o.d -o CMakeFiles/dc.dir/dc/net/eventLoop.cc.o -c /root/m_muduo/dc/net/eventLoop.cc
+
+CMakeFiles/dc.dir/dc/net/eventLoop.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/eventLoop.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoop.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/eventLoop.cc > CMakeFiles/dc.dir/dc/net/eventLoop.cc.i
+
+CMakeFiles/dc.dir/dc/net/eventLoop.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/eventLoop.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoop.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/eventLoop.cc -o CMakeFiles/dc.dir/dc/net/eventLoop.cc.s
+
+CMakeFiles/dc.dir/dc/net/channel.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/channel.cc.o: dc/net/channel.cc
+CMakeFiles/dc.dir/dc/net/channel.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/dc.dir/dc/net/channel.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/channel.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/channel.cc.o -MF CMakeFiles/dc.dir/dc/net/channel.cc.o.d -o CMakeFiles/dc.dir/dc/net/channel.cc.o -c /root/m_muduo/dc/net/channel.cc
+
+CMakeFiles/dc.dir/dc/net/channel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/channel.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/channel.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/channel.cc > CMakeFiles/dc.dir/dc/net/channel.cc.i
+
+CMakeFiles/dc.dir/dc/net/channel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/channel.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/channel.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/channel.cc -o CMakeFiles/dc.dir/dc/net/channel.cc.s
+
+CMakeFiles/dc.dir/dc/net/buffer.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/buffer.cc.o: dc/net/buffer.cc
+CMakeFiles/dc.dir/dc/net/buffer.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/dc.dir/dc/net/buffer.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/buffer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/buffer.cc.o -MF CMakeFiles/dc.dir/dc/net/buffer.cc.o.d -o CMakeFiles/dc.dir/dc/net/buffer.cc.o -c /root/m_muduo/dc/net/buffer.cc
+
+CMakeFiles/dc.dir/dc/net/buffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/buffer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/buffer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/buffer.cc > CMakeFiles/dc.dir/dc/net/buffer.cc.i
+
+CMakeFiles/dc.dir/dc/net/buffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/buffer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/buffer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/buffer.cc -o CMakeFiles/dc.dir/dc/net/buffer.cc.s
+
+CMakeFiles/dc.dir/dc/net/socketsOps.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/socketsOps.cc.o: dc/net/socketsOps.cc
+CMakeFiles/dc.dir/dc/net/socketsOps.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/dc.dir/dc/net/socketsOps.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socketsOps.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/socketsOps.cc.o -MF CMakeFiles/dc.dir/dc/net/socketsOps.cc.o.d -o CMakeFiles/dc.dir/dc/net/socketsOps.cc.o -c /root/m_muduo/dc/net/socketsOps.cc
+
+CMakeFiles/dc.dir/dc/net/socketsOps.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/socketsOps.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socketsOps.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/socketsOps.cc > CMakeFiles/dc.dir/dc/net/socketsOps.cc.i
+
+CMakeFiles/dc.dir/dc/net/socketsOps.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/socketsOps.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socketsOps.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/socketsOps.cc -o CMakeFiles/dc.dir/dc/net/socketsOps.cc.s
+
+CMakeFiles/dc.dir/dc/net/timer.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/timer.cc.o: dc/net/timer.cc
+CMakeFiles/dc.dir/dc/net/timer.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/dc.dir/dc/net/timer.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/timer.cc.o -MF CMakeFiles/dc.dir/dc/net/timer.cc.o.d -o CMakeFiles/dc.dir/dc/net/timer.cc.o -c /root/m_muduo/dc/net/timer.cc
+
+CMakeFiles/dc.dir/dc/net/timer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/timer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/timer.cc > CMakeFiles/dc.dir/dc/net/timer.cc.i
+
+CMakeFiles/dc.dir/dc/net/timer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/timer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/timer.cc -o CMakeFiles/dc.dir/dc/net/timer.cc.s
+
+CMakeFiles/dc.dir/dc/net/poller.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/poller.cc.o: dc/net/poller.cc
+CMakeFiles/dc.dir/dc/net/poller.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/dc.dir/dc/net/poller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/poller.cc.o -MF CMakeFiles/dc.dir/dc/net/poller.cc.o.d -o CMakeFiles/dc.dir/dc/net/poller.cc.o -c /root/m_muduo/dc/net/poller.cc
+
+CMakeFiles/dc.dir/dc/net/poller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/poller.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/poller.cc > CMakeFiles/dc.dir/dc/net/poller.cc.i
+
+CMakeFiles/dc.dir/dc/net/poller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/poller.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/poller.cc -o CMakeFiles/dc.dir/dc/net/poller.cc.s
+
+CMakeFiles/dc.dir/dc/net/socket.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/socket.cc.o: dc/net/socket.cc
+CMakeFiles/dc.dir/dc/net/socket.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/dc.dir/dc/net/socket.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socket.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/socket.cc.o -MF CMakeFiles/dc.dir/dc/net/socket.cc.o.d -o CMakeFiles/dc.dir/dc/net/socket.cc.o -c /root/m_muduo/dc/net/socket.cc
+
+CMakeFiles/dc.dir/dc/net/socket.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/socket.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socket.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/socket.cc > CMakeFiles/dc.dir/dc/net/socket.cc.i
+
+CMakeFiles/dc.dir/dc/net/socket.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/socket.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/socket.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/socket.cc -o CMakeFiles/dc.dir/dc/net/socket.cc.s
+
+CMakeFiles/dc.dir/dc/net/inetAddress.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/inetAddress.cc.o: dc/net/inetAddress.cc
+CMakeFiles/dc.dir/dc/net/inetAddress.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/dc.dir/dc/net/inetAddress.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/inetAddress.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/inetAddress.cc.o -MF CMakeFiles/dc.dir/dc/net/inetAddress.cc.o.d -o CMakeFiles/dc.dir/dc/net/inetAddress.cc.o -c /root/m_muduo/dc/net/inetAddress.cc
+
+CMakeFiles/dc.dir/dc/net/inetAddress.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/inetAddress.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/inetAddress.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/inetAddress.cc > CMakeFiles/dc.dir/dc/net/inetAddress.cc.i
+
+CMakeFiles/dc.dir/dc/net/inetAddress.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/inetAddress.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/inetAddress.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/inetAddress.cc -o CMakeFiles/dc.dir/dc/net/inetAddress.cc.s
+
+CMakeFiles/dc.dir/dc/net/timerQueue.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/timerQueue.cc.o: dc/net/timerQueue.cc
+CMakeFiles/dc.dir/dc/net/timerQueue.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/dc.dir/dc/net/timerQueue.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timerQueue.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/timerQueue.cc.o -MF CMakeFiles/dc.dir/dc/net/timerQueue.cc.o.d -o CMakeFiles/dc.dir/dc/net/timerQueue.cc.o -c /root/m_muduo/dc/net/timerQueue.cc
+
+CMakeFiles/dc.dir/dc/net/timerQueue.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/timerQueue.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timerQueue.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/timerQueue.cc > CMakeFiles/dc.dir/dc/net/timerQueue.cc.i
+
+CMakeFiles/dc.dir/dc/net/timerQueue.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/timerQueue.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/timerQueue.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/timerQueue.cc -o CMakeFiles/dc.dir/dc/net/timerQueue.cc.s
+
+CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o: dc/net/poller/pollPoller.cc
+CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/pollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o -MF CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o.d -o CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o -c /root/m_muduo/dc/net/poller/pollPoller.cc
+
+CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/pollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/poller/pollPoller.cc > CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.i
+
+CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/pollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/poller/pollPoller.cc -o CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.s
+
+CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o: dc/net/poller/epollPoller.cc
+CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/epollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o -MF CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o.d -o CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o -c /root/m_muduo/dc/net/poller/epollPoller.cc
+
+CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/epollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/poller/epollPoller.cc > CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.i
+
+CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/epollPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/poller/epollPoller.cc -o CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.s
+
+CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o: dc/net/poller/defaultPoller.cc
+CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/defaultPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o -MF CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o.d -o CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o -c /root/m_muduo/dc/net/poller/defaultPoller.cc
+
+CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/defaultPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/poller/defaultPoller.cc > CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.i
+
+CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/poller/defaultPoller.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/poller/defaultPoller.cc -o CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.s
+
+CMakeFiles/dc.dir/dc/net/tcpServer.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/tcpServer.cc.o: dc/net/tcpServer.cc
+CMakeFiles/dc.dir/dc/net/tcpServer.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/dc.dir/dc/net/tcpServer.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/tcpServer.cc.o -MF CMakeFiles/dc.dir/dc/net/tcpServer.cc.o.d -o CMakeFiles/dc.dir/dc/net/tcpServer.cc.o -c /root/m_muduo/dc/net/tcpServer.cc
+
+CMakeFiles/dc.dir/dc/net/tcpServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/tcpServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/tcpServer.cc > CMakeFiles/dc.dir/dc/net/tcpServer.cc.i
+
+CMakeFiles/dc.dir/dc/net/tcpServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/tcpServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/tcpServer.cc -o CMakeFiles/dc.dir/dc/net/tcpServer.cc.s
+
+CMakeFiles/dc.dir/dc/net/acceptor.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/acceptor.cc.o: dc/net/acceptor.cc
+CMakeFiles/dc.dir/dc/net/acceptor.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/dc.dir/dc/net/acceptor.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/acceptor.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/acceptor.cc.o -MF CMakeFiles/dc.dir/dc/net/acceptor.cc.o.d -o CMakeFiles/dc.dir/dc/net/acceptor.cc.o -c /root/m_muduo/dc/net/acceptor.cc
+
+CMakeFiles/dc.dir/dc/net/acceptor.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/acceptor.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/acceptor.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/acceptor.cc > CMakeFiles/dc.dir/dc/net/acceptor.cc.i
+
+CMakeFiles/dc.dir/dc/net/acceptor.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/acceptor.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/acceptor.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/acceptor.cc -o CMakeFiles/dc.dir/dc/net/acceptor.cc.s
+
+CMakeFiles/dc.dir/dc/net/connector.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/connector.cc.o: dc/net/connector.cc
+CMakeFiles/dc.dir/dc/net/connector.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/dc.dir/dc/net/connector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/connector.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/connector.cc.o -MF CMakeFiles/dc.dir/dc/net/connector.cc.o.d -o CMakeFiles/dc.dir/dc/net/connector.cc.o -c /root/m_muduo/dc/net/connector.cc
+
+CMakeFiles/dc.dir/dc/net/connector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/connector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/connector.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/connector.cc > CMakeFiles/dc.dir/dc/net/connector.cc.i
+
+CMakeFiles/dc.dir/dc/net/connector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/connector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/connector.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/connector.cc -o CMakeFiles/dc.dir/dc/net/connector.cc.s
+
+CMakeFiles/dc.dir/dc/net/tcpClient.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/tcpClient.cc.o: dc/net/tcpClient.cc
+CMakeFiles/dc.dir/dc/net/tcpClient.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/dc.dir/dc/net/tcpClient.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpClient.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/tcpClient.cc.o -MF CMakeFiles/dc.dir/dc/net/tcpClient.cc.o.d -o CMakeFiles/dc.dir/dc/net/tcpClient.cc.o -c /root/m_muduo/dc/net/tcpClient.cc
+
+CMakeFiles/dc.dir/dc/net/tcpClient.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/tcpClient.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpClient.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/tcpClient.cc > CMakeFiles/dc.dir/dc/net/tcpClient.cc.i
+
+CMakeFiles/dc.dir/dc/net/tcpClient.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/tcpClient.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpClient.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/tcpClient.cc -o CMakeFiles/dc.dir/dc/net/tcpClient.cc.s
+
+CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o: dc/net/eventLoopThread.cc
+CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThread.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o -MF CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o.d -o CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o -c /root/m_muduo/dc/net/eventLoopThread.cc
+
+CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThread.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/eventLoopThread.cc > CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.i
+
+CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThread.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/eventLoopThread.cc -o CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.s
+
+CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o: dc/net/eventLoopThreadPool.cc
+CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThreadPool.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o -MF CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o.d -o CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o -c /root/m_muduo/dc/net/eventLoopThreadPool.cc
+
+CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThreadPool.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/eventLoopThreadPool.cc > CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.i
+
+CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/eventLoopThreadPool.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/eventLoopThreadPool.cc -o CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.s
+
+CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o: dc/net/tcpConnection.cc
+CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpConnection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o -MF CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o.d -o CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o -c /root/m_muduo/dc/net/tcpConnection.cc
+
+CMakeFiles/dc.dir/dc/net/tcpConnection.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/tcpConnection.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpConnection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/tcpConnection.cc > CMakeFiles/dc.dir/dc/net/tcpConnection.cc.i
+
+CMakeFiles/dc.dir/dc/net/tcpConnection.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/tcpConnection.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/tcpConnection.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/tcpConnection.cc -o CMakeFiles/dc.dir/dc/net/tcpConnection.cc.s
+
+CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o: dc/net/http/httpServer.cc
+CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o -MF CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o.d -o CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o -c /root/m_muduo/dc/net/http/httpServer.cc
+
+CMakeFiles/dc.dir/dc/net/http/httpServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/http/httpServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/http/httpServer.cc > CMakeFiles/dc.dir/dc/net/http/httpServer.cc.i
+
+CMakeFiles/dc.dir/dc/net/http/httpServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/http/httpServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpServer.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/http/httpServer.cc -o CMakeFiles/dc.dir/dc/net/http/httpServer.cc.s
+
+CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o: dc/net/http/httpContext.cc
+CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpContext.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o -MF CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o.d -o CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o -c /root/m_muduo/dc/net/http/httpContext.cc
+
+CMakeFiles/dc.dir/dc/net/http/httpContext.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/http/httpContext.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpContext.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/http/httpContext.cc > CMakeFiles/dc.dir/dc/net/http/httpContext.cc.i
+
+CMakeFiles/dc.dir/dc/net/http/httpContext.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/http/httpContext.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpContext.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/http/httpContext.cc -o CMakeFiles/dc.dir/dc/net/http/httpContext.cc.s
+
+CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o: CMakeFiles/dc.dir/flags.make
+CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o: dc/net/http/httpResponse.cc
+CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o: CMakeFiles/dc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpResponse.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o -MF CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o.d -o CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o -c /root/m_muduo/dc/net/http/httpResponse.cc
+
+CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpResponse.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/m_muduo/dc/net/http/httpResponse.cc > CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.i
+
+CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"dc/net/http/httpResponse.cc\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/m_muduo/dc/net/http/httpResponse.cc -o CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.s
+
 # Object files for target dc
 dc_OBJECTS = \
 "CMakeFiles/dc.dir/dc/base/timeStamp.cc.o" \
@@ -298,7 +606,29 @@ dc_OBJECTS = \
 "CMakeFiles/dc.dir/dc/base/thread.cc.o" \
 "CMakeFiles/dc.dir/dc/base/logFile.cc.o" \
 "CMakeFiles/dc.dir/dc/base/threadpool.cc.o" \
-"CMakeFiles/dc.dir/dc/base/asyncLogging.cc.o"
+"CMakeFiles/dc.dir/dc/base/asyncLogging.cc.o" \
+"CMakeFiles/dc.dir/dc/net/eventLoop.cc.o" \
+"CMakeFiles/dc.dir/dc/net/channel.cc.o" \
+"CMakeFiles/dc.dir/dc/net/buffer.cc.o" \
+"CMakeFiles/dc.dir/dc/net/socketsOps.cc.o" \
+"CMakeFiles/dc.dir/dc/net/timer.cc.o" \
+"CMakeFiles/dc.dir/dc/net/poller.cc.o" \
+"CMakeFiles/dc.dir/dc/net/socket.cc.o" \
+"CMakeFiles/dc.dir/dc/net/inetAddress.cc.o" \
+"CMakeFiles/dc.dir/dc/net/timerQueue.cc.o" \
+"CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o" \
+"CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o" \
+"CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o" \
+"CMakeFiles/dc.dir/dc/net/tcpServer.cc.o" \
+"CMakeFiles/dc.dir/dc/net/acceptor.cc.o" \
+"CMakeFiles/dc.dir/dc/net/connector.cc.o" \
+"CMakeFiles/dc.dir/dc/net/tcpClient.cc.o" \
+"CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o" \
+"CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o" \
+"CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o" \
+"CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o" \
+"CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o" \
+"CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o"
 
 # External object files for target dc
 dc_EXTERNAL_OBJECTS =
@@ -318,9 +648,31 @@ lib/libdc.so: CMakeFiles/dc.dir/dc/base/thread.cc.o
 lib/libdc.so: CMakeFiles/dc.dir/dc/base/logFile.cc.o
 lib/libdc.so: CMakeFiles/dc.dir/dc/base/threadpool.cc.o
 lib/libdc.so: CMakeFiles/dc.dir/dc/base/asyncLogging.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/eventLoop.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/channel.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/buffer.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/socketsOps.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/timer.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/poller.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/socket.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/inetAddress.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/timerQueue.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/tcpServer.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/acceptor.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/connector.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/tcpClient.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o
+lib/libdc.so: CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o
 lib/libdc.so: CMakeFiles/dc.dir/build.make
 lib/libdc.so: CMakeFiles/dc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library lib/libdc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/m_muduo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX shared library lib/libdc.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

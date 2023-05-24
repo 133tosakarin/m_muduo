@@ -124,7 +124,6 @@ CMakeFiles/test_asyncLogging.dir/test/test_asyncLogging.cc.o
  /usr/include/_G_config.h
  /usr/include/bits/stdio_lim.h
  /usr/include/bits/sys_errlist.h
- /usr/include/bits/stdio.h
  /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno
  /usr/include/errno.h
  /usr/include/bits/errno.h

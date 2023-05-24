@@ -122,7 +122,6 @@ CMakeFiles/test_thread.dir/test/test_thread.cc.o: test/test_thread.cc \
   /usr/include/_G_config.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
-  /usr/include/bits/stdio.h \
   /opt/rh/devtoolset-9/root/usr/include/c++/9/cerrno \
   /usr/include/errno.h \
   /usr/include/bits/errno.h \
@@ -355,10 +354,6 @@ dc/base/atomic.h:
 
 /usr/include/bits/waitflags.h:
 
-/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/ctype_inline.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/locale_classes.tcc:
-
 /opt/rh/devtoolset-9/root/usr/include/c++/9/cctype:
 
 /usr/include/bits/select.h:
@@ -589,14 +584,6 @@ test/test_thread.cc:
 
 /usr/include/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
-
-/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
-
 /usr/include/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
@@ -633,6 +620,10 @@ test/test_thread.cc:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_heap.h:
 
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/locale_classes.tcc:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/ctype_inline.h:
+
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_construct.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_uninitialized.h:
@@ -650,6 +641,12 @@ test/test_thread.cc:
 /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/algorithmfwd.h:
 
 /opt/rh/devtoolset-9/root/usr/include/c++/9/cstddef:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/basic_string.tcc:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/os_defines.h:
+
+/opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tempbuf.h:
 
 /usr/local/include/boost/config/detail/select_compiler_config.hpp:
 

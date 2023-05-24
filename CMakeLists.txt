@@ -5,7 +5,7 @@ project(dc)
 include(cmake/utils.cmake)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
-set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -O3 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system")
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic   -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system ")
 
 
 include_directories(.)
@@ -74,6 +74,28 @@ set(LIB_SRC
 	dc/base/logFile.cc
 	dc/base/threadpool.cc
 	dc/base/asyncLogging.cc
+	dc/net/eventLoop.cc
+	dc/net/channel.cc
+	dc/net/buffer.cc
+	dc/net/socketsOps.cc
+	dc/net/timer.cc
+	dc/net/poller.cc
+	dc/net/socket.cc
+	dc/net/inetAddress.cc
+	dc/net/timerQueue.cc
+	dc/net/poller/pollPoller.cc
+	dc/net/poller/epollPoller.cc
+	dc/net/poller/defaultPoller.cc
+	dc/net/tcpServer.cc
+	dc/net/acceptor.cc
+	dc/net/connector.cc
+	dc/net/tcpClient.cc
+	dc/net/eventLoopThread.cc
+	dc/net/eventLoopThreadPool.cc
+	dc/net/tcpConnection.cc
+	dc/net/http/httpServer.cc
+	dc/net/http/httpContext.cc
+	dc/net/http/httpResponse.cc
 	)
 
 add_library(dc SHARED ${LIB_SRC})
@@ -170,6 +192,39 @@ target_link_libraries(test_logFile ${LIB_LIB})
 
 add_executable(test_logging test/test_logging.cc)
 target_link_libraries(test_logging ${LIB_LIB})
+
+add_executable(test_buffer test/test_buffer.cc)
+target_link_libraries(test_buffer ${LIB_LIB})
+
+add_executable(test_channel test/test_channel.cc)
+target_link_libraries(test_channel ${LIB_LIB})
+
+add_executable(test_inetAddress test/test_inetAddress.cc)
+target_link_libraries(test_inetAddress ${LIB_LIB})
+
+add_executable(test_eventLoop test/test_eventLoop.cc)
+target_link_libraries(test_eventLoop ${LIB_LIB})
+
+add_executable(test_eventLoopThread test/test_eventLoopThread.cc)
+target_link_libraries(test_eventLoopThread ${LIB_LIB})
+
+add_executable(test_eventLoopThreadPool test/test_eventLoopThreadPool.cc)
+target_link_libraries(test_eventLoopThreadPool ${LIB_LIB})
+
+add_executable(test_timerQueue test/test_timerQueue.cc)
+target_link_libraries(test_timerQueue ${LIB_LIB})
+
+add_executable(test_echoServer test/test_echoServer.cc)
+target_link_libraries(test_echoServer ${LIB_LIB})
+
+add_executable(test_echoClient test/test_echoClient.cc)
+target_link_libraries(test_echoClient ${LIB_LIB})
+
+add_executable(test_httpRequest test/test_httpRequest.cc)
+target_link_libraries(test_httpRequest ${LIB_LIB})
+
+add_executable(test_testHttp test/test_testHttp.cc)
+target_link_libraries(test_testHttp ${LIB_LIB})
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

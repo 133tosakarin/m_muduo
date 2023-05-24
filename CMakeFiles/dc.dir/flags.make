@@ -6,7 +6,7 @@ CXX_DEFINES = -Ddc_EXPORTS
 
 CXX_INCLUDES = -I/root/m_muduo/. -I/root/m_muduo/dc/base
 
-CXX_FLAGS =  -rdynamic -O0 -O3 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system -fPIC
+CXX_FLAGS =  -rdynamic   -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -lyaml-cpp -Wno-builtin-macro-redefined -lboost_unit_test_framework -lboost_program_options -lboost_system  -fPIC
 
 # Custom defines: CMakeFiles/dc.dir/dc/base/timeStamp.cc.o_DEFINES = __FILE__="dc/base/timeStamp.cc"
 
@@ -37,4 +37,48 @@ CXX_FLAGS =  -rdynamic -O0 -O3 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -W
 # Custom defines: CMakeFiles/dc.dir/dc/base/threadpool.cc.o_DEFINES = __FILE__="dc/base/threadpool.cc"
 
 # Custom defines: CMakeFiles/dc.dir/dc/base/asyncLogging.cc.o_DEFINES = __FILE__="dc/base/asyncLogging.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/eventLoop.cc.o_DEFINES = __FILE__="dc/net/eventLoop.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/channel.cc.o_DEFINES = __FILE__="dc/net/channel.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/buffer.cc.o_DEFINES = __FILE__="dc/net/buffer.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/socketsOps.cc.o_DEFINES = __FILE__="dc/net/socketsOps.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/timer.cc.o_DEFINES = __FILE__="dc/net/timer.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/poller.cc.o_DEFINES = __FILE__="dc/net/poller.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/socket.cc.o_DEFINES = __FILE__="dc/net/socket.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/inetAddress.cc.o_DEFINES = __FILE__="dc/net/inetAddress.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/timerQueue.cc.o_DEFINES = __FILE__="dc/net/timerQueue.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/poller/pollPoller.cc.o_DEFINES = __FILE__="dc/net/poller/pollPoller.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/poller/epollPoller.cc.o_DEFINES = __FILE__="dc/net/poller/epollPoller.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/poller/defaultPoller.cc.o_DEFINES = __FILE__="dc/net/poller/defaultPoller.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/tcpServer.cc.o_DEFINES = __FILE__="dc/net/tcpServer.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/acceptor.cc.o_DEFINES = __FILE__="dc/net/acceptor.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/connector.cc.o_DEFINES = __FILE__="dc/net/connector.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/tcpClient.cc.o_DEFINES = __FILE__="dc/net/tcpClient.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/eventLoopThread.cc.o_DEFINES = __FILE__="dc/net/eventLoopThread.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/eventLoopThreadPool.cc.o_DEFINES = __FILE__="dc/net/eventLoopThreadPool.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/tcpConnection.cc.o_DEFINES = __FILE__="dc/net/tcpConnection.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/http/httpServer.cc.o_DEFINES = __FILE__="dc/net/http/httpServer.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/http/httpContext.cc.o_DEFINES = __FILE__="dc/net/http/httpContext.cc"
+
+# Custom defines: CMakeFiles/dc.dir/dc/net/http/httpResponse.cc.o_DEFINES = __FILE__="dc/net/http/httpResponse.cc"
 
